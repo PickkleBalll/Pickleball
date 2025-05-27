@@ -1,20 +1,6 @@
 .sign-in-page {
   height: 100vh;
 
-  .rounded {
-    border-radius: 32px;
-  }
-
-  .btn-submit {
-    border: 1px solid red;
-  }
-
-  .input-form {
-    height: 55px;
-    border: 1px solid black;
-    border-radius: 32px;
-  }
-
   input {
     .input-form {
       height: 55px;
