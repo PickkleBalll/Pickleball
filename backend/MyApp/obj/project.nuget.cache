@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pwEFzLvk8EU=",
+  "success": true,
+  "projectFilePath": "/Users/a1234/Pickleball/backend/MyApp/MyApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/a1234/.nuget/packages/microsoft.aspnetcore.openapi/9.0.5/microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "/Users/a1234/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
