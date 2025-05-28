@@ -1,6 +1,0 @@
-@PickleballBackend_HostAddress = http://localhost:5006
-
-GET {{PickleballBackend_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
