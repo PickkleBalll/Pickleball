@@ -1,10 +1,17 @@
-import React from 'react';
+import React from "react";
+import image10 from "../../assets/Image/10.jpg";
 
 export default function CoachPromotion() {
     return (
-        <section className="bg-black text-white px-6 py-10 text-center">
-            <h2 className="text-2xl font-bold mb-4">Trusted by Pro Coaches</h2>
-            <img src="/path-to-coach.png" alt="Coach" className="mx-auto rounded-lg shadow-md" />
+        <section className="flex justify-center pt-[10px] pb-0 bg-[#f5f5f5]">
+            <div className="w-[2024px] px-[40px] py-[5px] overflow-hidden relative">
+                {/* Ảnh */}
+                <img
+                    src={image10}
+                    alt="Image 10"
+                    className="w-full h-auto rounded-[30px] object-cover"
+                />
+            </div>
         </section>
     );
 }

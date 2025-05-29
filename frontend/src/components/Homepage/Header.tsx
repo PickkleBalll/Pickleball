@@ -2,7 +2,8 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center py-6 px-8 bg-white">
+
+    <header className="flex justify-between items-center py-6 px-12 bg-[#f5f5f5]">
       <div className="text-black text-[30px] font-normal font-['IBM_Plex_Mono'] break-words">PICKLEBALL</div>
 
       <nav className="flex space-x-6">
@@ -12,7 +13,7 @@ const Header = () => {
         <a href="#" className="text-[22px] text-black font-normal font-['Inter'] break-words hover:underline">Blog</a>
       </nav>
 
-      <div className="flex items-center justify-center w-[120px] h-[40px] bg-[#D5F25D] rounded-[50px] border border-black text-[22px] text-black font-normal font-['Inter'] break-words cursor-pointer select-none">
+      <div className="flex items-center justify-center w-[120px] h-[40px] bg-[#D5F25D] rounded-[50px] border border-black text-[22px]  text-black font-normal font-['Inter'] break-words cursor-pointer select-none">
         Sign In
       </div>
 
