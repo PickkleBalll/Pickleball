@@ -1,26 +1,21 @@
-import { Routes, Route } from 'react-router-dom';
-import SignIn from '../pages/SignInPage';
-import SignUp from '../pages/SignUpPage';
-import Dashboard from '../components/Dashboard/Dashboard';
-import PrivateRoute from '../routes/PrivateRoute';
-import Home from '../components/Homepage/Homepage';
+import Header from '../components/Homepage/Header';
+import Hero from '../components/Homepage/Hero';
+import Courses from '../components/Homepage/Courses';
+import CoachPromotion from '../components/Homepage/CoachPromotion';
+import CoachesList from '../components/Homepage/CoachesList';
+import BlogSection from '../components/Homepage/BlogSection';
+import Contact from '../components/Homepage/Contact';
 
-function App() {
+export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} /> 
-      <Route path="/signin" element={<SignIn />} />
-      <Route path="/signup" element={<SignUp />} />
-      <Route
-        path="/dashboard"
-        element={
-          <PrivateRoute>
-            <Dashboard />
-          </PrivateRoute>
-        }
-      />
-    </Routes>
+    <>
+      <Header />
+      <Hero />
+      <Courses />
+      <CoachPromotion />
+      <CoachesList />
+      <BlogSection />
+      <Contact />
+    </>
   );
 }
-
-export default App;
