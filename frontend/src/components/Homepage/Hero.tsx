@@ -1,13 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import image1 from "../../assets/Image/1.jpg";
 import image2 from "../../assets/Image/2.jpg";
 import image4 from "../../assets/Image/4.jpg";
 
-const Hero = () => {
-    return (
-        <section className="flex justify-center py-[5px] mt-0 bg-[#f5f5f5]">
-            <div className="relative w-[1440px] h-[800px] bg-[#212121] rounded-[50px] px-[60px] pt-[40px] pb-[40px] text-white font-['Inter'] overflow-hidden mx-auto">
+const Hero: React.FC = () => {
+    const navigate = useNavigate();
 
+    return (
+        <section id="home" className="scroll-mt-28 pt-25 flex justify-center bg-[#f5f5f5]">
+            <div className="relative w-[1440px] h-[800px] bg-[#212121] rounded-[50px] px-[60px] pt-[40px] pb-[40px] text-white font-['Inter'] overflow-hidden mx-auto">
                 {/* Tiêu đề 1 - Train smarter */}
                 <div className="absolute top-[95px] left-[60px] text-[75px] font-bold text-[#D5F25D] leading-none">
                     Train smarter
@@ -18,9 +20,11 @@ const Hero = () => {
                     Play better
                 </div>
 
-
                 {/* Nút Join */}
-                <div className="absolute top-[215px] left-[701px] w-[88px] h-[43px] flex items-center justify-center rounded-[50px] border border-[#D5F25D] text-[#D5F25D] text-[20px] cursor-pointer">
+                <div
+                    onClick={() => navigate("/signup")}
+                    className="absolute top-[215px] left-[701px] w-[88px] h-[43px] flex items-center justify-center rounded-[50px] border border-[#D5F25D] text-[#D5F25D] text-[20px] cursor-pointer hover:bg-[#D5F25D] hover:text-[#212121] transition"
+                >
                     Join
                 </div>
 

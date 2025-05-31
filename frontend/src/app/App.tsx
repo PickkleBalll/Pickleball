@@ -1,21 +1,12 @@
-import Header from '../components/Homepage/Header';
-import Hero from '../components/Homepage/Hero';
-import Courses from '../components/Homepage/Courses';
-import CoachPromotion from '../components/Homepage/CoachPromotion';
-import CoachesList from '../components/Homepage/CoachesList';
-import BlogSection from '../components/Homepage/BlogSection';
-import Contact from '../components/Homepage/Contact';
+import { Routes, Route } from "react-router-dom";
+import Homepage from "../pages/Homepage";
+import CoursesPage from "../pages/CoursesPage";
 
 export default function App() {
   return (
-    <>
-      <Header />
-      <Hero />
-      <Courses />
-      <CoachPromotion />
-      <CoachesList />
-      <BlogSection />
-      <Contact />
-    </>
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/courses" element={<CoursesPage />} />
+    </Routes>
   );
 }

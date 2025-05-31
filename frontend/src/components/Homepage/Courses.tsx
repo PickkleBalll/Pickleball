@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import image3 from "../../assets/Image/3.jpg";
 import image9 from "../../assets/Image/9.jpg";
 
 export default function Courses() {
     return (
-        <section className="flex justify-center py-20 bg-gray-100">
+        <section id="about" className="flex justify-center py-20 bg-gray-100">
             <div className="w-[1440px] h-[800px] bg-white rounded-[50px] px-[60px] py-[50px] flex gap-[60px] items-start relative overflow-hidden">
 
                 {/* Left: Text Content */}
@@ -26,9 +27,11 @@ export default function Courses() {
                         world!
                     </p>
 
-                    <button className="mt-10 w-[181px] h-[40px] bg-white text-black border border-black text-xl font-normal rounded-full">
-                        View all courses
-                    </button>
+                    <Link to="/courses">
+                        <button className="mt-10 w-[181px] h-[40px] bg-white text-black border border-black text-xl font-normal rounded-full">
+                            View all courses
+                        </button>
+                    </Link>
                 </div>
 
                 {/* Right: Images */}
