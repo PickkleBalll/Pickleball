@@ -8,8 +8,8 @@ const Hero: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-        <section id="home" className="scroll-mt-28 pt-25 flex justify-center bg-[#f5f5f5]">
-            <div className="relative w-[1440px] h-[800px] bg-[#212121] rounded-[50px] px-[60px] pt-[40px] pb-[40px] text-white font-['Inter'] overflow-hidden mx-auto">
+        <section id="home" className="scroll-mt-28 pt-25 flex justify-center bg-[#f5f5f5] font-['Roboto']">
+            <div className="relative w-[1440px] h-[800px] bg-[#212121] rounded-[50px] px-[60px] pt-[40px] pb-[40px] text-white font-['Roboto'] overflow-hidden mx-auto">
                 {/* Tiêu đề 1 - Train smarter */}
                 <div className="absolute top-[95px] left-[60px] text-[75px] font-bold text-[#D5F25D] leading-none">
                     Train smarter

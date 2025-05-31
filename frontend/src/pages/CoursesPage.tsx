@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import Contact from '../components/Common/Contact';
 import image13 from "../assets/Image/13.jpg";
 import image14 from "../assets/Image/14.jpg";
 import image15 from "../assets/Image/15.jpg";
@@ -22,18 +24,23 @@ const courses = [
 ];
 
 export default function CoursesPage() {
+    const navigate = useNavigate();
+
     useEffect(() => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }, []);
 
     return (
-        <div className="bg-[#f6f6f6] min-h-screen font-['Inter']">
+        <div className="bg-[#f6f6f6] min-h-screen font-['Roboto']">
             {/* Header */}
             <header className="p-6 flex justify-between items-center">
-                <div className="text-black text-[30px] font-normal font-['IBM_Plex_Mono'] break-words">
+                <div className="text-black text-[30px] font-normal break-words">
                     PICKLEBALL
                 </div>
-                <div className="flex items-center justify-center w-[120px] h-[40px] bg-[#D5F25D] rounded-[50px] border border-black text-[22px] text-black font-normal font-['Inter'] break-words cursor-pointer select-none">
+                <div
+                    onClick={() => navigate('/signin')}
+                    className="flex items-center justify-center w-[120px] h-[40px] bg-[#D5F25D] rounded-[50px] border border-black text-[22px] text-black font-normal break-words cursor-pointer select-none hover:opacity-90 transition"
+                >
                     Sign In
                 </div>
             </header>
@@ -41,7 +48,7 @@ export default function CoursesPage() {
             {/* Title */}
             <section className="mx-10 mb-20">
                 <div className="w-full h-[300px] bg-black flex items-center justify-center rounded-[60px]">
-                    <h2 className="font-['Inter',Helvetica] font-bold text-[#D5F25D] text-[80px]">
+                    <h2 className="font-bold text-[#D5F25D] text-[80px]">
                         OUR COURSES
                     </h2>
                 </div>
@@ -59,16 +66,16 @@ export default function CoursesPage() {
 
                         <div className="flex flex-col gap-8">
                             <div className="w-[618px] h-[129px] bg-white rounded-[50px] border border-black flex items-center justify-center">
-                                <h3 className="font-['Inter',Helvetica] font-bold text-black text-[50px]">
+                                <h3 className="font-bold text-black text-[50px]">
                                     {course.title}
                                 </h3>
                             </div>
 
                             <div className="flex flex-row items-center justify-center gap-24 w-[618px]">
-                                <span className="font-['Inter',Helvetica] font-bold text-black text-[50px]">
+                                <span className="font-bold text-black text-[50px]">
                                     {course.price}
                                 </span>
-                                <button className="w-[143px] h-[70px] rounded-[50px] border border-black font-['Roboto',Helvetica] text-black text-2xl hover:bg-black hover:text-white transition">
+                                <button className="w-[143px] h-[70px] rounded-[50px] border border-black text-black text-2xl font-normal hover:bg-black hover:text-white transition">
                                     CHOOSE
                                 </button>
                             </div>
@@ -78,26 +85,7 @@ export default function CoursesPage() {
             </div>
 
             {/* Contact Section */}
-            <section className="w-full bg-white py-16 px-[60px] flex items-center justify-between">
-                {/* Left text */}
-                <div className="text-[45px] leading-tight font-normal text-black">
-                    HEARD<br />ENOUGH? →
-                </div>
-                {/* Center title */}
-                <div className="text-center">
-                    <h2 className="text-[80px] font-semibold text-black leading-none">
-                        Contact us
-                    </h2>
-                    <div className="w-[400px] h-[2px] bg-[#EEFF4D] mt-2 mx-auto" />
-                </div>
-                {/* Right circular button */}
-                <button
-                    className="w-[100px] h-[100px] bg-[#EEFF4D] rounded-full flex items-center justify-center hover:scale-105 transition-transform"
-                    type="button"
-                >
-                    <span className="text-[45px] font-bold text-black leading-[1] flex items-center justify-center">→</span>
-                </button>
-            </section>
+            <Contact />
         </div>
     );
 }

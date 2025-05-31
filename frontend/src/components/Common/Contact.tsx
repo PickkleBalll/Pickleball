@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
     return (
         <>
             {/* Contact Section */}
-            <section className="w-full bg-white py-16 px-[60px] flex items-center justify-between">
+            <section className="w-full bg-white py-16 px-[60px] flex items-center justify-between font-['Roboto']">
                 {/* Left text */}
                 <div className="text-[45px] leading-tight font-normal text-black">
                     HEARD<br />ENOUGH? →
@@ -27,7 +27,9 @@ const Contact: React.FC = () => {
                     className="w-[100px] h-[100px] bg-[#EEFF4D] rounded-full flex items-center justify-center hover:scale-105 transition-transform"
                     type="button"
                 >
-                    <span className="text-[45px] font-bold text-black leading-[1] flex items-center justify-center">→</span>
+                    <span className="text-[45px] font-bold text-black leading-[1] flex items-center justify-center">
+                        →
+                    </span>
                 </button>
             </section>
 

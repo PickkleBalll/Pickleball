@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { useNavigate } from 'react-router-dom'; // ✅ dùng điều hướng
+import { useNavigate } from 'react-router-dom';
 
 const navItems = ['home', 'about', 'features', 'blog'];
 
 const Header = () => {
-  const navigate = useNavigate(); // ✅ khởi tạo điều hướng
+  const navigate = useNavigate();
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#f5f5f5] flex justify-between items-center py-6 px-12 shadow-md">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#f5f5f5] flex justify-between items-center py-6 px-12 shadow-md font-['Roboto']">
       {/* Logo */}
       <div className="text-black text-[30px] font-normal font-['IBM_Plex_Mono'] break-words">
         PICKLEBALL
@@ -34,7 +34,7 @@ const Header = () => {
 
       {/* Sign In Button */}
       <div
-        onClick={() => navigate('/signin')} // ✅ chuyển trang khi nhấn
+        onClick={() => navigate('/signin')}
         className="flex items-center justify-center w-[120px] h-[40px] bg-[#D5F25D] rounded-[50px] border border-black text-[22px] text-black font-normal font-['Inter'] break-words cursor-pointer select-none hover:opacity-90 transition"
       >
         Sign In
