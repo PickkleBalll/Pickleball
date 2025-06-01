@@ -43,8 +43,6 @@ namespace MyApp.Controllers
 
                 // Thêm thông tin cá nhân
                 Fullname = request.Fullname,
-                DateOfBirth = request.DateOfBirth,
-                Gender = request.Gender,
                 PhoneNumber = request.PhoneNumber
             };
 
@@ -77,9 +75,7 @@ namespace MyApp.Controllers
                     user.Email,
                     user.Role,
                     user.Fullname,
-                    user.PhoneNumber,
-                    user.Gender,
-                    user.DateOfBirth
+                    user.PhoneNumber
                 }
             });
         }
@@ -116,25 +112,24 @@ namespace MyApp.Controllers
         }
     }
 
-    // ✅ Cập nhật đầy đủ RegisterRequest
+    // ✅ DTO: Request đăng ký người dùng
     public class RegisterRequest
     {
+        public string Fullname { get; set; } = string.Empty;
+        public string PhoneNumber { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
         public string Role { get; set; } = "User";
-
-        public string Fullname { get; set; } = string.Empty;
-        public DateTime? DateOfBirth { get; set; }
-        public string Gender { get; set; } = string.Empty;
-        public string PhoneNumber { get; set; } = string.Empty;
     }
 
+    // ✅ DTO: Request đăng nhập
     public class LoginRequest
     {
         public string Email { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
     }
 }
+
 
 
 

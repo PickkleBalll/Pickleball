@@ -5,33 +5,31 @@ namespace MyApp.Models
 {
     public class User
     {
-        [Key] // Khóa chính
+        [Key]
         public Guid Id { get; set; }
+
+        [Required]
+        public string Fullname { get; set; } = string.Empty;
 
         [Required]
         [EmailAddress]
         public string Email { get; set; } = string.Empty;
 
         [Required]
+        public string PhoneNumber { get; set; } = string.Empty;
+
+        [Required]
         public string PasswordHash { get; set; } = string.Empty;
 
         [Required]
-        public string Role { get; set; } = "User"; // User / Admin / Coach (nếu mở rộng)
+        public string Role { get; set; } = "User"; // User / Admin / Coach
 
-        public bool IsVerified { get; set; } = false; // Mặc định chưa xác minh
+        public bool IsVerified { get; set; } = false;
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow; // Ngày tạo
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-        public DateTime? VerifiedAt { get; set; } // Ngày xác minh (nếu có)
-
-        // ✅ THÊM MỚI:
-        public string Fullname { get; set; } = string.Empty;
-
-        public DateTime? DateOfBirth { get; set; }
-
-        public string Gender { get; set; } = string.Empty; // Male / Female / Other
-
-        public string PhoneNumber { get; set; } = string.Empty;
+        public DateTime? VerifiedAt { get; set; }
     }
 }
+
 
