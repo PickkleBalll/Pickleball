@@ -8,17 +8,17 @@ import image15 from "../assets/Image/15.jpg";
 const courses = [
     {
         title: "KID COURSES",
-        price: "0.99$",
+        price: "50$",
         image: image13,
     },
     {
         title: "BASIC COURSES",
-        price: "0.99$",
+        price: "120$",
         image: image14,
     },
     {
         title: "ADVANCED COURSES",
-        price: "0.99$",
+        price: "250$",
         image: image15,
     },
 ];
@@ -71,7 +71,7 @@ export default function CoursesPage() {
                                 </h3>
                             </div>
 
-                            <div className="flex flex-row items-center justify-center gap-24 w-[618px]">
+                            <div className="flex flex-row items-center justify-center gap-50 w-[618px]">
                                 <span className="font-bold text-black text-[50px]">
                                     {course.price}
                                 </span>

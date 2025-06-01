@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
                 </div>
 
                 {/* Center title */}
-                <div className="text-center">
+                <div className="text-center mr-20">
                     <h2 className="text-[80px] font-semibold text-black leading-none">
                         Contact us
                     </h2>

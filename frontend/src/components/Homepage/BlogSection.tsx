@@ -48,8 +48,7 @@ const BlogCard = () => {
                 {/* Left content */}
                 <div className="w-1/2 pr-6 flex flex-col justify-between">
                     <div>
-                        <h1 className="text-5xl font-bold mb-6">Blog</h1>
-
+                        <h1 className="text-[75px] font-bold mb-15">Blog</h1>
                         <AnimatePresence mode="wait">
                             <motion.p
                                 key={index}
@@ -57,7 +56,7 @@ const BlogCard = () => {
                                 animate={{ opacity: 1, x: 0 }}
                                 exit={{ opacity: 0, x: direction > 0 ? -30 : 30 }}
                                 transition={{ duration: 0.5 }}
-                                className="text-[20px] text-justify leading-[1.8] font-['Inter']"
+                                className="text-[20px] text-justify leading-[1.8] font-['Inter'] max-w-[600px] w-full"
                             >
                                 {blogContents[index].text}
                             </motion.p>

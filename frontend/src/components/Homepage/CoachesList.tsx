@@ -6,7 +6,7 @@ import image8 from "../../assets/Image/8.jpg";
 export default function CoachesList() {
     return (
         <section className="px-6 py-10 bg-[#f5f5f5] mt-0 font-['Roboto']">
-            <h2 className="text-4xl font-bold mb-8 pl-[60px]">Coaches</h2>
+            <h2 className="text-[75px] font-bold mb-8 pl-[60px]">Coaches</h2>
             <div className="flex gap-[38px] mt-[60px] justify-center flex-wrap">
                 <img
                     src={image6}
