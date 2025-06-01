@@ -1,24 +1,46 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import SignIn from '../pages/SignInPage';
 import SignUp from '../pages/SignUpPage';
-import Dashboard from '../components/Dashboard/Dashboard';
+import Home from '../pages/Homepage';
 import PrivateRoute from '../routes/PrivateRoute';
-import Home from '../components/Homepage/Homepage';
+import MainLayout from '@/routes/MainLayout';
+import AuthLayout from '@/routes/AuthLayout';
+import PublicLayout from '@/routes/PublicLayout';
+import LearnerHome from '@/components/Dashboard/Learner/LearnerHome';
+import LearnerProfile from '@/components/Dashboard/Learner/LearnerProfile';
+import LearnerCoach from '@/components/Dashboard/Learner/LearnerCoach';
+import LearnerLearn from '@/components/Dashboard/Learner/LearnerLearn';
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} /> 
-      <Route path="/signin" element={<SignIn />} />
-      <Route path="/signup" element={<SignUp />} />
+      {/* Public - Home page */}
+      <Route element={<PublicLayout />}>
+        <Route path="/" element={<Home />} />
+      </Route>
+
+      {/* Auth-only layout */}
+      <Route element={<AuthLayout />}>
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
+      </Route>
+
+      {/* Main layout (has navbar, footer) */}
       <Route
-        path="/dashboard"
         element={
           <PrivateRoute>
-            <Dashboard />
+            <MainLayout />
           </PrivateRoute>
         }
-      />
+      >
+        <Route path="/dashboard" element={<LearnerHome />} />
+        <Route path="/coach" element={<LearnerCoach />} />
+        <Route path="/learn" element={<LearnerLearn />} />
+        <Route path="/profile" element={<LearnerProfile />} />
+      </Route>
+
+      {/* Catch-all */}
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );
 }
