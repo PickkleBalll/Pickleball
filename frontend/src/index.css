@@ -1,4 +1,9 @@
 @import 'tailwindcss';
+<<<<<<< HEAD
 body {
   @apply bg-[#f0f0f0];
+=======
+html {
+scroll-behavior: smooth;
+>>>>>>> origin/dev.thientrang
 }
