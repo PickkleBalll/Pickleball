@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yHumikD8aAM=",
+  "dgSpecHash": "U6l3KxdKg6s=",
   "success": true,
-  "projectFilePath": "/Users/a1234/Pickleball/backend/MyApp/MyApp.csproj",
+  "projectFilePath": "/Users/a1234/CNPM/Pickleball/backend/MyApp/MyApp.csproj",
   "expectedPackageFiles": [
     "/Users/a1234/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/a1234/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
