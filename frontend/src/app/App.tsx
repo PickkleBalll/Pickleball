@@ -4,7 +4,6 @@ import SignUp from '../pages/SignUpPage';
 import Home from '../pages/Homepage';
 import CoursesPage from '../pages/CoursesPage';
 import PrivateRoute from '../routes/PrivateRoute';
-import Home from '../components/Homepage/Homepage';
 import AdminLayout from '../pages/admin-pages/admin-layout';
 import UserManagement from '../pages/admin-pages/user-management';
 import ContentManagement from '../pages/admin-pages/content-management';
@@ -42,19 +41,17 @@ function App() {
         }
       />
       {/* Parent Route */}
-        <Route path="/admin" element={<AdminLayout />}>
-          {/* Children Routes */}
-          <Route path="user-management" element={<UserManagement />} />
-          <Route path="content-management" element={<ContentManagement />} />
-          <Route path="analytics-reporting" element={<AnalyticsReporting />} />
-        </Route>
-      >
-        <Route path="/dashboard" element={<LearnerHome />} />
-        <Route path="/coach" element={<LearnerCoach />} />
-        <Route path="/learn" element={<LearnerLearn />} />
-        <Route path="/profile" element={<LearnerProfile />} />
-        <Route path="/editProfile" element={<EditProfile />} />
+      <Route path="/admin" element={<AdminLayout />}>
+        {/* Children Routes */}
+        <Route path="user-management" element={<UserManagement />} />
+        <Route path="content-management" element={<ContentManagement />} />
+        <Route path="analytics-reporting" element={<AnalyticsReporting />} />
       </Route>
+      <Route path="/dashboard" element={<LearnerHome />} />
+      <Route path="/coach" element={<LearnerCoach />} />
+      <Route path="/learn" element={<LearnerLearn />} />
+      <Route path="/profile" element={<LearnerProfile />} />
+      <Route path="/editProfile" element={<EditProfile />} />
 
       {/* Catch-all */}
       <Route path="*" element={<Navigate to="/" />} />

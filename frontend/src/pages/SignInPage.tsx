@@ -21,7 +21,7 @@ const SignInPage = () => {
       const res = await login(loginData);
       localStorage.setItem('token', res.token);
       navigate('/dashboard');
-    } catch (err: any) {
+    } catch (err) {
       setError(err.response?.data?.message || 'Đăng nhập thất bại');
     }
   };
