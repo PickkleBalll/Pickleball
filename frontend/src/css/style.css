@@ -1,0 +1,44 @@
+.admin-page {
+  width: 1440px;
+  height: 1024px;
+}
+
+.box-table {
+  width: 1041px;
+  height: 467px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #CEC2C2;
+  background: #FFF;
+}
+
+.box-search {
+  height: 29px;
+  width: 879px;
+  border: 1px solid black;
+  border-radius: 36px;
+
+}
+
+.box-title {
+  text-align: center;
+}
+
+.box-all {
+  text-align: left;
+  border-radius: 40px;
+  border: 1px solid #CEC2C2;
+
+  background: #FFF;
+
+}
+
+.box-add {
+  width: 103px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 1px solid #000;
+
+  background: #D5F25D;
+}

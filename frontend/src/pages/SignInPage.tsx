@@ -1,28 +1,36 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
-
+import { login } from '../authAPI';
+import type { LoginData } from '../authAPI';
 
 const SignIn = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
   const navigate = useNavigate();
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Giả lập xác thực thành công
-    localStorage.setItem('auth', 'true');
-    navigate('/dashboard');
+    const loginData: LoginData = {
+      email,
+      password,
+    };
 
-
+    try {
+      const res = await login(loginData);
+      localStorage.setItem('token', res.token);
+      navigate('/dashboard');
+    } catch (err: any) {
+      setError(err.response?.data?.message || 'Đăng nhập thất bại');
+    }
   };
+
   const handleGoToSignUp = () => {
-    navigate('/signup'); // Điều hướng sang trang Sign up 
+    navigate('/signup');
   };
-  return (
 
-    // Left page
+  return (
     <div className="auth-page flex">
       <div className="w-[40%] p-4 bg-white-200 flex align-items-center">
         <div className="flex-1 p-10 flex flex-col justify-center">
@@ -34,10 +42,8 @@ const SignIn = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 
-              auth-input"
+              className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
             />
-
             <input
               type="password"
               placeholder="Password"
@@ -46,13 +52,9 @@ const SignIn = () => {
               required
               className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
             />
-
             <div className="text-sm text-black-500">
-              <a href="#" className="hover:underline">
-                Forgot Password ?
-              </a>
+              <a href="#" className="hover:underline">Forgot Password?</a>
             </div>
-
             <button
               type="submit"
               className="w-full py-3 rounded-full text-black font-semibold transition bg-gradient-to-r from-green-300 to-blue-400 hover:opacity-90 rounded-4xl auth-button"
@@ -66,12 +68,11 @@ const SignIn = () => {
           >
             Create your account →
           </button>
-
+          {error && <p className="text-red-500 text-sm mt-4">{error}</p>}
         </div>
       </div>
       <div className="w-[60%] h-screen bg-cover bg-center rounded-l-[250px] auth-background"></div>
     </div>
-
   );
 };
 
