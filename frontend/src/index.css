@@ -1,9 +1,9 @@
 @import 'tailwindcss';
-<<<<<<< HEAD
+
 body {
-  @apply bg-[#f0f0f0];
-=======
+  @apply bg-[#f0f0f0] font-sans;
+}
+
 html {
-scroll-behavior: smooth;
->>>>>>> origin/dev.thientrang
+  scroll-behavior: smooth;
 }

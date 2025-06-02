@@ -2,10 +2,15 @@ import React from 'react';
 import user from '../../../assets/Image/user-woman.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 const LearnerProfile: React.FC = () => {
+  const navigate = useNavigate (); //Hook điều hướng
+  const handleEditClick = () => {
+    navigate('/editProfile')
+  } 
   return (
-    <section className="bg-[#f0f0f0] pb-12">
+    <section>
       <div className="flex justify-around mt-10 mx-56">
         {/* User Card Section */}
         <div className="flex flex-col items-center w-[400px] py-8 bg-white rounded-[50px]">
@@ -19,6 +24,7 @@ const LearnerProfile: React.FC = () => {
           <div className="flex space-x-[300px] py-4 px-12 border-b-2 border-[#666666]">
             <div className="font-bold text-xl text-black ">PROFILE</div>
             <FontAwesomeIcon
+            onClick={handleEditClick}
               icon={faPenToSquare}
               size="xl"
               style={{ color: '#000000' }}

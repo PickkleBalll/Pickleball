@@ -2,6 +2,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import SignIn from '../pages/SignInPage';
 import SignUp from '../pages/SignUpPage';
 import Home from '../pages/Homepage';
+import CoursesPage from '../pages/CoursesPage';
 import PrivateRoute from '../routes/PrivateRoute';
 import MainLayout from '@/routes/MainLayout';
 import AuthLayout from '@/routes/AuthLayout';
@@ -10,6 +11,7 @@ import LearnerHome from '@/components/Dashboard/Learner/LearnerHome';
 import LearnerProfile from '@/components/Dashboard/Learner/LearnerProfile';
 import LearnerCoach from '@/components/Dashboard/Learner/LearnerCoach';
 import LearnerLearn from '@/components/Dashboard/Learner/LearnerLearn';
+import EditProfile from '@/components/EditProfile';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       {/* Public - Home page */}
       <Route element={<PublicLayout />}>
         <Route path="/" element={<Home />} />
+        <Route path="/courses" element={<CoursesPage />} />
       </Route>
 
       {/* Auth-only layout */}
@@ -37,6 +40,7 @@ function App() {
         <Route path="/coach" element={<LearnerCoach />} />
         <Route path="/learn" element={<LearnerLearn />} />
         <Route path="/profile" element={<LearnerProfile />} />
+        <Route path="/editProfile" element={<EditProfile />} />
       </Route>
 
       {/* Catch-all */}
@@ -44,3 +48,4 @@ function App() {
     </Routes>
   );
 }
+export default App;

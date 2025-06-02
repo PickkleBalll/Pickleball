@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import image5 from "../../assets/Image/5.jpg";
-import image11 from "../../assets/Image/11.jpg";
-import image12 from "../../assets/Image/12.jpg";
+import image5 from "@/assets/Image/5.jpg";
+import image11 from "@/assets/Image/11.jpg";
+import image12 from "@/assets/Image/12.jpg";
 
 const blogContents = [
     {
@@ -27,7 +27,7 @@ const blogContents = [
     },
 ];
 
-const BlogCard = () => {
+const BlogCard:React.FC = () => {
     const [index, setIndex] = useState(0);
     const [direction, setDirection] = useState(0);
 
