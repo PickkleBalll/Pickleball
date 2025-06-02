@@ -4,6 +4,11 @@ import SignUp from '../pages/SignUpPage';
 import Home from '../pages/Homepage';
 import CoursesPage from '../pages/CoursesPage';
 import PrivateRoute from '../routes/PrivateRoute';
+import Home from '../components/Homepage/Homepage';
+import AdminLayout from '../pages/admin-pages/admin-layout';
+import UserManagement from '../pages/admin-pages/user-management';
+import ContentManagement from '../pages/admin-pages/content-management';
+import AnalyticsReporting from '../pages/admin-pages/analytics-reporting';
 import MainLayout from '@/routes/MainLayout';
 import AuthLayout from '@/routes/AuthLayout';
 import PublicLayout from '@/routes/PublicLayout';
@@ -35,6 +40,14 @@ function App() {
             <MainLayout />
           </PrivateRoute>
         }
+      />
+      {/* Parent Route */}
+        <Route path="/admin" element={<AdminLayout />}>
+          {/* Children Routes */}
+          <Route path="user-management" element={<UserManagement />} />
+          <Route path="content-management" element={<ContentManagement />} />
+          <Route path="analytics-reporting" element={<AnalyticsReporting />} />
+        </Route>
       >
         <Route path="/dashboard" element={<LearnerHome />} />
         <Route path="/coach" element={<LearnerCoach />} />
