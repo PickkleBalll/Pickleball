@@ -70,7 +70,18 @@ app.UseCors("AllowFrontend");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
+// ✅ Gọi SeedData để tạo dữ liệu mẫu
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var dbContext = services.GetRequiredService<MyAppDbContext>(); // ✅
+    SeedData.Initialize(dbContext); // ✅
+}
+
+
 app.Run();
+
 
 
 
