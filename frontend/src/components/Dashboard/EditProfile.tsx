@@ -3,8 +3,8 @@ import user from '@/assets/Image/user.png';
 
 const EditProfile: React.FC = () => {
   return (
-    <div className="bg-[#f0f0f0] flex flex-row justify-center w-full">
-      <div className="bg-[#f0f0f0] w-[1440px] h-[1024px] relative">
+    <div className="flex flex-row justify-center w-full">
+      <div className="w-[1440px] h-[1024px] relative">
         <img
           className="w-[200px] h-[200px] top-[230px] left-[248px] absolute object-cover"
           alt="Ellipse"
@@ -57,30 +57,7 @@ const EditProfile: React.FC = () => {
             UPLOAD
           </div>
         </div>
-        {/* <Size48
-className="!top-[560px] !absolute !w-[30px] !h-[30px] !left-[959px]"
-color="#B3B3B3"
-/>
-<Size48
-className="!top-[623px] !absolute !w-[30px] !h-[30px] !left-[959px]"
-color="#B3B3B3"
-/>
-<Size48
-className="!top-[686px] !absolute !w-[30px] !h-[30px] !left-[959px]"
-color="#B3B3B3"
-/>
-<Size48
-className="!top-[749px] !absolute !w-[30px] !h-[30px] !left-[959px]"
-color="#B3B3B3"
-/>
-<Size48
-className="!top-[812px] !absolute !w-[30px] !h-[30px] !left-[959px]"
-color="#B3B3B3"
-/>
-<Size48
-className="!top-[881px] !absolute !w-[30px] !h-[30px] !left-[959px]"
-color="#B3B3B3"
-/> */}
+  
         <p className="absolute top-[272px] left-[550px] [font-family:'Roboto-Bold',Helvetica] font-bold text-[#a7a7a7] text-[22px] tracking-[0] leading-[normal]">
           This will be displayed to other users when they view your profile or posts. <br />
           Max size: 2MB

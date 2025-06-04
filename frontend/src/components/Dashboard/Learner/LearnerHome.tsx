@@ -3,7 +3,7 @@ import user from '@/assets/Image/user.png';
 
 const LearnerHome: React.FC = () => {
   return (
-    <section className="mx-48">
+    <section className="mx-48 mb-12">
       <input
         className="mx-36 w-full max-w-3xl h-[38px] pl-3 rounded-full text-sm focus:outline-[#00000030] bg-black placeholder-white text-white"
         placeholder="Find coach"

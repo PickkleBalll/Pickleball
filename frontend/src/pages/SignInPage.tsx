@@ -1,28 +1,31 @@
-import { useNavigate } from 'react-router-dom';
-import { login } from '../authAPI';
-import type { LoginData } from '../authAPI';
 import { useState } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
 
 const SignInPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
+  const location = useLocation();
+  const { login } = useAuth();
 
-  const handleLogin = async (e: React.FormEvent) => {
+  const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const loginData: LoginData = {
-      email,
-      password,
-    };
+    const storedUser = localStorage.getItem('user');
+    if (storedUser) {
+      const parsedUser = JSON.parse(storedUser);
+      if (parsedUser.email === email && parsedUser.password === password) {
+        login(parsedUser); // 👈 Gửi đủ fullname, email, password
 
-    try {
-      const res = await login(loginData);
-      localStorage.setItem('token', res.token);
-      navigate('/dashboard');
-    } catch (err) {
-      setError(err.response?.data?.message || 'Đăng nhập thất bại');
+        const from = (location.state)?.from?.pathname || '/dashboard';
+        navigate(from, { replace: true });
+      } else {
+        setError('Email hoặc mật khẩu không đúng 😢');
+      }
+    } else {
+      setError('Không tìm thấy tài khoản nào. Hãy đăng ký trước nhé ✨');
     }
   };
 
@@ -38,7 +41,7 @@ const SignInPage = () => {
           <form onSubmit={handleLogin} className="space-y-4">
             <input
               type="text"
-              placeholder="Username"
+              placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -53,11 +56,13 @@ const SignInPage = () => {
               className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
             />
             <div className="text-sm text-black-500">
-              <a href="#" className="hover:underline">Forgot Password?</a>
+              <a href="#" className="hover:underline">
+                Forgot Password?
+              </a>
             </div>
             <button
               type="submit"
-              className="w-full py-3 rounded-full text-black font-semibold transition bg-gradient-to-r from-green-300 to-blue-400 hover:opacity-90 rounded-4xl auth-button"
+              className="w-full py-3 rounded-full text-black font-semibold transition bg-gradient-to-r from-green-300 to-blue-400 hover:opacity-90 auth-button"
             >
               SIGN IN
             </button>

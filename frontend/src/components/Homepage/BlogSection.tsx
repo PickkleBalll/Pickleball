@@ -42,7 +42,7 @@ const BlogCard:React.FC = () => {
     };
 
     return (
-        <section id="blog" className="scroll-mt-28 flex justify-center bg-[#f5f5f5] font-['Roboto']">
+        <section id="blog" className="scroll-mt-28 flex justify-center font-['Roboto']">
             <div className="w-[1440px] h-[600px] bg-[#212121] text-white rounded-[50px] overflow-hidden flex px-[40px] py-[40px] relative">
 
                 {/* Left content */}

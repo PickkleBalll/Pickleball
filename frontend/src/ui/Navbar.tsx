@@ -33,12 +33,12 @@ const Navbar: React.FC = () => {
             Learn
           </NavLink>
           <NavLink
-            to="/profile"
+            to="/payment"
             className={({ isActive }) =>
               `text-xl font-normal ${isActive ? 'text-[#212121]' : 'text-[#727272]'}`
             }
           >
-            Profile
+            Payment
           </NavLink>
         </nav>
 

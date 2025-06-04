@@ -5,7 +5,7 @@ import image9 from "../../assets/Image/9.jpg";
 
 export default function Courses() {
     return (
-        <section id="about" className="flex justify-center py-20 bg-gray-100 font-['Roboto']">
+        <section id="about" className="flex justify-center py-20 font-['Roboto']">
             <div className="w-[1440px] h-[800px] bg-white rounded-[50px] px-[60px] py-[50px] flex gap-[60px] items-start relative overflow-hidden">
 
                 {/* Left: Text Content */}

@@ -1,7 +1,6 @@
-// src/api/authApi.ts
 import axios from 'axios';
 
-const API_URL = 'https://localhost:5001/api/Auth'; // Backend của bạn
+const API_URL = 'https://localhost:5001/api/Auth';
 
 export interface RegisterData {
   email: string,
@@ -17,7 +16,7 @@ export interface LoginData {
 export interface AuthResponse {
   token: string;
   message: string;
-  user?: any;
+  // user?: any;
 }
 
 export const register = async (data: RegisterData): Promise<AuthResponse> => {

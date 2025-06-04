@@ -3,7 +3,7 @@ import image10 from "../../assets/Image/10.jpg";
 
 export default function CoachPromotion() {
     return (
-        <section id="features" className="flex justify-center pt-[10px] pb-0 bg-[#f5f5f5]">
+        <section id="features" className="flex justify-center pt-[10px] pb-0">
             <div className="w-[2024px] px-[40px] py-[5px] overflow-hidden relative">
                 {/* Ảnh */}
                 <img

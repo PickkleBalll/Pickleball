@@ -8,7 +8,7 @@ const Header: React.FC = () => {
   const navigate = useNavigate();
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50  bg-[#f5f5f5] flex justify-between items-center py-6 px-12 shadow-md font-['Roboto']">
+    <header className="fixed top-0 left-0 right-0 z-50  bg-[#f0f0f0] flex justify-between items-center py-6 px-12 shadow-md font-['Roboto']">
       <div className="text-black text-[30px] font-normal font-['IBM_Plex_Mono'] break-words">
         PICKLEBALL
       </div>

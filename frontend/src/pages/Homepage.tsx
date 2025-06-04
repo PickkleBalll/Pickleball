@@ -8,7 +8,7 @@ import Contact from '../components/Common/Contact';
 
 export default function Homepage() {
   return (
-    <section className='mx-10'>
+    <section>
       <Header />
       <Hero />
       <Courses />

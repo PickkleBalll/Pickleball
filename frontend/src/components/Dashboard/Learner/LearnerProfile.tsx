@@ -10,7 +10,7 @@ const LearnerProfile: React.FC = () => {
     navigate('/editProfile')
   } 
   return (
-    <section>
+    <section className='mb-12'>
       <div className="flex justify-around mt-10 mx-56">
         {/* User Card Section */}
         <div className="flex flex-col items-center w-[400px] py-8 bg-white rounded-[50px]">

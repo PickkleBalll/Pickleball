@@ -3,8 +3,8 @@ import user from '../../../assets/Image/user-woman.jpg';
 
 const LearnerLearn: React.FC = () => {
   return (
-    <section className="bg-[#f0f0f0] pb-12">
-      <div className="bg-[#f0f0f0] flex flex-row justify-center w-full">
+    <section className="pb-12 mb-12">
+      <div className="flex flex-row justify-center w-full">
         <div className="bg-[#f0f0f0] w-[1440px] h-[1024px] relative">
           <div className="absolute w-[933px] h-[269px] top-40 left-[255px]">
             <div className="absolute w-[769px] h-[269px] top-0 left-[164px] bg-black rounded-[40px]" />
