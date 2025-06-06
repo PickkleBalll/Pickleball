@@ -42,12 +42,12 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 
-// ✅ CORS: Cho phép gọi từ frontend (React)
+// ✅ CORS: Cho phép tất cả origin (dùng cho DEV, test qua ngrok, FE ở bất cứ đâu)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:3000")
+        policy.AllowAnyOrigin() // <-- CHO PHÉP MỌI ORIGIN
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -64,7 +64,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// ✅ Dùng CORS
+// ✅ Dùng CORS (phải đặt ngay sau https redirection)
 app.UseCors("AllowFrontend");
 
 app.UseAuthentication();
@@ -75,12 +75,12 @@ app.MapControllers();
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
-    var dbContext = services.GetRequiredService<MyAppDbContext>(); // ✅
-    SeedData.Initialize(dbContext); // ✅
+    var dbContext = services.GetRequiredService<MyAppDbContext>();
+    SeedData.Initialize(dbContext);
 }
 
-
 app.Run();
+
 
 
 
