@@ -1,0 +1,24 @@
+using System;
+using System.Threading.Tasks;
+using pickleball.Data;
+using pickleball.Models;
+
+namespace pickleball.use_case.Feedbacks
+{
+    public class SubmitFeedback
+    {
+        private readonly AppDbContext _context;
+
+        public SubmitFeedback(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<Feedback> ExecuteAsync(Feedback feedback)
+        {
+            _context.Feedbacks.Add(feedback);
+            await _context.SaveChangesAsync();
+            return feedback;
+        }
+    }
+}
