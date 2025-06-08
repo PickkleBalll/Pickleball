@@ -61,8 +61,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseHttpsRedirection();
+// deploy thật thì bật lại dòng 65
+//app.UseHttpsRedirection();
 
 // ✅ Dùng CORS (phải đặt ngay sau https redirection)
 app.UseCors("AllowFrontend");
