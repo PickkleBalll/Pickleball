@@ -5,7 +5,7 @@ import user from '../assets/Image/user-woman.jpg';
 const Navbar: React.FC = () => {
   return (
     <header>
-      <div className="flex items-center space-x-[350px] w-full py-5 px-8 mb-8 border-b-2 border-[#4D4D4D]">
+      <div className="flex items-center space-x-[350px] w-full py-5 px-8 mb-8 border-b-2 border-[#4D4D4D]/70">
         <div className="text-black text-3xl font-normal">PICKLEBALL</div>
         <nav className="flex space-x-8">
           <NavLink
@@ -33,12 +33,12 @@ const Navbar: React.FC = () => {
             Learn
           </NavLink>
           <NavLink
-            to="/payment"
+            to="/package"
             className={({ isActive }) =>
               `text-xl font-normal ${isActive ? 'text-[#212121]' : 'text-[#727272]'}`
             }
           >
-            Payment
+            Package
           </NavLink>
         </nav>
 

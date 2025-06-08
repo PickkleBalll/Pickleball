@@ -5,6 +5,7 @@ interface User {
   fullname: string;
   email: string;
   password: string;
+  role: 'admin' | 'learner'; // 👈 Phân vai người dùng
 }
 
 interface AuthContextType {
@@ -27,17 +28,32 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
     if (storedUser && storedAuth === 'true') {
       const parsedUser: User = JSON.parse(storedUser);
-      setUser({ fullname: parsedUser.fullname, email: parsedUser.email });
+      setUser({
+        fullname: parsedUser.fullname,
+        email: parsedUser.email,
+        role: parsedUser.role,
+      });
     }
 
     setIsLoading(false);
   }, []);
 
   const login = (userData: User) => {
-    setUser({ fullname: userData.fullname, email: userData.email });
-    localStorage.setItem('user', JSON.stringify(userData)); // include password!
+    setUser({
+      fullname: userData.fullname,
+      email: userData.email,
+      role: userData.role,
+    });
+
+    localStorage.setItem('user', JSON.stringify(userData)); // lưu cả role và password
     localStorage.setItem('isAuthenticated', 'true');
-    navigate('/dashboard');
+
+    // Điều hướng dựa trên role
+    if (userData.role === 'admin') {
+      navigate('/admin/user-management');
+    } else {
+      navigate('/dashboard');
+    }
   };
 
   const logout = () => {
@@ -58,6 +74,6 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
 export const useAuth = () => {
   const context = useContext(AuthContext);
-  if (!context) throw new Error('useAuth must be used within AuthProvider');
+  if (!context) throw new Error('useAuth phải được dùng trong AuthProvider');
   return context;
 };

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import PopupContactForm from './PopupContactForm';
-import Footer from '@/ui/Footer';
+import Footer from '@/shared/Footer';
 
 const Contact: React.FC = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   return (
-    <section className='mt-14'>
+    <section className="mt-14">
       <div className="w-full bg-white py-16 px-[60px] flex items-center justify-between font-['Roboto']">
         <div className="text-3xl leading-tight font-normal text-black">
           HEARD
@@ -32,8 +32,8 @@ const Contact: React.FC = () => {
 
       {/* Popup form */}
       <PopupContactForm isOpen={isPopupOpen} onClose={() => setIsPopupOpen(false)} />
-    
-        <Footer/>
+
+      <Footer />
     </section>
   );
 };
