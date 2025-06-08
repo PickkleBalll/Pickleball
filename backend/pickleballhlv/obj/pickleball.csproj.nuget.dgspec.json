@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chinh\\Desktop\\pickleballhlv\\pickleball.csproj": {}
+    "C:\\Users\\chinh\\Desktop\\pbcoach\\Pickleball\\backend\\pickleballhlv\\pickleball.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chinh\\Desktop\\pickleballhlv\\pickleball.csproj": {
+    "C:\\Users\\chinh\\Desktop\\pbcoach\\Pickleball\\backend\\pickleballhlv\\pickleball.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chinh\\Desktop\\pickleballhlv\\pickleball.csproj",
+        "projectUniqueName": "C:\\Users\\chinh\\Desktop\\pbcoach\\Pickleball\\backend\\pickleballhlv\\pickleball.csproj",
         "projectName": "pickleball",
-        "projectPath": "C:\\Users\\chinh\\Desktop\\pickleballhlv\\pickleball.csproj",
+        "projectPath": "C:\\Users\\chinh\\Desktop\\pbcoach\\Pickleball\\backend\\pickleballhlv\\pickleball.csproj",
         "packagesPath": "C:\\Users\\chinh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chinh\\Desktop\\pickleballhlv\\obj\\",
+        "outputPath": "C:\\Users\\chinh\\Desktop\\pbcoach\\Pickleball\\backend\\pickleballhlv\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

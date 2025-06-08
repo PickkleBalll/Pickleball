@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pickleball")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40be87d9525b466158c273dce2bce10f79e16c41")]
 [assembly: System.Reflection.AssemblyProductAttribute("pickleball")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pickleball")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

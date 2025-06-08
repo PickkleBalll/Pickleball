@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+qLryKFtUk8=",
+  "dgSpecHash": "z7JNHM2sWZM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\chinh\\Desktop\\pickleballhlv\\pickleball.csproj",
+  "projectFilePath": "C:\\Users\\chinh\\Desktop\\pbcoach\\Pickleball\\backend\\pickleballhlv\\pickleball.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chinh\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\chinh\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
