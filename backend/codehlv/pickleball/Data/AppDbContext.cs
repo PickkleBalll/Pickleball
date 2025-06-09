@@ -13,7 +13,6 @@ namespace pickleball.Data
         public DbSet<StudentProgress> StudentProgresses { get; set; } 
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
-        public DbSet<Ranking> Rankings { get; set; }
         public DbSet<Schedule> Schedules { get; set; } 
     }
 }

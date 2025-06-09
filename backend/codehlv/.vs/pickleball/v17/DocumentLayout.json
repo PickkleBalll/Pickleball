@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\models\\teachingmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\models\\teachingmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\models\\studentprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\models\\studentprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\models\\coachprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\models\\coachprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\controllers\\teachingmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\controllers\\teachingmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\controllers\\studentprogresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\controllers\\studentprogresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|c:\\users\\chinh\\pickleball\\backend\\codehlv\\pickleball\\controllers\\coachprofilecontroller..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42BCFAB-CC52-4746-AF30-A255DCBBEAA8}|pickleball\\pickleball.csproj|solutionrelative:pickleball\\controllers\\coachprofilecontroller..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Program.cs",
+              "RelativeDocumentMoniker": "pickleball\\Program.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Program.cs",
+              "RelativeToolTip": "pickleball\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:40:55.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeachingMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\TeachingMaterial.cs",
+              "RelativeDocumentMoniker": "pickleball\\Models\\TeachingMaterial.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\TeachingMaterial.cs",
+              "RelativeToolTip": "pickleball\\Models\\TeachingMaterial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:19:46.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentProgress.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\StudentProgress.cs",
+              "RelativeDocumentMoniker": "pickleball\\Models\\StudentProgress.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\StudentProgress.cs",
+              "RelativeToolTip": "pickleball\\Models\\StudentProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:19:40.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\Schedule.cs",
+              "RelativeDocumentMoniker": "pickleball\\Models\\Schedule.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\Schedule.cs",
+              "RelativeToolTip": "pickleball\\Models\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:19:34.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "pickleball\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\Payment.cs",
+              "RelativeToolTip": "pickleball\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:19:29.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\Lesson.cs",
+              "RelativeDocumentMoniker": "pickleball\\Models\\Lesson.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\Lesson.cs",
+              "RelativeToolTip": "pickleball\\Models\\Lesson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:19:23.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "pickleball\\Models\\Feedback.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\Feedback.cs",
+              "RelativeToolTip": "pickleball\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:19:17.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "pickleball\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "pickleball\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T06:14:22.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CoachProfile.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\CoachProfile.cs",
+              "RelativeDocumentMoniker": "pickleball\\Models\\CoachProfile.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Models\\CoachProfile.cs",
+              "RelativeToolTip": "pickleball\\Models\\CoachProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:19:11.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TeachingMaterialController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\TeachingMaterialController.cs",
+              "RelativeDocumentMoniker": "pickleball\\Controllers\\TeachingMaterialController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\TeachingMaterialController.cs",
+              "RelativeToolTip": "pickleball\\Controllers\\TeachingMaterialController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:19:03.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentProgressController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\StudentProgressController.cs",
+              "RelativeDocumentMoniker": "pickleball\\Controllers\\StudentProgressController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\StudentProgressController.cs",
+              "RelativeToolTip": "pickleball\\Controllers\\StudentProgressController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:18:56.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "pickleball\\Controllers\\ScheduleController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "pickleball\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:18:50.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "pickleball\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "pickleball\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:18:43.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "pickleball\\Controllers\\FeedbackController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "pickleball\\Controllers\\FeedbackController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:18:35.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CoachProfileController..cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\CoachProfileController..cs",
+              "RelativeDocumentMoniker": "pickleball\\Controllers\\CoachProfileController..cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\Controllers\\CoachProfileController..cs",
+              "RelativeToolTip": "pickleball\\Controllers\\CoachProfileController..cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:18:05.609Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
