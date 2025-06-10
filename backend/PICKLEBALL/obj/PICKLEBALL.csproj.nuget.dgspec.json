@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PICKLEBALL\\PICKLEBALL\\PICKLEBALL.csproj": {}
+    "C:\\Users\\ACER\\Pickleball\\backend\\PICKLEBALL\\PICKLEBALL.csproj": {}
   },
   "projects": {
-    "D:\\PICKLEBALL\\PICKLEBALL\\PICKLEBALL.csproj": {
+    "C:\\Users\\ACER\\Pickleball\\backend\\PICKLEBALL\\PICKLEBALL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PICKLEBALL\\PICKLEBALL\\PICKLEBALL.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Pickleball\\backend\\PICKLEBALL\\PICKLEBALL.csproj",
         "projectName": "PICKLEBALL",
-        "projectPath": "D:\\PICKLEBALL\\PICKLEBALL\\PICKLEBALL.csproj",
+        "projectPath": "C:\\Users\\ACER\\Pickleball\\backend\\PICKLEBALL\\PICKLEBALL.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\PICKLEBALL\\PICKLEBALL\\obj\\",
+        "outputPath": "C:\\Users\\ACER\\Pickleball\\backend\\PICKLEBALL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
