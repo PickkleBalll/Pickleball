@@ -1,12 +1,13 @@
 // src/api/authApi.ts
 import axios from 'axios';
 
-const API_URL = 'https://localhost:5001/api/Auth'; // Backend của bạn
+const API_URL = 'https://08f3-2405-4802-80d7-94e0-8dad-9c9-1df6-c7b6.ngrok-free.app'; // Backend 
 
 export interface RegisterData {
   email: string,
   password: string,
   fullname: string,
+  phonenumber: string,
 }
 
 export interface LoginData {

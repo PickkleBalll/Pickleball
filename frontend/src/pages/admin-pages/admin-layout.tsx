@@ -3,12 +3,12 @@ import Sidebar from "../../components/Side-bar-admin";
 
 const AdminLayout = () => {
   return (
-    <div className="admin-page flex">
+    <div className="admin-page w-full flex">
       {/* Sidebar */}
       <Sidebar />
 
       {/* Nội dung chính */}
-      <div className="flex-1 h-screen bg-white p-6">
+      <div className="flex-1 h-screen bg-gray-100 p-6">
         <Outlet />
       </div>
     </div>

@@ -38,7 +38,7 @@ const SignIn = () => {
           <form onSubmit={handleLogin} className="space-y-4">
             <input
               type="text"
-              placeholder="Username"
+              placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required

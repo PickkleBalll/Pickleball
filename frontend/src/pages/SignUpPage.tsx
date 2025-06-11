@@ -1,24 +1,43 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { register } from '../authAPI';
 
 
 const SignUp = () => {
   const [fullname, setFullname] = useState('');
   const [confirmPassword, setconfirmPassword] = useState('');
   const [email, setEmail] = useState('');
+  const [phonenumber, setPhonenumber] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const handleSignUp = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSignUp = async (e: React.FormEvent) => {
+  e.preventDefault();
 
-    // Giả lập đăng ký xong thì chuyển về SignIn
-    alert('Sign Up Success!');
+  if (password !== confirmPassword) {
+    alert('Mật khẩu xác nhận không khớp!');
+    return;
+  }
+
+  try {
+    await register({
+      email,
+      password,
+      fullname,
+      phonenumber,
+    });
+
+    alert('Đăng kí thành công!');
     navigate('/signin');
-  };
-  const handleGoToSignIn = () => {
-    navigate('/signin'); // Điều hướng ve lai trang Sign In
-  };
+  } catch (error: any) {
+    alert(error.response?.data?.message || 'Đăng kí thất bại!');
+  }
+};
+
+const handleGoToSignIn = () => {
+  navigate('/signin');
+};
+
 
   return (
     // Left page
@@ -40,6 +59,14 @@ const SignUp = () => {
               placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              required
+              className="w-full px-4 py-3 border border-gray-300 rounder-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
+            />
+            <input
+              type="phonenumber"
+              placeholder="Phonenumber"
+              value={phonenumber}
+              onChange={(e) => setPhonenumber(e.target.value)}
               required
               className="w-full px-4 py-3 border border-gray-300 rounder-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
             />
