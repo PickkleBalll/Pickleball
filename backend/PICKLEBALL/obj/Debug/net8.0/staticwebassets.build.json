@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "IL296PbsDJDBKOpg4eLyeEGB5rux8k57t1TDVWmzO38=",
+  "Source": "PICKLEBALL",
+  "BasePath": "_content/PICKLEBALL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PICKLEBALL\\wwwroot",
+      "Source": "PICKLEBALL",
+      "ContentRoot": "D:\\PICKLEBALL\\PICKLEBALL\\wwwroot\\",
+      "BasePath": "_content/PICKLEBALL",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
