@@ -1,8 +1,0 @@
-C:\Users\chinh\Pickleball\backend\codehlv\pickleball\obj\Debug\net8.0\coach.csproj.AssemblyReference.cache
-C:\Users\chinh\Pickleball\backend\codehlv\pickleball\obj\Debug\net8.0\coach.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\chinh\Pickleball\backend\codehlv\pickleball\obj\Debug\net8.0\coach.AssemblyInfoInputs.cache
-C:\Users\chinh\Pickleball\backend\codehlv\pickleball\obj\Debug\net8.0\coach.AssemblyInfo.cs
-C:\Users\chinh\Pickleball\backend\codehlv\pickleball\obj\Debug\net8.0\coach.csproj.CoreCompileInputs.cache
-C:\Users\chinh\Pickleball\backend\codehlv\pickleball\obj\Debug\net8.0\coach.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\chinh\Pickleball\backend\codehlv\pickleball\obj\Debug\net8.0\coach.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\chinh\Pickleball\backend\codehlv\pickleball\obj\Debug\net8.0\coach.sourcelink.json
