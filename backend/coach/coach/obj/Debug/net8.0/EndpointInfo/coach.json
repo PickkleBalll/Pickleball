@@ -200,6 +200,37 @@
         }
       }
     },
+    "/api/Lesson/create": {
+      "post": {
+        "tags": [
+          "Lesson"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Lesson"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Lesson"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Lesson"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Payment/{coachId}": {
       "get": {
         "tags": [
@@ -438,6 +469,10 @@
         "additionalProperties": false
       },
       "Lesson": {
+        "required": [
+          "coachProfile",
+          "courseName"
+        ],
         "type": "object",
         "properties": {
           "id": {

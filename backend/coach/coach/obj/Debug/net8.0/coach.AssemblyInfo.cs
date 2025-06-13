@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("coach")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d52b8a99e1c5c1548cb512ba271c1dbd8f1f4ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("coach")]
 [assembly: System.Reflection.AssemblyTitleAttribute("coach")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

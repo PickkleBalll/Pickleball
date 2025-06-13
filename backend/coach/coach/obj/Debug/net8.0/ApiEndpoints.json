@@ -109,6 +109,22 @@
     ]
   },
   {
+    "ContainingType": "coach.Controllers.LessonController",
+    "Method": "CreateLesson",
+    "RelativePath": "api/Lesson/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lesson",
+        "Type": "coach.Models.Lesson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "coach.Controllers.PaymentController",
     "Method": "GetPayments",
     "RelativePath": "api/Payment/{coachId}",

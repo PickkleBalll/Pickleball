@@ -4450,11 +4450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chinh\\Desktop\\hlvC\\coach\\coach\\coach.csproj",
+      "projectUniqueName": "C:\\Users\\chinh\\Pickleball\\backend\\coach\\coach\\coach.csproj",
       "projectName": "coach",
-      "projectPath": "C:\\Users\\chinh\\Desktop\\hlvC\\coach\\coach\\coach.csproj",
+      "projectPath": "C:\\Users\\chinh\\Pickleball\\backend\\coach\\coach\\coach.csproj",
       "packagesPath": "C:\\Users\\chinh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chinh\\Desktop\\hlvC\\coach\\coach\\obj\\",
+      "outputPath": "C:\\Users\\chinh\\Pickleball\\backend\\coach\\coach\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
