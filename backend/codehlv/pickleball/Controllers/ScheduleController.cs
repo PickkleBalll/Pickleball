@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using pickleball.use_case.Schedule;
-using pickleball.Data;
+using coach.use_case.Schedule;
+;
 
-namespace pickleball.Controllers
+namespace coach.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

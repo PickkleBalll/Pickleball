@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using pickleball.Data;
-using pickleball.Models;
-using pickleball.use_case.StudentProgresses;
+;
+using coach.Models;
+using coach.use_case.StudentProgresses;
 
-namespace pickleball.Controllers
+namespace coach.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

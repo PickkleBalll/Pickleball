@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using pickleball.Data;
-using pickleball.Models;
+;
+using coach.Models;
 
 [ApiController]
 [Route("api/[controller]")]

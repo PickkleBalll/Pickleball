@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using pickleball.Data;
-using pickleball.Models;
+;
+using coach.Models;
 
-namespace pickleball.use_case.StudentProgresses
+namespace coach.use_case.StudentProgresses
 {
     public class TrackProgress
     {

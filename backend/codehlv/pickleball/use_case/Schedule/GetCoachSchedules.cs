@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using pickleball.Data;
+;
 
-namespace pickleball.use_case.Schedule
+namespace coach.use_case.Schedule
 {
     public class GetCoachSchedules
     {

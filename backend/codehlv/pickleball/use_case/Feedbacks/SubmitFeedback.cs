@@ -1,7 +1,7 @@
-﻿using pickleball.Data;
-using pickleball.Models;
+﻿;
+using coach.Models;
 
-namespace pickleball.use_case.Feedbacks
+namespace coach.use_case.Feedbacks
 {
     public class SubmitFeedback
     {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pickleball")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebb065b1a517558dd0ca0ced72776a6f54e5e477")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7208cdf1fae421f86fa01499bcde6da13f4f6aa2")]
 [assembly: System.Reflection.AssemblyProductAttribute("pickleball")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pickleball")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

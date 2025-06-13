@@ -1,4 +1,4 @@
-﻿namespace pickleball.Models
+﻿namespace coach.Models
 {
     public class Schedule
     {

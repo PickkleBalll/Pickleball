@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using pickleball.Models;
+using coach.Models;
 
-namespace pickleball.Data
+namespace coach.Data
 {
     public class AppDbContext : DbContext
     {

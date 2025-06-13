@@ -4450,9 +4450,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\pickleball.csproj",
-      "projectName": "pickleball",
-      "projectPath": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\pickleball.csproj",
+      "projectUniqueName": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\coach.csproj",
+      "projectName": "coach",
+      "projectPath": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\coach.csproj",
       "packagesPath": "C:\\Users\\chinh\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\chinh\\Pickleball\\backend\\codehlv\\pickleball\\obj\\",
       "projectStyle": "PackageReference",
