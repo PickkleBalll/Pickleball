@@ -1,0 +1,6 @@
+@PickleballVideoAnalyzer_HostAddress = http://localhost:5080
+
+GET {{PickleballVideoAnalyzer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
