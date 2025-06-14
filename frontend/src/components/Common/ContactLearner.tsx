@@ -9,10 +9,7 @@ const ContactLearner: React.FC = () => {
             <HeaderCoach />
 
             {/* Nút Contact Learner */}
-            <div className="px-10 py-6">
-                <button className="bg-white px-4 py-1 rounded-md border text-sm font-semibold shadow">
-                    Contact learner
-                </button>
+            <div className="py-10">
             </div>
 
             {/* Card thông tin */}
@@ -22,7 +19,7 @@ const ContactLearner: React.FC = () => {
                     <img
                         src={image17}
                         alt="Gloria Bromley"
-                        className="w-[150px] h-[150px] rounded-full object-cover border-2"
+                        className="ml-6 w-[160px] h-[160px] rounded-full object-cover border-2"
                     />
                     <div className="flex flex-col justify-center pl-28">
                         <h2 className="text-[28px] font-extrabold text-black leading-tight">GLORIA BROMLEY</h2>
@@ -31,7 +28,7 @@ const ContactLearner: React.FC = () => {
                 </div>
 
                 {/* Thông tin chi tiết */}
-                <div className="grid grid-cols-2 gap-y-5 text-[24px] px-4">
+                <div className="grid grid-cols-2 gap-y-5 text-[24px] px-4 pl-10">
                     <div className="text-[#B6B6B6] font-semibold">Nationality</div>
                     <div className="text-[#B6B6B6] font-semibold">British</div>
 

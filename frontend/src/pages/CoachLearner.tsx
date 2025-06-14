@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // thêm dòng này
+import { useNavigate } from "react-router-dom";
 import HeaderCoach from "../components/Common/HeaderCoach";
 import image17 from "../assets/Image/17.jpg";
 
@@ -38,10 +38,10 @@ const CoachLearner: React.FC = () => {
                             alt={learner.name}
                             className="absolute left-[25px] top-[17px] w-[100px] h-[100px] rounded-full object-cover border border-black"
                         />
-                        <div className="ml-[150px] mt-10">
+                        <div className="ml-[150px] mt-8">
                             <h3 className="text-[20px] font-extrabold text-black">{learner.name}</h3>
-                            <p className="text-[16px] font-light text-[#b6b6b6] mt-2 ml-10">{learner.level}</p>
-                            <p className="text-[16px] font-light text-[#b6b6b6] mt-1 ml-10">{learner.nationality}</p>
+                            <p className="text-[16px] font-light text-[#b6b6b6] mt-1 ml-14">{learner.level}</p>
+                            <p className="text-[16px] font-light text-[#b6b6b6] mt-0 ml-14">{learner.nationality}</p>
                         </div>
 
                         {/* Nút chuyển trang */}

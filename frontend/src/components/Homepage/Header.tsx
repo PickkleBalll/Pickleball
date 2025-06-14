@@ -13,7 +13,9 @@ const Header: React.FC = () => {
 
   const handleSignInClick = () => {
     navigate('/coach');
+    window.scrollTo(0, 0);
   };
+
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#f5f5f5] flex justify-between items-center py-6 px-12 shadow-md font-['Roboto']">

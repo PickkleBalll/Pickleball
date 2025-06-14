@@ -22,8 +22,14 @@ const Header: React.FC = () => {
                             key={index}
                             className="font-normal text-black text-[22px] cursor-pointer hover:text-green-500 transition-colors"
                             onClick={() => {
-                                if (link === "Learner") {
+                                if (link === "Home") {
+                                    navigate("/coachhome");
+                                } else if (link === "Learner") {
                                     navigate("/coachlearner");
+                                } else if (link === "Tutorials") {
+                                    navigate("/coachtutorials");
+                                } else if (link === "Profile") {
+                                    navigate("/editprofile");
                                 }
                             }}
                         >
