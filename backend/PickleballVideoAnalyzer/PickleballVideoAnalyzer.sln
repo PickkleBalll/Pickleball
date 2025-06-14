@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickleballVideoAnalyzer", "PickleballVideoAnalyzer\PickleballVideoAnalyzer.csproj", "{4E152188-3124-4C18-8B96-FF3C946A6B7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickleballVideoAnalyzer", "PickleballVideoAnalyzer\PickleballVideoAnalyzer.csproj", "{01C65CB4-44EB-4453-B5A5-63697F7A12F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E152188-3124-4C18-8B96-FF3C946A6B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E152188-3124-4C18-8B96-FF3C946A6B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E152188-3124-4C18-8B96-FF3C946A6B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E152188-3124-4C18-8B96-FF3C946A6B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C65CB4-44EB-4453-B5A5-63697F7A12F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C65CB4-44EB-4453-B5A5-63697F7A12F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C65CB4-44EB-4453-B5A5-63697F7A12F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C65CB4-44EB-4453-B5A5-63697F7A12F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6BB39533-0ECE-4547-B1A4-FD74E30D8681}
+		SolutionGuid = {C41F3E20-AE91-4E0F-8495-BB2C83E47BBA}
 	EndGlobalSection
 EndGlobal
