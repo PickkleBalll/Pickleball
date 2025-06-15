@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderCoach from "../Common/HeaderCoach";
+import HeaderCoach from "../Common/HeaderLearner";
 import image17 from "../../assets/Image/17.jpg";
 
 const ContactLearner: React.FC = () => {

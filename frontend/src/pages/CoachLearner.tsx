@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import HeaderCoach from "../components/Common/HeaderCoach";
+import HeaderCoach from "../components/Common/HeaderLearner";
 import image17 from "../assets/Image/17.jpg";
 
 const learners = Array(9).fill({
@@ -11,8 +11,7 @@ const learners = Array(9).fill({
 });
 
 const CoachLearner: React.FC = () => {
-    const navigate = useNavigate(); // hook để chuyển trang
-
+    const navigate = useNavigate();
     return (
         <div className="bg-[#f0f0f0] min-h-screen font-['Roboto'] pb-20">
             <HeaderCoach />
@@ -46,7 +45,7 @@ const CoachLearner: React.FC = () => {
 
                         {/* Nút chuyển trang */}
                         <button
-                            onClick={() => navigate("/contactlearner")} // chuyển qua route mới
+                            onClick={() => navigate("/coachtutorials")}
                             className="absolute bottom-[15px] left-[110px] w-[110px] h-[32px] bg-[#d5f25d] hover:bg-[#c5e24d] rounded-[40px] border border-black text-black font-extrabold text-[15px] tracking-wide"
                         >
                             CONTACT

@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderCoach from "../components/Common/HeaderCoach";
+import HeaderCoach from "../components/Common/HeaderLearner";
 import image16 from "../assets/Image/16.jpg";
 
 const EditProfile: React.FC = () => {

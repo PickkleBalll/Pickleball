@@ -6,6 +6,7 @@ import CoachLearner from "../pages/CoachLearner";
 import EditProfile from "../pages/EditProfile";
 import CoachTutorials from "../pages/CoachTutorials";
 import CoachHome from "../pages/CoachHome";
+import PopupCoach from "../pages/PopupCoach";
 import ContactLearner from "../components/Common/ContactLearner";
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <Route path="/editprofile" element={<EditProfile />} />
       <Route path="/coachtutorials" element={<CoachTutorials />} />
       <Route path="/coachhome" element={<CoachHome />} />
+      <Route path="/popupcoach" element={<PopupCoach />} />
     </Routes>
   );
 }
