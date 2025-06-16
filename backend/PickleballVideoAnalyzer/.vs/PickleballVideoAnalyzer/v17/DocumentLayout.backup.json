@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MANH\\OneDrive\\Desktop\\AI\\PickleballVideoAnalyzer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01C65CB4-44EB-4453-B5A5-63697F7A12F5}|PickleballVideoAnalyzer\\PickleballVideoAnalyzer.csproj|c:\\users\\manh\\onedrive\\desktop\\ai\\pickleballvideoanalyzer\\pickleballvideoanalyzer\\controllers\\analyzecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C65CB4-44EB-4453-B5A5-63697F7A12F5}|PickleballVideoAnalyzer\\PickleballVideoAnalyzer.csproj|solutionrelative:pickleballvideoanalyzer\\controllers\\analyzecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C65CB4-44EB-4453-B5A5-63697F7A12F5}|PickleballVideoAnalyzer\\PickleballVideoAnalyzer.csproj|c:\\users\\manh\\onedrive\\desktop\\ai\\pickleballvideoanalyzer\\pickleballvideoanalyzer\\models\\uploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C65CB4-44EB-4453-B5A5-63697F7A12F5}|PickleballVideoAnalyzer\\PickleballVideoAnalyzer.csproj|solutionrelative:pickleballvideoanalyzer\\models\\uploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C65CB4-44EB-4453-B5A5-63697F7A12F5}|PickleballVideoAnalyzer\\PickleballVideoAnalyzer.csproj|c:\\users\\manh\\onedrive\\desktop\\ai\\pickleballvideoanalyzer\\pickleballvideoanalyzer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{01C65CB4-44EB-4453-B5A5-63697F7A12F5}|PickleballVideoAnalyzer\\PickleballVideoAnalyzer.csproj|solutionrelative:pickleballvideoanalyzer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnalyzeController.cs",
+              "DocumentMoniker": "C:\\Users\\MANH\\OneDrive\\Desktop\\AI\\PickleballVideoAnalyzer\\PickleballVideoAnalyzer\\Controllers\\AnalyzeController.cs",
+              "RelativeDocumentMoniker": "PickleballVideoAnalyzer\\Controllers\\AnalyzeController.cs",
+              "ToolTip": "C:\\Users\\MANH\\OneDrive\\Desktop\\AI\\PickleballVideoAnalyzer\\PickleballVideoAnalyzer\\Controllers\\AnalyzeController.cs",
+              "RelativeToolTip": "PickleballVideoAnalyzer\\Controllers\\AnalyzeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:54:54.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UploadRequest.cs",
+              "DocumentMoniker": "C:\\Users\\MANH\\OneDrive\\Desktop\\AI\\PickleballVideoAnalyzer\\PickleballVideoAnalyzer\\Models\\UploadRequest.cs",
+              "RelativeDocumentMoniker": "PickleballVideoAnalyzer\\Models\\UploadRequest.cs",
+              "ToolTip": "C:\\Users\\MANH\\OneDrive\\Desktop\\AI\\PickleballVideoAnalyzer\\PickleballVideoAnalyzer\\Models\\UploadRequest.cs",
+              "RelativeToolTip": "PickleballVideoAnalyzer\\Models\\UploadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:52:30.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\MANH\\OneDrive\\Desktop\\AI\\PickleballVideoAnalyzer\\PickleballVideoAnalyzer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PickleballVideoAnalyzer\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\MANH\\OneDrive\\Desktop\\AI\\PickleballVideoAnalyzer\\PickleballVideoAnalyzer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PickleballVideoAnalyzer\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T06:46:54.558Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

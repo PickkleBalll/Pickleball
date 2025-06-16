@@ -1,6 +1,7 @@
 // File: AnalyzeController.cs (ASP.NET Core Web API)
 
 using Microsoft.AspNetCore.Mvc;
+using PickleballVideoAnalyzer.Models;
 using System.Diagnostics;
 using System.Text;
 using System.Text.Json;
@@ -23,8 +24,10 @@ namespace PickleballVideoAPI.Controllers
         [ProducesResponseType(typeof(object), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> Analyze([FromForm] IFormFile video)
+        public async Task<IActionResult> Analyze([FromForm] UploadRequest request)
         {
+            var video = request.Video;
+
             if (video == null || video.Length == 0)
                 return BadRequest("Video khong hop le.");
 
