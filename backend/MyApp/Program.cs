@@ -1,24 +1,20 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models; // ⚠️ Thêm namespace này để Swagger hỗ trợ JWT
 using System.Text;
 using MyApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Đăng ký Swagger
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-// Database
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<MyAppDbContext>(options =>
-    options.UseSqlServer(connectionString));
-
-// JWT
+// 🔐 JWT Settings
 var jwtSettings = builder.Configuration.GetSection("Jwt");
 var keyString = jwtSettings["Key"] ?? throw new InvalidOperationException("JWT Key is missing in appsettings.json.");
 var key = Encoding.UTF8.GetBytes(keyString);
+
+// 📦 Add services to the container.
+builder.Services.AddDbContext<MyAppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddAuthentication(options =>
 {
@@ -42,31 +38,62 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 
-// ✅ CORS: Cho phép tất cả origin (dùng cho DEV, test qua ngrok, FE ở bất cứ đâu)
+// ✅ CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.AllowAnyOrigin() // <-- CHO PHÉP MỌI ORIGIN
+        policy.AllowAnyOrigin()
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
 });
 
+// ✅ Swagger + JWT Bearer support
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new() { Title = "MyApp", Version = "v1" });
+
+    // ✅ Add JWT Bearer Authorization to Swagger
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        Description = "Nhập token vào đây theo định dạng: Bearer {your token}"
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
+
 var app = builder.Build();
 
-// Bật Swagger UI ở môi trường dev
+// 🌐 Middlewares
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-// deploy thật thì bật lại dòng 65
-//app.UseHttpsRedirection();
 
-// ✅ Dùng CORS (phải đặt ngay sau https redirection)
+// app.UseHttpsRedirection(); // Bỏ trong DEV nếu cần test nhanh
+
 app.UseCors("AllowFrontend");
-
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
@@ -80,6 +107,7 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.Run();
+
 
 
 
