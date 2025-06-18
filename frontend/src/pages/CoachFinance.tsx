@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderCoach from "../components/Common/HeaderCoach";
+import HeaderCoach from "../components/Common/HeaderLearner";
 
 const financeData = [
     { label: "Total", value: "182", color: "#E06668" },

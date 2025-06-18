@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import HeaderCoach from "../components/Common/HeaderLearner";
+import HeaderCoach from "../components/Common/HeaderCoach";
 import image17 from "../assets/Image/17.jpg";
 
 const tutorialSections = [

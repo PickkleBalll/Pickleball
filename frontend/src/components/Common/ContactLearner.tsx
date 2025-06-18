@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderCoach from "../Common/HeaderLearner";
+import HeaderCoach from "./HeaderCoach";
 import image17 from "../../assets/Image/17.jpg";
 
 const ContactLearner: React.FC = () => {
@@ -22,8 +22,8 @@ const ContactLearner: React.FC = () => {
                         className="ml-6 w-[160px] h-[160px] rounded-full object-cover border-2"
                     />
                     <div className="flex flex-col justify-center pl-28">
-                        <h2 className="text-[28px] font-extrabold text-black leading-tight">GLORIA BROMLEY</h2>
-                        <p className="text-[#B6B6B6] font-semibold text-[24px] mt-1 text-center">Level 2</p>
+                        <h2 className="text-[28px] font-extrabold text-black leading-tight">SELENA ARVEN</h2>
+                        <p className="text-[#B6B6B6] font-semibold text-[24px] mt-1 text-center">Level 1</p>
                     </div>
                 </div>
 

@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import imageAvatar from "../../assets/Image/16.jpg";
 
-const navLinks = ["Home", "Learner", "Tutorials", "Profile"];
+const navLinks = ["Home", "Coach", "Learn", "Profile"];
 
 const Header: React.FC = () => {
     const navigate = useNavigate();
@@ -24,9 +24,9 @@ const Header: React.FC = () => {
                             onClick={() => {
                                 if (link === "Home") {
                                     navigate("/coachhome");
-                                } else if (link === "Learner") {
+                                } else if (link === "Coach") {
                                     navigate("/coachlearner");
-                                } else if (link === "Tutorials") {
+                                } else if (link === "Learn") {
                                     navigate("/coachtutorials");
                                 } else if (link === "Profile") {
                                     navigate("/editprofile");
@@ -39,10 +39,7 @@ const Header: React.FC = () => {
                 </nav>
 
                 {/* Avatar */}
-                <div
-                    className="absolute right-14 cursor-pointer"
-                    onClick={() => navigate('/popupcoach')}
-                >
+                <div className="absolute right-14">
                     <div className="w-[61px] h-[61px] rounded-full overflow-hidden border border-black">
                         <img
                             src={imageAvatar}
@@ -51,8 +48,8 @@ const Header: React.FC = () => {
                         />
                     </div>
                 </div>
-            </header >
-        </div >
+            </header>
+        </div>
     );
 };
 
