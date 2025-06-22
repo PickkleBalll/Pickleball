@@ -1,0 +1,1148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\coachmodels\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621035234_FixCoachProfileIdType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250621035234_FixCoachProfileIdType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\use_case\\lesson\\createlesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\lesson\\createlesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\coachcontrollers\\coachcreatelessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachcreatelessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033801_InitClean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250621033801_InitClean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033544_InitClean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250621033544_InitClean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033355_InitLessonWithStringCoachId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250621033355_InitLessonWithStringCoachId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033221_FixCoachProfileIdToString.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250621033221_FixCoachProfileIdToString.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\coachmodels\\coachprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\coachprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621031105_UpdateSchemaAfterRefactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250621031105_UpdateSchemaAfterRefactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\coachcontrollers\\coachschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\coachmodels\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\use_case\\schedule\\getcoachschedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\schedule\\getcoachschedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\use_case\\learnersinfo\\getalllearnerinfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\learnersinfo\\getalllearnerinfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\coachcontrollers\\learnerinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\learnerinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\coachmodels\\learnerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\learnerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\use_case\\teachingmaterial\\getmaterials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\teachingmaterial\\getmaterials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\use_case\\studentprogress\\trackprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\studentprogress\\trackprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\use_case\\payments\\managepayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\payments\\managepayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\use_case\\feedbackss\\submitfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\feedbackss\\submitfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\use_case\\coachprofile\\createcoachprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\coachprofile\\createcoachprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\coachmodels\\teachingmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\teachingmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\coachmodels\\studentprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\studentprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\coachmodels\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\coachcontrollers\\teachingmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\teachingmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\coachcontrollers\\coachreceivepaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachreceivepaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\coachcontrollers\\coachprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\coachcontrollers\\coachfollowstudentprogresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachfollowstudentprogresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\learnermodels\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\learnermodels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\aimodels\\uploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\aimodels\\uploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\helpers\\swaggerfileoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:helpers\\swaggerfileoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\helpers\\addfileparamtypesoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:helpers\\addfileparamtypesoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\myapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:myapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\learnercontrollers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\dto\\analyzevideorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\analyzevideorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\ai video\\analyzecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\ai video\\analyzecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\adminmodels\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\adminmodels\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\learnercontrollers\\learnerprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\learnerprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\services\\learnerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\learnerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\admincontrollers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\admincontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\admincontrollers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\learnercontrollers\\learnerfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\learnerfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\admincontrollers\\adminmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\adminmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\coachmodels\\coachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\coachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\learnermodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\learnermodels\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\coachcontrollers\\coachfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\admincontrollers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\learnermodels\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\adminmodels\\learningmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\adminmodels\\learningmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\models\\adminmodels\\reviewallcoach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\adminmodels\\reviewallcoach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\learnercontrollers\\learnerbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\learnerbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\controllers\\admincontrollers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616082924_InitWithStringId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250616082924_InitWithStringId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616082757_ApplyPendingChanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250616082757_ApplyPendingChanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616080700_FreshStart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250616080700_FreshStart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616080601_InitStringId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250616080601_InitStringId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616080440_InitStringId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250616080440_InitStringId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\myapp\\dto\\paymentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\paymentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250621033221_FixCoachProfileIdToString.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033221_FixCoachProfileIdToString.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250621033221_FixCoachProfileIdToString.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033221_FixCoachProfileIdToString.cs",
+              "RelativeToolTip": "Migrations\\20250621033221_FixCoachProfileIdToString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T03:32:21.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateLesson.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\Lesson\\CreateLesson.cs",
+              "RelativeDocumentMoniker": "use_case\\Lesson\\CreateLesson.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\Lesson\\CreateLesson.cs",
+              "RelativeToolTip": "use_case\\Lesson\\CreateLesson.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T20:25:42.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetCoachSchedules.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\Schedule\\GetCoachSchedules.cs",
+              "RelativeDocumentMoniker": "use_case\\Schedule\\GetCoachSchedules.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\Schedule\\GetCoachSchedules.cs",
+              "RelativeToolTip": "use_case\\Schedule\\GetCoachSchedules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T15:07:07.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T06:51:27.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:48:02.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250621035234_FixCoachProfileIdType.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621035234_FixCoachProfileIdType.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250621035234_FixCoachProfileIdType.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621035234_FixCoachProfileIdType.cs",
+              "RelativeToolTip": "Migrations\\20250621035234_FixCoachProfileIdType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T03:52:34.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\Lesson.cs",
+              "RelativeDocumentMoniker": "Models\\CoachModels\\Lesson.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\Lesson.cs",
+              "RelativeToolTip": "Models\\CoachModels\\Lesson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T21:02:22.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250621033801_InitClean.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033801_InitClean.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250621033801_InitClean.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033801_InitClean.cs",
+              "RelativeToolTip": "Migrations\\20250621033801_InitClean.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T03:38:01.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CoachCreateLessonController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachCreateLessonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachCreateLessonController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachCreateLessonController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachCreateLessonController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:26:58.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250621033355_InitLessonWithStringCoachId.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033355_InitLessonWithStringCoachId.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250621033355_InitLessonWithStringCoachId.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033355_InitLessonWithStringCoachId.cs",
+              "RelativeToolTip": "Migrations\\20250621033355_InitLessonWithStringCoachId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T03:33:55.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250621033544_InitClean.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033544_InitClean.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250621033544_InitClean.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621033544_InitClean.cs",
+              "RelativeToolTip": "Migrations\\20250621033544_InitClean.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T03:35:44.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CoachProfile.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\CoachProfile.cs",
+              "RelativeDocumentMoniker": "Models\\CoachModels\\CoachProfile.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\CoachProfile.cs",
+              "RelativeToolTip": "Models\\CoachModels\\CoachProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:28:39.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CoachScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachScheduleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachScheduleController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachScheduleController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachScheduleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:27:32.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\Schedule.cs",
+              "RelativeDocumentMoniker": "Models\\CoachModels\\Schedule.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\Schedule.cs",
+              "RelativeToolTip": "Models\\CoachModels\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T15:04:41.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250621031105_UpdateSchemaAfterRefactor.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621031105_UpdateSchemaAfterRefactor.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250621031105_UpdateSchemaAfterRefactor.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250621031105_UpdateSchemaAfterRefactor.cs",
+              "RelativeToolTip": "Migrations\\20250621031105_UpdateSchemaAfterRefactor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T03:11:05.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllLearnerInfos.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\LearnersInfo\\GetAllLearnerInfos.cs",
+              "RelativeDocumentMoniker": "use_case\\LearnersInfo\\GetAllLearnerInfos.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\LearnersInfo\\GetAllLearnerInfos.cs",
+              "RelativeToolTip": "use_case\\LearnersInfo\\GetAllLearnerInfos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T02:45:56.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LearnerInfoController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\LearnerInfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\LearnerInfoController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\LearnerInfoController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\LearnerInfoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T02:44:18.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LearnerInfo.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\LearnerInfo.cs",
+              "RelativeDocumentMoniker": "Models\\CoachModels\\LearnerInfo.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\LearnerInfo.cs",
+              "RelativeToolTip": "Models\\CoachModels\\LearnerInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T02:43:34.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManagePayments.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\Payments\\ManagePayments.cs",
+              "RelativeDocumentMoniker": "use_case\\Payments\\ManagePayments.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\Payments\\ManagePayments.cs",
+              "RelativeToolTip": "use_case\\Payments\\ManagePayments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T15:00:53.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SubmitFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\FEEDBACKSS\\SubmitFeedback.cs",
+              "RelativeDocumentMoniker": "use_case\\FEEDBACKSS\\SubmitFeedback.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\FEEDBACKSS\\SubmitFeedback.cs",
+              "RelativeToolTip": "use_case\\FEEDBACKSS\\SubmitFeedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:07:52.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TrackProgress.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\StudentProgress\\TrackProgress.cs",
+              "RelativeDocumentMoniker": "use_case\\StudentProgress\\TrackProgress.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\StudentProgress\\TrackProgress.cs",
+              "RelativeToolTip": "use_case\\StudentProgress\\TrackProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T16:22:32.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetMaterials.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\TeachingMaterial\\GetMaterials.cs",
+              "RelativeDocumentMoniker": "use_case\\TeachingMaterial\\GetMaterials.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\TeachingMaterial\\GetMaterials.cs",
+              "RelativeToolTip": "use_case\\TeachingMaterial\\GetMaterials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T16:07:14.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateCoachProfile.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\CoachProfile\\CreateCoachProfile.cs",
+              "RelativeDocumentMoniker": "use_case\\CoachProfile\\CreateCoachProfile.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\use_case\\CoachProfile\\CreateCoachProfile.cs",
+              "RelativeToolTip": "use_case\\CoachProfile\\CreateCoachProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T20:22:57.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TeachingMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\TeachingMaterial.cs",
+              "RelativeDocumentMoniker": "Models\\CoachModels\\TeachingMaterial.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\TeachingMaterial.cs",
+              "RelativeToolTip": "Models\\CoachModels\\TeachingMaterial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T16:03:32.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StudentProgress.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\StudentProgress.cs",
+              "RelativeDocumentMoniker": "Models\\CoachModels\\StudentProgress.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\StudentProgress.cs",
+              "RelativeToolTip": "Models\\CoachModels\\StudentProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T16:00:37.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\CoachModels\\Payment.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\Payment.cs",
+              "RelativeToolTip": "Models\\CoachModels\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T15:04:11.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TeachingMaterialController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\TeachingMaterialController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\TeachingMaterialController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\TeachingMaterialController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\TeachingMaterialController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:28:09.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CoachReceivePaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachReceivePaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachReceivePaymentController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachReceivePaymentController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachReceivePaymentController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:27:09.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CoachProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachProfileController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachProfileController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachProfileController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:26:02.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CoachFollowStudentProgressController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:28:00.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-14T07:43:25.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UploadRequest.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\AIModels\\UploadRequest.cs",
+              "RelativeDocumentMoniker": "Models\\AIModels\\UploadRequest.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\AIModels\\UploadRequest.cs",
+              "RelativeToolTip": "Models\\AIModels\\UploadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T04:00:05.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Learner.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\LearnerModels\\Learner.cs",
+              "RelativeDocumentMoniker": "Models\\LearnerModels\\Learner.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\LearnerModels\\Learner.cs",
+              "RelativeToolTip": "Models\\LearnerModels\\Learner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:39:37.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Video.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\LearnerModels\\Video.cs",
+              "RelativeDocumentMoniker": "Models\\LearnerModels\\Video.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\LearnerModels\\Video.cs",
+              "RelativeToolTip": "Models\\LearnerModels\\Video.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T03:46:32.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SwaggerFileOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Helpers\\SwaggerFileOperationFilter.cs",
+              "RelativeDocumentMoniker": "Helpers\\SwaggerFileOperationFilter.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Helpers\\SwaggerFileOperationFilter.cs",
+              "RelativeToolTip": "Helpers\\SwaggerFileOperationFilter.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwCoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T08:13:30.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddFileParamTypesOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Helpers\\AddFileParamTypesOperationFilter.cs",
+              "RelativeDocumentMoniker": "Helpers\\AddFileParamTypesOperationFilter.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Helpers\\AddFileParamTypesOperationFilter.cs",
+              "RelativeToolTip": "Helpers\\AddFileParamTypesOperationFilter.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwCUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:36:43.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MyApp.csproj",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\MyApp.csproj",
+              "RelativeDocumentMoniker": "MyApp.csproj",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\MyApp.csproj",
+              "RelativeToolTip": "MyApp.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-14T15:39:22.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-19T14:59:49.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "VideoController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\LearnerControllers\\VideoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\VideoController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\LearnerControllers\\VideoController.cs",
+              "RelativeToolTip": "Controllers\\LearnerControllers\\VideoController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwDoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:42:21.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AnalyzeVideoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Dto\\AnalyzeVideoRequest.cs",
+              "RelativeDocumentMoniker": "Dto\\AnalyzeVideoRequest.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Dto\\AnalyzeVideoRequest.cs",
+              "RelativeToolTip": "Dto\\AnalyzeVideoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:38:06.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AnalyzeController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AI video\\AnalyzeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AI video\\AnalyzeController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AI video\\AnalyzeController.cs",
+              "RelativeToolTip": "Controllers\\AI video\\AnalyzeController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwG4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:42:05.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LearnerProfilesController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\LearnerControllers\\LearnerProfilesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\LearnerProfilesController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\LearnerControllers\\LearnerProfilesController.cs",
+              "RelativeToolTip": "Controllers\\LearnerControllers\\LearnerProfilesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T16:46:49.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "BookingServices.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Services\\BookingServices.cs",
+              "RelativeDocumentMoniker": "Services\\BookingServices.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Services\\BookingServices.cs",
+              "RelativeToolTip": "Services\\BookingServices.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:51:47.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LearnerServices.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Services\\LearnerServices.cs",
+              "RelativeDocumentMoniker": "Services\\LearnerServices.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Services\\LearnerServices.cs",
+              "RelativeToolTip": "Services\\LearnerServices.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAzwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:26:12.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\AdminModels\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\AdminModels\\Admin.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\AdminModels\\Admin.cs",
+              "RelativeToolTip": "Models\\AdminModels\\Admin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:16:23.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AdminUserController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\AdminUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\AdminUserController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\AdminUserController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\AdminUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:44:43.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\UserController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:38:14.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\AuthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:42:00.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LearnerFeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
+              "RelativeToolTip": "Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T16:49:53.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AdminMaterialController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\AdminMaterialController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\AdminMaterialController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\AdminMaterialController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\AdminMaterialController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T05:26:09.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\LearnerModels\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\LearnerModels\\Booking.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\LearnerModels\\Booking.cs",
+              "RelativeToolTip": "Models\\LearnerModels\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T06:33:24.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PayMent.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\LearnerModels\\PayMent.cs",
+              "RelativeDocumentMoniker": "Models\\LearnerModels\\PayMent.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\LearnerModels\\PayMent.cs",
+              "RelativeToolTip": "Models\\LearnerModels\\PayMent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T16:45:07.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CoachFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\CoachFeedback.cs",
+              "RelativeDocumentMoniker": "Models\\CoachModels\\CoachFeedback.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\CoachModels\\CoachFeedback.cs",
+              "RelativeToolTip": "Models\\CoachModels\\CoachFeedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T21:02:29.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CoachFeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachFeedbackController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachFeedbackController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\CoachControllers\\CoachFeedbackController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachFeedbackController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:26:36.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "FeedBack.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\LearnerModels\\FeedBack.cs",
+              "RelativeDocumentMoniker": "Models\\LearnerModels\\FeedBack.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\LearnerModels\\FeedBack.cs",
+              "RelativeToolTip": "Models\\LearnerModels\\FeedBack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:43:07.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\ReviewController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\ReviewController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAD4v0IAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:45:14.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "LearningMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\AdminModels\\LearningMaterial.cs",
+              "RelativeDocumentMoniker": "Models\\AdminModels\\LearningMaterial.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\AdminModels\\LearningMaterial.cs",
+              "RelativeToolTip": "Models\\AdminModels\\LearningMaterial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T07:44:50.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ReviewAllCoach.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\AdminModels\\ReviewAllCoach.cs",
+              "RelativeDocumentMoniker": "Models\\AdminModels\\ReviewAllCoach.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Models\\AdminModels\\ReviewAllCoach.cs",
+              "RelativeToolTip": "Models\\AdminModels\\ReviewAllCoach.cs",
+              "ViewState": "AgIAAAUAAADAoJmZmRkWwA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:41:30.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "LearnerBookingController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\LearnerControllers\\LearnerBookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\LearnerBookingController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\LearnerControllers\\LearnerBookingController.cs",
+              "RelativeToolTip": "Controllers\\LearnerControllers\\LearnerBookingController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwCIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:25:48.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Controllers\\AdminControllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:45:16.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20250616082757_ApplyPendingChanges.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616082757_ApplyPendingChanges.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250616082757_ApplyPendingChanges.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616082757_ApplyPendingChanges.cs",
+              "RelativeToolTip": "Migrations\\20250616082757_ApplyPendingChanges.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:27:57.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20250616082924_InitWithStringId.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616082924_InitWithStringId.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250616082924_InitWithStringId.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616082924_InitWithStringId.cs",
+              "RelativeToolTip": "Migrations\\20250616082924_InitWithStringId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:29:24.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20250616080700_FreshStart.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616080700_FreshStart.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250616080700_FreshStart.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616080700_FreshStart.cs",
+              "RelativeToolTip": "Migrations\\20250616080700_FreshStart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:07:01.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20250616080440_InitStringId.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616080440_InitStringId.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250616080440_InitStringId.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616080440_InitStringId.cs",
+              "RelativeToolTip": "Migrations\\20250616080440_InitStringId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:04:40.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20250616080601_InitStringId.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616080601_InitStringId.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250616080601_InitStringId.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Migrations\\20250616080601_InitStringId.cs",
+              "RelativeToolTip": "Migrations\\20250616080601_InitStringId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:06:01.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-14T13:23:16.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "PaymentRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Dto\\PaymentRequestDto.cs",
+              "RelativeDocumentMoniker": "Dto\\PaymentRequestDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\MyApp\\Dto\\PaymentRequestDto.cs",
+              "RelativeToolTip": "Dto\\PaymentRequestDto.cs",
+              "ViewState": "AgIAAAUAAABgzMzMzMwFwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:58:45.494Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
