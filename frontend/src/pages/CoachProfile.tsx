@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { EditIcon } from "lucide-react";
 import HeaderCoach from "../components/Common/HeaderCoach";
 import image16 from "../assets/Image/16.jpg";
@@ -23,6 +24,8 @@ const tutorials = [
 ];
 
 const CoachProfile: React.FC = () => {
+    const navigate = useNavigate(); // 👉 Thêm để điều hướng
+
     return (
         <div className="min-h-screen w-full bg-[#f0f0f0] font-['Roboto']">
             {/* Header */}
@@ -46,11 +49,15 @@ const CoachProfile: React.FC = () => {
                             <div className="mt-2 text-[22px] font-light text-[#727272]">Gender: Male</div>
                         </div>
                     </div>
+
                     {/* Profile Info Card */}
                     <div className="bg-white shadow-md rounded-[50px] w-full md:w-[800px] relative ml-auto md:ml-[70px]">
                         <div className="p-6 pb-0">
                             <h2 className="text-3xl font-bold">PROFILE</h2>
-                            <EditIcon className="absolute top-7 right-7 w-8 h-8" />
+                            <EditIcon
+                                className="absolute top-7 right-7 w-8 h-8 cursor-pointer"
+                                onClick={() => navigate('/editprofile')}
+                            />
                         </div>
                         <div className="bg-gray-300 h-[1px] w-full" />
                         <div className="p-6 space-y-6">
@@ -74,7 +81,7 @@ const CoachProfile: React.FC = () => {
                                 Hi! I'm Gloria, a passionate Pickleball instructor dedicated to helping players
                                 of all levels improve their game and enjoy the sport. With years of coaching
                                 experience, I focus on creating a fun, supportive, and engaging learning environment.
-                                I believe Pickleball is not just a sport—it's a great way to stay active, build
+                                I believe Pickleball is not just a sport - it's a great way to stay active, build
                                 community, and have fun at any age.
                             </p>
                         </div>

@@ -29,7 +29,7 @@ const Header: React.FC = () => {
                                 } else if (link === "Tutorials") {
                                     navigate("/coachtutorials");
                                 } else if (link === "Profile") {
-                                    navigate("/editprofile");
+                                    navigate("/coachfinance");
                                 }
                             }}
                         >

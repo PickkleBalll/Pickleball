@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   };
 
   const handleSignInClick = () => {
-    navigate('/coach');
+    navigate('/coachhome');
     window.scrollTo(0, 0);
   };
 

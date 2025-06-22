@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
                     Connect with top pickleball coaches anytime, anywhere. Our AI-powered app
                     analyzes your gameplay, gives real-time feedback, and creates personalized
                     training plans. Upload videos, track your progress, and improve faster with
-                    smart insights — all in one seamless platform.
+                    smart insights - all in one seamless platform.
                 </div>
 
                 {/* Ảnh 1 */}
