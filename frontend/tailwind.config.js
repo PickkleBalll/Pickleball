@@ -14,6 +14,9 @@ module.exports = {
         customGreen: '#22C55E',
         grayBg: '#f0f0f0',
       },
+      backgroundImage: {
+        'bg-payment': "url('./assets/Image/Signin.png')",
+      },
     },
   },
   plugins: [],

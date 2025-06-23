@@ -44,9 +44,9 @@ const LearnerHome: React.FC = () => {
       </p>
 
       {/* COACHES SECTION */}
-      <div className="flex flex-wrap justify-start gap-5 w-full pl-10 pt-3">
+      <div className="flex flex-wrap justify-start gap-4 w-full pl-10 pt-3 ">
         {coaches.map((coach, index) => (
-          <div key={index} className="w-80 px-5 py-4 border rounded-4xl">
+          <div key={index} className="w-80 px-5 py-4 border rounded-4xl bg-white">
             <div className="flex">
               <img
                 className="w-[100px] h-[100px] rounded-full border"
