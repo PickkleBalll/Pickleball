@@ -5,18 +5,16 @@ const PopupCoach: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="fixed inset-0 flex items-center justify-center bg-[#f5f5f5] min-h-screen font-['Roboto']">
-            <div className="w-[320px] bg-white border border-black rounded-[20px] shadow-lg p-6 space-y-6">
-                <p
-                    className="text-[22px] text-black cursor-pointer hover:underline text-center"
-                    onClick={() => navigate('/coachprofile')}
-                >
-                    Profile
-                </p>
-                <p className="text-[22px] text-black cursor-pointer hover:underline text-center">
-                    Log Out
-                </p>
-            </div>
+        <div className="bg-white border border-black rounded-xl shadow-lg p-4 w-[200px] z-50">
+            <p
+                className="text-[18px] text-black cursor-pointer hover:underline text-center"
+                onClick={() => navigate('/editprofile')}
+            >
+                Profile
+            </p>
+            <p className="text-[18px] text-black cursor-pointer hover:underline text-center mt-2">
+                Log Out
+            </p>
         </div>
     );
 };

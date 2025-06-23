@@ -5,7 +5,6 @@ import CoachLearner from "../pages/CoachLearner";
 import EditProfile from "../pages/EditProfile";
 import CoachProfile from "../pages/CoachProfile";
 import CoachTutorials from "../pages/CoachTutorials";
-import CoachHome from "../pages/CoachHome";
 import PopupCoach from "../pages/PopupCoach";
 import ContactLearner from "../components/Common/ContactLearner";
 import CoachFinance from "../pages/CoachFinance";
@@ -20,7 +19,6 @@ export default function App() {
       <Route path="/editprofile" element={<EditProfile />} />
       <Route path="/coachprofile" element={<CoachProfile />} />
       <Route path="/coachtutorials" element={<CoachTutorials />} />
-      <Route path="/coachhome" element={<CoachHome />} />
       <Route path="/popupcoach" element={<PopupCoach />} />
     </Routes>
   );
