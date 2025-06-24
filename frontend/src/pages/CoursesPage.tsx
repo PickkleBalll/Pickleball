@@ -38,7 +38,10 @@ export default function CoursesPage() {
                     PICKLEBALL
                 </div>
                 <div
-                    onClick={() => navigate('/signin')}
+                    onClick={() => {
+                        navigate('/coachlearner');
+                        window.scrollTo(0, 0);
+                    }}
                     className="flex items-center justify-center w-[120px] h-[40px] bg-[#D5F25D] rounded-[50px] border border-black text-[22px] text-black font-normal break-words cursor-pointer select-none hover:opacity-90 transition"
                 >
                     Sign In
