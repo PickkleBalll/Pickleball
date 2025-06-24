@@ -19,6 +19,15 @@ import Package from '@/components/Dashboard/Learner/Package';
 // import UserManagement from '../pages/admin-pages/user-management';
 // import ContentManagement from '../pages/admin-pages/content-management';
 // import AnalyticsReporting from '../pages/admin-pages/analytics-reporting';
+import PrivateRoute from '../routes/PrivateRoute';
+import Home from '../components/Homepage/Homepage';
+import Dashboard from '../components/Dashboard/Dashboard';
+import AdminLayout from '../pages/admin-pages/admin-layout';
+import DashboardAdmin from '../pages/admin-pages/dashboard-admin';
+import UserManagement from '../pages/admin-pages/user-management';
+import ContentManagement from '../pages/admin-pages/content-management';
+import Notifications from '../pages/admin-pages/notification';
+
 
 function App() {
   return (
@@ -42,7 +51,16 @@ function App() {
             <MainLayout />
           </PrivateRoute>
         }
-      >
+      />
+      {/* Parent Route */}
+        <Route path="/admin" element={<AdminLayout />}>
+          {/* Children Routes */}
+          <Route path="dashboard-admin" element={<DashboardAdmin/>} />
+          <Route path="user-management" element={<UserManagement />} />
+          <Route path="content-management" element={<ContentManagement />} />
+          <Route path="notification" element={<Notifications/>} />
+        </Route>
+    
         <Route path="/dashboard" element={<LearnerHome />} />
         <Route path="/coach" element={<LearnerCoach />} />
         <Route path="/learn" element={<LearnerLearn />} />
@@ -55,7 +73,7 @@ function App() {
       {/* <Route
         path="/admin"
         element={
-          <PrivateRoute adminOnly={true}>
+          <PrivateRoute adinOnly={true}>
             <AdminLayout />
           </PrivateRoute>
         }

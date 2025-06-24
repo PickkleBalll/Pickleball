@@ -1,15 +1,17 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+
 const SignUp = () => {
   const [fullname, setFullname] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [email, setEmail] = useState('');
+  const [phonenumber, setPhonenumber] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const handleSignUp = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSignUp = async (e: React.FormEvent) => {
+  e.preventDefault();
 
     // Check password match
     if (password !== confirmPassword) {
@@ -50,6 +52,22 @@ const SignUp = () => {
               onChange={(e) => setEmail(e.target.value)}
               required
               className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
+            />
+            <input
+              type="phonenumber"
+              placeholder="Phonenumber"
+              value={phonenumber}
+              onChange={(e) => setPhonenumber(e.target.value)}
+              required
+              className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
+            />
+            <input
+              type="phonenumber"
+              placeholder="Phonenumber"
+              value={phonenumber}
+              onChange={(e) => setPhonenumber(e.target.value)}
+              required
+              className="w-full px-4 py-3 border border-gray-300 rounder-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
             />
             <input
               type="password"
