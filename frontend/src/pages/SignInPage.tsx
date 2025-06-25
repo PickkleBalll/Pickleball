@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
 const SignInPage = () => {
@@ -7,31 +7,24 @@ const SignInPage = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
-  const location = useLocation();
   const { login } = useAuth();
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
+    setError('');
 
-    const storedUser = localStorage.getItem('user');
-    if (storedUser) {
-      const parsedUser = JSON.parse(storedUser);
+    // Lấy danh sách người dùng từ localStorage
+    const users = JSON.parse(localStorage.getItem('users') || '[]');
 
-      if (parsedUser.email === email && parsedUser.password === password) {
-        login(parsedUser); // Đăng nhập và lưu vào context
+    // Tìm người dùng khớp với email và password
+    const matchedUser = users.find(
+      (user: { email: string; password: string }) => user.email === email && user.password === password
+    );
 
-        // 🌟 Điều hướng theo vai trò
-        if (parsedUser.role === 'admin') {
-          navigate('/admin/user-management', { replace: true });
-        } else {
-          const from = (location.state)?.from?.pathname || '/dashboard';
-          navigate(from, { replace: true });
-        }
-      } else {
-        setError('Email hoặc mật khẩu không đúng 😢');
-      }
+    if (matchedUser) {
+      login(matchedUser); // Gọi login từ AuthContext, tự động lưu currentUser và điều hướng
     } else {
-      setError('Không tìm thấy tài khoản nào. Hãy đăng ký trước nhé ✨');
+      setError('Email hoặc mật khẩu không đúng 😢');
     }
   };
 
@@ -47,7 +40,7 @@ const SignInPage = () => {
 
           <form onSubmit={handleLogin} className="space-y-4">
             <input
-              type="text"
+              type="email"
               placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}

@@ -4,8 +4,10 @@ import { useNavigate } from 'react-router-dom';
 interface User {
   fullname: string;
   email: string;
+  phonenumber: string;
   password: string;
-  role: 'admin' | 'learner'; // 👈 Phân vai người dùng
+  role: 'admin' | 'learner' | 'coach'; // Thêm 'coach'
+  avatar?: string;
 }
 
 interface AuthContextType {
@@ -23,34 +25,38 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const storedUser = localStorage.getItem('user');
+    const storedCurrentUser = localStorage.getItem('currentUser');
     const storedAuth = localStorage.getItem('isAuthenticated');
 
-    if (storedUser && storedAuth === 'true') {
-      const parsedUser: User = JSON.parse(storedUser);
-      setUser({
-        fullname: parsedUser.fullname,
-        email: parsedUser.email,
-        role: parsedUser.role,
-      });
+    if (storedCurrentUser && storedAuth === 'true') {
+      const parsedUser: Omit<User, 'password'> = JSON.parse(storedCurrentUser);
+      setUser(parsedUser);
+    }
+
+    if (localStorage.getItem('auth')) {
+      localStorage.removeItem('auth');
     }
 
     setIsLoading(false);
   }, []);
 
   const login = (userData: User) => {
-    setUser({
+    const userWithoutPassword = {
       fullname: userData.fullname,
       email: userData.email,
+      phonenumber: userData.phonenumber,
       role: userData.role,
-    });
+      avatar: userData.avatar,
+    };
 
-    localStorage.setItem('user', JSON.stringify(userData)); // lưu cả role và password
+    setUser(userWithoutPassword);
+    localStorage.setItem('currentUser', JSON.stringify(userWithoutPassword));
     localStorage.setItem('isAuthenticated', 'true');
 
-    // Điều hướng dựa trên role
     if (userData.role === 'admin') {
       navigate('/admin/user-management');
+    } else if (userData.role === 'coach') {
+      navigate('/coach');
     } else {
       navigate('/dashboard');
     }
@@ -58,7 +64,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
   const logout = () => {
     setUser(null);
-    localStorage.removeItem('user');
+    localStorage.removeItem('currentUser');
     localStorage.removeItem('isAuthenticated');
     navigate('/signin');
   };

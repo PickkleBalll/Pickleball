@@ -1,29 +1,37 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-
 const SignUp = () => {
   const [fullname, setFullname] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
   const [email, setEmail] = useState('');
   const [phonenumber, setPhonenumber] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+  const [role, setRole] = useState<'learner' | 'admin' | 'coach'>('learner');
+  const [error, setError] = useState('');
   const navigate = useNavigate();
 
-  const handleSignUp = async (e: React.FormEvent) => {
-  e.preventDefault();
+  const handleSignUp = (e: React.FormEvent) => {
+    e.preventDefault();
+    setError('');
 
-    // Check password match
     if (password !== confirmPassword) {
-      alert('Passwords do not match ❌');
+      setError('Mật khẩu không khớp ❌');
       return;
     }
 
-    // Save user to localStorage (giả lập)
-    const newUser = { fullname, email, password };
-    localStorage.setItem('user', JSON.stringify(newUser));
+    const users = JSON.parse(localStorage.getItem('users') || '[]');
 
-    alert('Sign Up Success! 🎉 Now go sign in ✨');
+    if (users.some((user: { email: string }) => user.email === email)) {
+      setError('Email đã được sử dụng. Vui lòng chọn email khác 🚫');
+      return;
+    }
+
+    const newUser = { fullname, email, phonenumber, password, role };
+    localStorage.setItem('users', JSON.stringify([...users, newUser]));
+    localStorage.setItem('isAuthenticated', 'false');
+
+    alert('Đăng ký thành công! 🎉 Vui lòng đăng nhập ✨');
     navigate('/signin');
   };
 
@@ -54,20 +62,12 @@ const SignUp = () => {
               className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
             />
             <input
-              type="phonenumber"
+              type="tel"
               placeholder="Phonenumber"
               value={phonenumber}
               onChange={(e) => setPhonenumber(e.target.value)}
               required
               className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
-            />
-            <input
-              type="phonenumber"
-              placeholder="Phonenumber"
-              value={phonenumber}
-              onChange={(e) => setPhonenumber(e.target.value)}
-              required
-              className="w-full px-4 py-3 border border-gray-300 rounder-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
             />
             <input
               type="password"
@@ -85,7 +85,16 @@ const SignUp = () => {
               required
               className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
             />
-
+            <select
+              value={role}
+              onChange={(e) => setRole(e.target.value as 'learner' | 'admin' | 'coach')}
+              className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
+            >
+              <option value="learner">Learner</option>
+              <option value="admin">Admin</option>
+              <option value="coach">Coach</option> {/* Thêm tùy chọn coach */}
+            </select>
+            {error && <p className="text-red-500 text-sm">{error}</p>}
             <button
               type="submit"
               className="w-full py-3 rounded-full text-black font-semibold transition bg-gradient-to-r from-green-300 to-blue-400 hover:opacity-90 auth-button"

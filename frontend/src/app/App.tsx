@@ -11,41 +11,33 @@ import LearnerHome from '@/components/Dashboard/Learner/LearnerHome';
 import LearnerProfile from '@/components/Dashboard/Learner/LearnerProfile';
 import LearnerCoach from '@/components/Dashboard/Learner/LearnerCoach';
 import LearnerLearn from '@/components/Dashboard/Learner/LearnerLearn';
-import EditProfile from '@/components/Dashboard/EditProfile';
+import EditLearnerProfile from '@/components/Dashboard/EditProfile';
 import Payment from '@/components/Dashboard/Learner/Payment';
 import Package from '@/components/Dashboard/Learner/Package';
-// import AdminLayout from '@/layouts/AdminLayout';
-// import AdminLayout from '../pages/admin-pages/admin-layout';
-// import UserManagement from '../pages/admin-pages/user-management';
-// import ContentManagement from '../pages/admin-pages/content-management';
-// import AnalyticsReporting from '../pages/admin-pages/analytics-reporting';
-import PrivateRoute from '../routes/PrivateRoute';
-import Home from '../components/Homepage/Homepage';
-import Dashboard from '../components/Dashboard/Dashboard';
 import AdminLayout from '../pages/admin-pages/admin-layout';
 import DashboardAdmin from '../pages/admin-pages/dashboard-admin';
 import UserManagement from '../pages/admin-pages/user-management';
 import ContentManagement from '../pages/admin-pages/content-management';
 import Notifications from '../pages/admin-pages/notification';
+import CoachLayout from '../layouts/CoachLayout';
+import CoachFinance from '../pages/CoachFinance';
+import CoachLearner from '../pages/CoachLearner';
+import CoachProfile from '../pages/CoachProfile';
+import CoachTutorials from '../pages/CoachTutorials';
+import PopupCoach from '../pages/PopupCoach';
+import ContactLearner from '../components/Common/ContactLearner';
+import EditProfile from '../pages/EditProfile';
 
+function Unauthorized() {
+  return <h2>Unauthorized: You don't have permission to access this page.</h2>;
+}
 
 function App() {
-import { Routes, Route } from "react-router-dom";
-import Homepage from "../pages/Homepage";
-import CoursesPage from "../pages/CoursesPage";
-import CoachLearner from "../pages/CoachLearner";
-import EditProfile from "../pages/EditProfile";
-import CoachProfile from "../pages/CoachProfile";
-import CoachTutorials from "../pages/CoachTutorials";
-import PopupCoach from "../pages/PopupCoach";
-import ContactLearner from "../components/Common/ContactLearner";
-import CoachFinance from "../pages/CoachFinance";
-export default function App() {
   return (
     <Routes>
       {/* Public - Home page */}
       <Route element={<PublicLayout />}>
-        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} /> {/* Trang mặc định khi vào root */}
         <Route path="/courses" element={<CoursesPage />} />
       </Route>
 
@@ -55,55 +47,64 @@ export default function App() {
         <Route path="/signup" element={<SignUp />} />
       </Route>
 
-      {/* Main layout (has navbar, footer) */}
+      {/* Unauthorized route */}
+      <Route path="/unauthorized" element={<Unauthorized />} />
+
+      {/* Learner routes */}
       <Route
         element={
-          <PrivateRoute>
+          <PrivateRoute allowedRoles={['learner']}>
             <MainLayout />
           </PrivateRoute>
         }
-      />
-      {/* Parent Route */}
-        <Route path="/admin" element={<AdminLayout />}>
-          {/* Children Routes */}
-          <Route path="dashboard-admin" element={<DashboardAdmin/>} />
-          <Route path="user-management" element={<UserManagement />} />
-          <Route path="content-management" element={<ContentManagement />} />
-          <Route path="notification" element={<Notifications/>} />
-        </Route>
-    
+      >
         <Route path="/dashboard" element={<LearnerHome />} />
         <Route path="/coach" element={<LearnerCoach />} />
         <Route path="/learn" element={<LearnerLearn />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/package" element={<Package />} />
         <Route path="/profile" element={<LearnerProfile />} />
-        <Route path="/editProfile" element={<EditProfile />} />
+        <Route path="/edit-learner-profile" element={<EditLearnerProfile />} />
       </Route>
 
-      {/* <Route
-        path="/admin"
+      {/* Admin routes */}
+      <Route
         element={
-          <PrivateRoute adinOnly={true}>
+          <PrivateRoute allowedRoles={['admin']}>
             <AdminLayout />
           </PrivateRoute>
         }
       >
-        <Route path="adminDashboard" element={<Admin />} />
-        <Route path="adminUser" element={<ContentManagement />} />
-        <Route path="adminContent" element={<AnalyticsReporting />} />
-        <Route path="adminContent" element={<AnalyticsReporting />} />
-      </Route> */}
-      <Route path="/" element={<Homepage />} />
-      <Route path="/courses" element={<CoursesPage />} />
-      <Route path="/coachfinance" element={<CoachFinance />} />
-      <Route path="/coachlearner" element={<CoachLearner />} />
-      <Route path="/contactlearner" element={<ContactLearner />} />
-      <Route path="/editprofile" element={<EditProfile />} />
-      <Route path="/coachprofile" element={<CoachProfile />} />
-      <Route path="/coachtutorials" element={<CoachTutorials />} />
-      <Route path="/popupcoach" element={<PopupCoach />} />
+        <Route path="/admin">
+          <Route index element={<DashboardAdmin />} /> {/* Trang mặc định khi vào /admin */}
+          <Route path="dashboard-admin" element={<DashboardAdmin />} />
+          <Route path="user-management" element={<UserManagement />} />
+          <Route path="content-management" element={<ContentManagement />} />
+          <Route path="notification" element={<Notifications />} />
+        </Route>
+      </Route>
+
+      {/* Coach routes */}
+      <Route
+        element={
+          <PrivateRoute allowedRoles={['coach']}>
+            <CoachLayout />
+          </PrivateRoute>
+        }
+      >
+        <Route path="/coach">
+          <Route index element={<CoachLearner />} />
+          <Route path="finance" element={<CoachFinance />} />
+          <Route path="learner" element={<CoachLearner />} />
+          <Route path="profile" element={<CoachProfile />} />
+          <Route path="tutorials" element={<CoachTutorials />} />
+          <Route path="popup" element={<PopupCoach />} />
+          <Route path="contactLearner" element={<ContactLearner />} />
+          <Route path="edit-profile" element={<EditProfile />} />
+        </Route>
+      </Route>
     </Routes>
   );
 }
+
 export default App;

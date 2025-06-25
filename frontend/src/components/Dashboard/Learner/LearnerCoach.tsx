@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import user from '@/assets/Image/user.png';
+import user from '@/assets/Image/user-woman.jpg';
 
 const mockCoaches = [
   { id: 1, name: 'GLORIA BROMLEY', level: 'Level 2', hourlyRate: '2.99$', packageRate: '1.99$', reason: 'Experienced coach with positive feedback' },

@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import HeaderCoach from "../components/Common/HeaderCoach";
 import image16 from "../assets/Image/16.jpg";
 
 const EditProfile: React.FC = () => {
@@ -43,8 +42,6 @@ const EditProfile: React.FC = () => {
 
     return (
         <div className="bg-[#f0f0f0] min-h-screen font-['Roboto'] pb-20">
-            <HeaderCoach />
-
             <div className="max-w-[1000px] mx-auto px-4">
                 {/* Avatar và mô tả */}
                 <section className="flex items-center gap-12 mt-12 mb-16">

@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { EditIcon } from "lucide-react";
-import HeaderCoach from "../components/Common/HeaderCoach";
 import image16 from "../assets/Image/16.jpg";
 import image6 from "../assets/Image/6.jpg";
 import image7 from "../assets/Image/7.jpg";
@@ -28,9 +27,6 @@ const CoachProfile: React.FC = () => {
 
     return (
         <div className="min-h-screen w-full bg-[#f0f0f0] font-['Roboto']">
-            {/* Header */}
-            <HeaderCoach />
-
             {/* Page Content */}
             <div className="px-6 py-10 flex flex-col gap-12">
                 {/* Profile Section */}

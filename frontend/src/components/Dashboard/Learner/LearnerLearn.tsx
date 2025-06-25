@@ -1,5 +1,5 @@
 import React from 'react';
-import user from '../../../assets/Image/user-woman.jpg';
+import user from '@/assets/Image/user-woman.jpg';
 
 const LearnerLearn: React.FC = () => {
   return (

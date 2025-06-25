@@ -1,5 +1,5 @@
 import React from 'react';
-import user from '@/assets/Image/user.png';
+import user from '@/assets/Image/user-woman.jpg';
 import { useNavigate } from 'react-router-dom';
 
 const coaches = [

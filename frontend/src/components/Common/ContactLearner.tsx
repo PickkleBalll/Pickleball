@@ -1,13 +1,9 @@
 import React from "react";
-import HeaderCoach from "./HeaderCoach";
 import image17 from "../../assets/Image/17.jpg";
 
 const ContactLearner: React.FC = () => {
     return (
         <div className="bg-[#f0f0f0] min-h-screen font-['Roboto'] pb-20">
-            {/* Header */}
-            <HeaderCoach />
-
             {/* Nút Contact Learner */}
             <div className="py-10">
             </div>

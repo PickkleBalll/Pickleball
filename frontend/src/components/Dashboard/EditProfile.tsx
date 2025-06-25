@@ -1,5 +1,5 @@
 import React from 'react';
-import user from '@/assets/Image/user.png';
+import user from '@/assets/Image/user-woman.jpg';
 
 const EditProfile: React.FC = () => {
   return (

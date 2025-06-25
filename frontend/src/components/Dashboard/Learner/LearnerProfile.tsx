@@ -1,5 +1,5 @@
 import React from 'react';
-import user from '../../../assets/Image/user-woman.jpg';
+import user from '@/assets/Image/user-woman.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';

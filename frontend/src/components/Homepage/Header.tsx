@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   };
 
   const handleSignInClick = () => {
-    navigate('/coachlearner');
+    navigate('/signin');
     window.scrollTo(0, 0);
   };
 
@@ -36,7 +36,7 @@ const Header: React.FC = () => {
             spy={true}
             smooth={true}
             offset={-130}
-            duration={500}
+            duration={50}
             activeClass="text-green-500"
             className="text-[22px] text-black font-normal font-['Inter'] cursor-pointer hover:text-green-400 transition-colors duration-200"
           >

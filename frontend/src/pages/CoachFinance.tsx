@@ -1,5 +1,4 @@
 import React from "react";
-import HeaderCoach from "../components/Common/HeaderCoach";
 
 const financeData = [
     { label: "Total", value: "182", color: "#E06668" },
@@ -13,8 +12,6 @@ const financeData = [
 const CoachFinance: React.FC = () => {
     return (
         <div className="bg-[#f5f5f5] min-h-screen font-['Roboto']">
-            <HeaderCoach />
-
             <div className="w-full flex justify-center">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-20 gap-y-20 mt-[150px]">
                     {financeData.map((item, index) => (
