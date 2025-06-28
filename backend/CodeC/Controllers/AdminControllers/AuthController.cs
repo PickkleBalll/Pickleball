@@ -14,6 +14,9 @@ using System.Text;
 
 namespace MyApp.Controllers
 {
+    /// <summary>
+    /// Xác thực người dùng: Đăng ký và đăng nhập hệ thống.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
@@ -26,7 +29,15 @@ namespace MyApp.Controllers
             _dbContext = dbContext;
             _configuration = configuration;
         }
-
+        /// <summary>
+        /// Đăng ký tài khoản mới cho người dùng.
+        /// </summary>
+        /// <param name="request">Thông tin đăng ký bao gồm: tên, email, mật khẩu, vai trò,...</param>
+        /// <returns>Trả về thông báo nếu đăng ký thành công.</returns>
+        /// <remarks>
+        /// Nếu role là "Learner", sẽ tạo thêm hồ sơ học viên.<br/>
+        /// Nếu role là "Coach", sẽ tạo thêm hồ sơ huấn luyện viên.
+        /// </remarks>
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
@@ -86,7 +97,11 @@ namespace MyApp.Controllers
             return Ok(new { message = "User registered successfully" });
         }
 
-
+        /// <summary>
+        /// Đăng nhập hệ thống và nhận JWT token.
+        /// </summary>
+        /// <param name="request">Thông tin đăng nhập: email và mật khẩu.</param>
+        /// <returns>Trả về token và thông tin người dùng nếu đăng nhập thành công.</returns>
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {

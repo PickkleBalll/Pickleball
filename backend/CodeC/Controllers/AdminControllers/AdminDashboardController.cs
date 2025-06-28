@@ -6,6 +6,9 @@ using MyApp.Data;
 
 namespace MyApp.Controllers.AdminControllers
 {
+    /// <summary>
+    /// API Dashboard dành cho quản trị viên để thống kê hệ thống và theo dõi các lượt đăng ký.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     [Authorize(Roles = "Admin")]
@@ -17,7 +20,18 @@ namespace MyApp.Controllers.AdminControllers
         {
             _context = context;
         }
-
+        /// <summary>
+        /// Lấy tổng quan số lượng người dùng, gói học và tổng tiền thanh toán.
+        /// </summary>
+        /// <remarks>
+        /// Trả về số lượng quản trị viên, số gói học hiện có và tổng số tiền đã thanh toán từ tất cả các lượt đăng ký.
+        /// </remarks>
+        /// <returns>
+        /// Một object chứa:
+        /// - totalUsers: Tổng số người dùng (Admin),
+        /// - totalCoursePackages: Tổng số gói học,
+        /// - totalPaymentAmount: Tổng số tiền đã thanh toán.
+        /// </returns>
         [HttpGet("summary")]
         public async Task<IActionResult> GetDashboardSummary()
         {
@@ -32,7 +46,17 @@ namespace MyApp.Controllers.AdminControllers
                 totalPaymentAmount
             });
         }
-
+        /// <summary>
+        /// Lấy danh sách các lượt đăng ký đã thanh toán.
+        /// </summary>
+        /// <remarks>
+        /// Bao gồm thông tin người học, khóa học, huấn luyện viên, số tiền đã thanh toán và tình trạng thanh toán cho HLV.
+        /// </remarks>
+        /// <returns>
+        /// Danh sách các đăng ký đã thanh toán với thông tin chi tiết:
+        /// - BookingId, LearnerName, CourseName, CoachName, TotalAmountPaid,
+        /// - CoachPaid, CoachAmountPaid, CoachPaidAt, RegisteredAt.
+        /// </returns>
         [HttpGet("bookings")]
         public async Task<IActionResult> GetPaidBookings()
         {

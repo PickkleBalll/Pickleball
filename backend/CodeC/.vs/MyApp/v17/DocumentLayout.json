@@ -1,237 +1,249 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\",
+  "WorkspaceRootPath": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\learnercontrollers\\videofeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\videofeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\learnercontrollers\\publiccoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\publiccoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\learnercontrollers\\learnervideocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\learnervideocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\learnercontrollers\\learnerprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\learnerprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\learnercontrollers\\learnerfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\learnerfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\learnercontrollers\\learnerbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\learnerbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\coachcontrollers\\tutorialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\tutorialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\coachcontrollers\\teachingmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\teachingmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\coachcontrollers\\learnerinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\learnerinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\coachcontrollers\\coachrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\coachcontrollers\\coachprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\coachcontrollers\\coachfollowstudentprogresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachfollowstudentprogresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\coachcontrollers\\coachfeedbacklearnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachfeedbacklearnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\coachcontrollers\\coachfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\coachcontrollers\\coachcreatelessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachcreatelessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\ai video\\analyzecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\ai video\\analyzecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\admincontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\admincontrollers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\admincontrollers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\admincontrollers\\coursepackagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\coursepackagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\admincontrollers\\bookingadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\bookingadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\admincontrollers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\admincontrollers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\admincontrollers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\admincontrollers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\learnercontrollers\\learnerbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\learnerbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\myapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:myapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\services\\learnerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\learnerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\learnercontrollers\\videofeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\videofeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\services\\videofeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\videofeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\learnercontrollers\\publiccoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\publiccoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\services\\coachrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\coachrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\learnercontrollers\\learnervideocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\learnervideocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\services\\coachfeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\coachfeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\learnercontrollers\\learnerprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\learnerprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\learnercontrollers\\learnerfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\learnercontrollers\\learnerfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\admincontrollers\\adminmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\adminmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250626140744_addcoachrequesttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250626140744_addcoachrequesttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\coachcontrollers\\tutorialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\tutorialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\createcoachrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\createcoachrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\coachcontrollers\\teachingmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\teachingmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\coachmodels\\coachrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\coachrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\coachcontrollers\\learnerinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\learnerinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\createcoachfeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\createcoachfeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\coachcontrollers\\coachrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\coachfeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\coachfeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\coachcontrollers\\coachprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\coachmodels\\coachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\coachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\coachcontrollers\\coachfollowstudentprogresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachfollowstudentprogresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\learnermodels\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\coachcontrollers\\coachfeedbacklearnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachfeedbacklearnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\use_case\\getlearnersbycoachid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\getlearnersbycoachid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\coachcontrollers\\coachfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\videofeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\videofeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\admincontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\coachmodels\\coachprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\coachprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\admincontrollers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\learnermodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\admincontrollers\\coursepackagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\coursepackagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\learnermodels\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\admincontrollers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\uploadvideodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\uploadvideodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\admincontrollers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\learnermodels\\videofeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\videofeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\admincontrollers\\bookingadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\bookingadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\learnermodels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\ai video\\analyzecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\ai video\\analyzecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\learnermodels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250626140744_addcoachrequesttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250626140744_addcoachrequesttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\learnermodels\\videofeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\videofeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250626042934_addtablefeedbackvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250626042934_addtablefeedbackvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\coachcontrollers\\coachcreatelessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachcreatelessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\admincontrollers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\services\\learnerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\learnerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\services\\videofeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\videofeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\services\\coachrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\coachrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\services\\coachfeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\coachfeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\admincontrollers\\adminmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\admincontrollers\\adminmaterialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\createcoachrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\createcoachrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\coachmodels\\coachrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\coachrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\createcoachfeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\createcoachfeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\coachfeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\coachfeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\coachmodels\\coachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\coachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\learnermodels\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\use_case\\getlearnersbycoachid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\getlearnersbycoachid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\videofeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\videofeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\coachmodels\\coachprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\coachprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\learnermodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\learnermodels\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\uploadvideodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\uploadvideodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\updatetutorialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\updatetutorialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\updatetutorialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\createtutorialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\createtutorialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\createtutorialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\coachmodels\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\coachmodels\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\registercoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\registercoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\registercoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\createcoursepackagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\createcoursepackagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\createcoursepackagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\adminmodels\\coursepackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\adminmodels\\coursepackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\adminmodels\\coursepackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250626033501_fixupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250626033501_fixupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250626033501_fixupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -247,86 +259,86 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Desktop\\merge\\Migrations\\20250625151610_AddMQHCoachAnCourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\learnermodels\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\learnermodels\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\learnermodels\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\paymentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\paymentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\paymentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\learnercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\learnercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\learnercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250625041045_adduseridtolearnerandcoach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250625041045_adduseridtolearnerandcoach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250625041045_adduseridtolearnerandcoach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\updatelearnerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\updatelearnerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\updatelearnerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\coachprofilecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\coachprofilecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\coachprofilecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250624161124_addguiddefaultstopaymentandfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250624161124_addguiddefaultstopaymentandfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250624161124_addguiddefaultstopaymentandfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\coachmodels\\learnerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\coachmodels\\learnerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\learnerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\coachmodels\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\coachmodels\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\coachmodels\\studentprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\coachmodels\\studentprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\studentprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\coachmodels\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\coachmodels\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\use_case\\payments\\managepayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\use_case\\payments\\managepayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\payments\\managepayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\controllers\\coachcontrollers\\coachreceivepaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\controllers\\coachcontrollers\\coachreceivepaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:controllers\\coachcontrollers\\coachreceivepaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\dto\\coachprofileupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\dto\\coachprofileupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:dto\\coachprofileupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\use_case\\studentprogress\\trackprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\use_case\\studentprogress\\trackprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\studentprogress\\trackprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\use_case\\teachingmaterial\\getmaterials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\use_case\\teachingmaterial\\getmaterials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:use_case\\teachingmaterial\\getmaterials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\coachmodels\\teachingmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\coachmodels\\teachingmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\coachmodels\\teachingmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250623073549_fixcoachidtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250623073549_fixcoachidtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250623073549_fixcoachidtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chinh\\Desktop\\merge\\Migrations\\20250623064217_AddCoursePackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\models\\adminmodels\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\models\\adminmodels\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:models\\adminmodels\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -336,47 +348,43 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MANH\\OneDrive\\Desktop\\clone\\Migrations\\20250622192909_UpdateLearnerAndCoachIdToString.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250622193639_initfresh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250622193639_initfresh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250622193639_initfresh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250623064538_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250623064538_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250623064538_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250623155130_updatestudentprogressidtostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250623155130_updatestudentprogressidtostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250623155130_updatestudentprogressidtostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250623170154_addcoachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250623170154_addcoachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250623170154_addcoachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250623144417_updatecoachandbookingmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250623144417_updatecoachandbookingmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250623144417_updatecoachandbookingmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250624100142_addnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250624100142_addnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250624100142_addnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250624155425_addcoachpayoutfieldstobooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250624155425_addcoachpayoutfieldstobooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250624155425_addcoachpayoutfieldstobooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250625151937_addmqhcoachancourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250625151937_addmqhcoachancourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250625151937_addmqhcoachancourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250626042934_addtablefeedbackvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250626042934_addtablefeedbackvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250626040351_addtabletutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250626040351_addtabletutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250626040351_addtabletutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\desktop\\codec (2)\\codec\\migrations\\20250626085816_addtablecreatecoachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|c:\\users\\chinh\\pickleball\\backend\\codec\\migrations\\20250626085816_addtablecreatecoachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0941876C-FEE4-4CAE-9DD5-5EC79D71DE77}|MyApp.csproj|solutionrelative:migrations\\20250626085816_addtablecreatecoachfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -387,7 +395,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 20,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -411,479 +419,507 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LearnerVideoController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\LearnerVideoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\LearnerVideoController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\LearnerVideoController.cs",
-              "RelativeToolTip": "Controllers\\LearnerControllers\\LearnerVideoController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwBcAAABBAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "VideoFeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\VideoFeedbackController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\VideoFeedbackController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\VideoFeedbackController.cs",
+              "RelativeToolTip": "Controllers\\LearnerControllers\\VideoFeedbackController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T04:25:01.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T04:28:28.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T04:09:59.049Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PublicCourseController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\PublicCourseController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\PublicCourseController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\PublicCourseController.cs",
-              "RelativeToolTip": "Controllers\\LearnerControllers\\PublicCourseController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAADAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T04:17:23.732Z",
+              "Title": "MyApp.csproj",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\MyApp.csproj",
+              "RelativeDocumentMoniker": "MyApp.csproj",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\MyApp.csproj",
+              "RelativeToolTip": "MyApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-28T00:42:00.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VideoFeedbackController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\VideoFeedbackController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\VideoFeedbackController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\VideoFeedbackController.cs",
-              "RelativeToolTip": "Controllers\\LearnerControllers\\VideoFeedbackController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T04:28:28.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NotificationController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\NotificationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\NotificationController.cs",
-              "RelativeToolTip": "Controllers\\NotificationController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:00:03.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:38:17.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LearnerProfilesController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\LearnerProfilesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\LearnerProfilesController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\LearnerProfilesController.cs",
-              "RelativeToolTip": "Controllers\\LearnerControllers\\LearnerProfilesController.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAowGsAAACaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:20:13.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LearnerFeedbackController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
-              "RelativeToolTip": "Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T16:08:29.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "LearnerBookingController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\LearnerBookingController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\LearnerBookingController.cs",
               "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\LearnerBookingController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\LearnerControllers\\LearnerBookingController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\LearnerBookingController.cs",
               "RelativeToolTip": "Controllers\\LearnerControllers\\LearnerBookingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwJEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T07:26:46.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TutorialController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\TutorialController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\TutorialController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\TutorialController.cs",
-              "RelativeToolTip": "Controllers\\CoachControllers\\TutorialController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T04:03:08.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TeachingMaterialController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\TeachingMaterialController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\TeachingMaterialController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\TeachingMaterialController.cs",
-              "RelativeToolTip": "Controllers\\CoachControllers\\TeachingMaterialController.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAAAJUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T08:54:58.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LearnerInfoController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\LearnerInfoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\LearnerInfoController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\LearnerInfoController.cs",
-              "RelativeToolTip": "Controllers\\CoachControllers\\LearnerInfoController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCEAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T04:53:40.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CoachRequestsController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachRequestsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachRequestsController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachRequestsController.cs",
-              "RelativeToolTip": "Controllers\\CoachControllers\\CoachRequestsController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwCsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T14:06:18.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CoachProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachProfileController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachProfileController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachProfileController.cs",
-              "RelativeToolTip": "Controllers\\CoachControllers\\CoachProfileController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T19:25:00.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CoachFollowStudentProgressController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
-              "RelativeToolTip": "Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA8AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:49:19.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CoachFeedbackLearnerController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachFeedbackLearnerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachFeedbackLearnerController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachFeedbackLearnerController.cs",
-              "RelativeToolTip": "Controllers\\CoachControllers\\CoachFeedbackLearnerController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwBIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:49:25.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CoachFeedbackController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachFeedbackController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachFeedbackController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachFeedbackController.cs",
-              "RelativeToolTip": "Controllers\\CoachControllers\\CoachFeedbackController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T08:57:13.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CoachCreateLessonController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachCreateLessonController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachCreateLessonController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachCreateLessonController.cs",
-              "RelativeToolTip": "Controllers\\CoachControllers\\CoachCreateLessonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T07:18:20.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AnalyzeController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AI video\\AnalyzeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AI video\\AnalyzeController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AI video\\AnalyzeController.cs",
-              "RelativeToolTip": "Controllers\\AI video\\AnalyzeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T14:26:30.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\AdminControllers\\UserController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAA3wCUAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T07:26:05.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\TestController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\TestController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\TestController.cs",
-              "RelativeToolTip": "Controllers\\AdminControllers\\TestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T14:25:59.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\ReviewController.cs",
-              "RelativeToolTip": "Controllers\\AdminControllers\\ReviewController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T07:18:59.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CoursePackageController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\CoursePackageController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\CoursePackageController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\CoursePackageController.cs",
-              "RelativeToolTip": "Controllers\\AdminControllers\\CoursePackageController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:36:34.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BookingAdminController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\BookingAdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\BookingAdminController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\BookingAdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminControllers\\BookingAdminController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:52:55.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminControllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AdminControllers\\AuthController.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAmwK0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwGAAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T06:20:47.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AdminUserController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\AdminUserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\AdminUserController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\AdminUserController.cs",
-              "RelativeToolTip": "Controllers\\AdminControllers\\AdminUserController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T04:02:40.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AdminDashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\AdminDashboardController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\AdminDashboardController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\AdminDashboardController.cs",
-              "RelativeToolTip": "Controllers\\AdminControllers\\AdminDashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T14:42:17.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "VideoService.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\VideoService.cs",
-              "RelativeDocumentMoniker": "Services\\VideoService.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\VideoService.cs",
-              "RelativeToolTip": "Services\\VideoService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAcwB4AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T04:23:04.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "BookingServices.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\BookingServices.cs",
-              "RelativeDocumentMoniker": "Services\\BookingServices.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\BookingServices.cs",
-              "RelativeToolTip": "Services\\BookingServices.cs",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAUwLsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T07:25:23.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CoachFeedbackService.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\CoachFeedbackService.cs",
-              "RelativeDocumentMoniker": "Services\\CoachFeedbackService.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\CoachFeedbackService.cs",
-              "RelativeToolTip": "Services\\CoachFeedbackService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAgwAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T08:56:39.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\appsettings.json",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-25T05:48:22.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PublicCourseController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\PublicCourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\PublicCourseController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\PublicCourseController.cs",
+              "RelativeToolTip": "Controllers\\LearnerControllers\\PublicCourseController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T04:17:23.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LearnerVideoController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\LearnerVideoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\LearnerVideoController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\LearnerVideoController.cs",
+              "RelativeToolTip": "Controllers\\LearnerControllers\\LearnerVideoController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T04:25:01.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LearnerProfilesController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\LearnerProfilesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\LearnerProfilesController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\LearnerProfilesController.cs",
+              "RelativeToolTip": "Controllers\\LearnerControllers\\LearnerProfilesController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAowJEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:20:13.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LearnerFeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
+              "RelativeToolTip": "Controllers\\LearnerControllers\\LearnerFeedbackController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:08:29.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Controllers\\NotificationController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:00:03.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TutorialController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\TutorialController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\TutorialController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\TutorialController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\TutorialController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAkwHUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T04:03:08.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TeachingMaterialController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\TeachingMaterialController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\TeachingMaterialController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\TeachingMaterialController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\TeachingMaterialController.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAowC0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T08:54:58.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LearnerInfoController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\LearnerInfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\LearnerInfoController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\LearnerInfoController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\LearnerInfoController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T04:53:40.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CoachRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachRequestsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachRequestsController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachRequestsController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachRequestsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwDMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:06:18.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CoachProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachProfileController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachProfileController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachProfileController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T19:25:00.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CoachFollowStudentProgressController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachFollowStudentProgressController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:49:19.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CoachFeedbackLearnerController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachFeedbackLearnerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachFeedbackLearnerController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachFeedbackLearnerController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachFeedbackLearnerController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:49:25.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CoachFeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachFeedbackController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachFeedbackController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachFeedbackController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachFeedbackController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T08:57:13.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\UserController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T07:26:05.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\ReviewController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\ReviewController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T07:18:59.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CoursePackageController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\CoursePackageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\CoursePackageController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\CoursePackageController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\CoursePackageController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowHUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T06:36:34.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminUserController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\AdminUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\AdminUserController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\AdminUserController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\AdminUserController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwF8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T04:02:40.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\AdminDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\AdminDashboardController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\AdminDashboardController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\AdminDashboardController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:42:17.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookingAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\BookingAdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\BookingAdminController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\BookingAdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\BookingAdminController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:52:55.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AnalyzeController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AI video\\AnalyzeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AI video\\AnalyzeController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AI video\\AnalyzeController.cs",
+              "RelativeToolTip": "Controllers\\AI video\\AnalyzeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:26:30.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Video.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\Video.cs",
+              "RelativeDocumentMoniker": "Models\\LearnerModels\\Video.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\Video.cs",
+              "RelativeToolTip": "Models\\LearnerModels\\Video.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:38:27.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250626140744_AddCoachRequestTable.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250626140744_AddCoachRequestTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250626140744_AddCoachRequestTable.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250626140744_AddCoachRequestTable.cs",
+              "RelativeToolTip": "Migrations\\20250626140744_AddCoachRequestTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:07:44.589Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T04:09:59.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "VideoFeedbackService.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\VideoFeedbackService.cs",
-              "RelativeDocumentMoniker": "Services\\VideoFeedbackService.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\VideoFeedbackService.cs",
-              "RelativeToolTip": "Services\\VideoFeedbackService.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwCoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T04:27:46.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LearnerServices.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\LearnerServices.cs",
-              "RelativeDocumentMoniker": "Services\\LearnerServices.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\LearnerServices.cs",
-              "RelativeToolTip": "Services\\LearnerServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:21:44.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:37:09.846Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "CoachRequestsController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\CoachRequestsController.cs",
-              "RelativeDocumentMoniker": "Services\\CoachRequestsController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Services\\CoachRequestsController.cs",
-              "RelativeToolTip": "Services\\CoachRequestsController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwCgAAAAJAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T14:05:34.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T06:38:17.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VideoFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\VideoFeedback.cs",
+              "RelativeDocumentMoniker": "Models\\LearnerModels\\VideoFeedback.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\VideoFeedback.cs",
+              "RelativeToolTip": "Models\\LearnerModels\\VideoFeedback.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T04:26:54.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250626042934_ADdTableFeedBackVideo.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250626042934_ADdTableFeedBackVideo.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250626042934_ADdTableFeedBackVideo.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250626042934_ADdTableFeedBackVideo.cs",
+              "RelativeToolTip": "Migrations\\20250626042934_ADdTableFeedBackVideo.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowCIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T04:29:34.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CoachCreateLessonController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachCreateLessonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachCreateLessonController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachCreateLessonController.cs",
+              "RelativeToolTip": "Controllers\\CoachControllers\\CoachCreateLessonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T07:18:20.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:25:59.382Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "AdminMaterialController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\AdminMaterialController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\AdminMaterialController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\AdminControllers\\AdminMaterialController.cs",
-              "RelativeToolTip": "Controllers\\AdminControllers\\AdminMaterialController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "VideoService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\VideoService.cs",
+              "RelativeDocumentMoniker": "Services\\VideoService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\VideoService.cs",
+              "RelativeToolTip": "Services\\VideoService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAcwB4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T09:38:13.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T04:23:04.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BookingServices.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\BookingServices.cs",
+              "RelativeDocumentMoniker": "Services\\BookingServices.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\BookingServices.cs",
+              "RelativeToolTip": "Services\\BookingServices.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAUwLsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T07:25:23.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CoachFeedbackService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\CoachFeedbackService.cs",
+              "RelativeDocumentMoniker": "Services\\CoachFeedbackService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\CoachFeedbackService.cs",
+              "RelativeToolTip": "Services\\CoachFeedbackService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T08:56:39.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "VideoFeedbackService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\VideoFeedbackService.cs",
+              "RelativeDocumentMoniker": "Services\\VideoFeedbackService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\VideoFeedbackService.cs",
+              "RelativeToolTip": "Services\\VideoFeedbackService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwCoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T04:27:46.879Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "20250626140744_AddCoachRequestTable.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250626140744_AddCoachRequestTable.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250626140744_AddCoachRequestTable.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250626140744_AddCoachRequestTable.cs",
-              "RelativeToolTip": "Migrations\\20250626140744_AddCoachRequestTable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABEAAAAAAAAAA==",
+              "Title": "LearnerServices.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\LearnerServices.cs",
+              "RelativeDocumentMoniker": "Services\\LearnerServices.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\LearnerServices.cs",
+              "RelativeToolTip": "Services\\LearnerServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T14:07:44.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T16:21:44.766Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
+              "Title": "CoachRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\CoachRequestsController.cs",
+              "RelativeDocumentMoniker": "Services\\CoachRequestsController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Services\\CoachRequestsController.cs",
+              "RelativeToolTip": "Services\\CoachRequestsController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:05:34.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AdminMaterialController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\AdminMaterialController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\AdminMaterialController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\AdminControllers\\AdminMaterialController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\AdminMaterialController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:38:13.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "CoachRequest.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\CoachRequest.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\CoachRequest.cs",
               "RelativeDocumentMoniker": "Models\\CoachModels\\CoachRequest.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\CoachRequest.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\CoachRequest.cs",
               "RelativeToolTip": "Models\\CoachModels\\CoachRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -891,11 +927,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "CreateCoachRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CreateCoachRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CreateCoachRequestDto.cs",
               "RelativeDocumentMoniker": "Dto\\CreateCoachRequestDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CreateCoachRequestDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CreateCoachRequestDto.cs",
               "RelativeToolTip": "Dto\\CreateCoachRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -903,11 +939,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "CreateCoachFeedbackDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CreateCoachFeedbackDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CreateCoachFeedbackDto.cs",
               "RelativeDocumentMoniker": "Dto\\CreateCoachFeedbackDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CreateCoachFeedbackDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CreateCoachFeedbackDto.cs",
               "RelativeToolTip": "Dto\\CreateCoachFeedbackDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -915,11 +951,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 97,
               "Title": "20250626085816_AddTableCreateCoachFeedback.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250626085816_AddTableCreateCoachFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250626085816_AddTableCreateCoachFeedback.cs",
               "RelativeDocumentMoniker": "Migrations\\20250626085816_AddTableCreateCoachFeedback.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250626085816_AddTableCreateCoachFeedback.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250626085816_AddTableCreateCoachFeedback.cs",
               "RelativeToolTip": "Migrations\\20250626085816_AddTableCreateCoachFeedback.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwEAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -927,11 +963,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "FeedBack.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\FeedBack.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\FeedBack.cs",
               "RelativeDocumentMoniker": "Models\\LearnerModels\\FeedBack.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\FeedBack.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\FeedBack.cs",
               "RelativeToolTip": "Models\\LearnerModels\\FeedBack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -939,11 +975,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "CoachFeedback.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\CoachFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\CoachFeedback.cs",
               "RelativeDocumentMoniker": "Models\\CoachModels\\CoachFeedback.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\CoachFeedback.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\CoachFeedback.cs",
               "RelativeToolTip": "Models\\CoachModels\\CoachFeedback.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -951,11 +987,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "CoachFeedbackDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CoachFeedbackDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CoachFeedbackDto.cs",
               "RelativeDocumentMoniker": "Dto\\CoachFeedbackDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CoachFeedbackDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CoachFeedbackDto.cs",
               "RelativeToolTip": "Dto\\CoachFeedbackDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -963,11 +999,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "UploadVideoDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\UploadVideoDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\UploadVideoDto.cs",
               "RelativeDocumentMoniker": "Dto\\UploadVideoDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\UploadVideoDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\UploadVideoDto.cs",
               "RelativeToolTip": "Dto\\UploadVideoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -975,11 +1011,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "VideoFeedbackDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\VideoFeedbackDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\VideoFeedbackDto.cs",
               "RelativeDocumentMoniker": "Dto\\VideoFeedbackDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\VideoFeedbackDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\VideoFeedbackDto.cs",
               "RelativeToolTip": "Dto\\VideoFeedbackDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -987,11 +1023,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "GetLearnersByCoachId.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\use_case\\GetLearnersByCoachId.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\use_case\\GetLearnersByCoachId.cs",
               "RelativeDocumentMoniker": "use_case\\GetLearnersByCoachId.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\use_case\\GetLearnersByCoachId.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\use_case\\GetLearnersByCoachId.cs",
               "RelativeToolTip": "use_case\\GetLearnersByCoachId.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -999,23 +1035,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "VideoFeedback.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\VideoFeedback.cs",
-              "RelativeDocumentMoniker": "Models\\LearnerModels\\VideoFeedback.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\VideoFeedback.cs",
-              "RelativeToolTip": "Models\\LearnerModels\\VideoFeedback.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T04:26:54.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\Booking.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\Booking.cs",
               "RelativeDocumentMoniker": "Models\\LearnerModels\\Booking.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\Booking.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\Booking.cs",
               "RelativeToolTip": "Models\\LearnerModels\\Booking.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1023,11 +1047,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "CoachProfile.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\CoachProfile.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\CoachProfile.cs",
               "RelativeDocumentMoniker": "Models\\CoachModels\\CoachProfile.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\CoachProfile.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\CoachProfile.cs",
               "RelativeToolTip": "Models\\CoachModels\\CoachProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1035,11 +1059,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "Learner.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\Learner.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\Learner.cs",
               "RelativeDocumentMoniker": "Models\\LearnerModels\\Learner.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\Learner.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\Learner.cs",
               "RelativeToolTip": "Models\\LearnerModels\\Learner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1047,23 +1071,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
-              "Title": "20250626042934_ADdTableFeedBackVideo.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250626042934_ADdTableFeedBackVideo.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250626042934_ADdTableFeedBackVideo.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250626042934_ADdTableFeedBackVideo.cs",
-              "RelativeToolTip": "Migrations\\20250626042934_ADdTableFeedBackVideo.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCUAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T04:29:34.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "20250626033501_FixUpdate.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250626033501_FixUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250626033501_FixUpdate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250626033501_FixUpdate.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250626033501_FixUpdate.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250626033501_FixUpdate.cs",
               "RelativeToolTip": "Migrations\\20250626033501_FixUpdate.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1071,7 +1083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "20250626033316_FixUpdate.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\Downloads\\CodeC (2) (1)\\CodeC\\Migrations\\20250626033316_FixUpdate.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguye\\Downloads\\CodeC (2) (1)\\CodeC\\Migrations\\20250626033316_FixUpdate.cs",
@@ -1083,11 +1095,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\Notification.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "Models\\Notification.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\Notification.cs",
               "RelativeToolTip": "Models\\Notification.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1095,23 +1107,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Video.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\Video.cs",
-              "RelativeDocumentMoniker": "Models\\LearnerModels\\Video.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\Video.cs",
-              "RelativeToolTip": "Models\\LearnerModels\\Video.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T14:38:27.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 96,
               "Title": "20250626040351_AddTableTutorial.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250626040351_AddTableTutorial.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250626040351_AddTableTutorial.cs",
               "RelativeDocumentMoniker": "Migrations\\20250626040351_AddTableTutorial.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250626040351_AddTableTutorial.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250626040351_AddTableTutorial.cs",
               "RelativeToolTip": "Migrations\\20250626040351_AddTableTutorial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1119,11 +1119,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "Tutorial.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\Tutorial.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\Tutorial.cs",
               "RelativeDocumentMoniker": "Models\\CoachModels\\Tutorial.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\Tutorial.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\Tutorial.cs",
               "RelativeToolTip": "Models\\CoachModels\\Tutorial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1131,11 +1131,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "CreateTutorialDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CreateTutorialDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CreateTutorialDto.cs",
               "RelativeDocumentMoniker": "Dto\\CreateTutorialDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CreateTutorialDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CreateTutorialDto.cs",
               "RelativeToolTip": "Dto\\CreateTutorialDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1143,11 +1143,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "UpdateTutorialDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\UpdateTutorialDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\UpdateTutorialDto.cs",
               "RelativeDocumentMoniker": "Dto\\UpdateTutorialDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\UpdateTutorialDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\UpdateTutorialDto.cs",
               "RelativeToolTip": "Dto\\UpdateTutorialDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1155,11 +1155,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "RegisterCourseDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\RegisterCourseDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\RegisterCourseDto.cs",
               "RelativeDocumentMoniker": "Dto\\RegisterCourseDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\RegisterCourseDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\RegisterCourseDto.cs",
               "RelativeToolTip": "Dto\\RegisterCourseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1167,11 +1167,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "CreateCoursePackageDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CreateCoursePackageDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CreateCoursePackageDto.cs",
               "RelativeDocumentMoniker": "Dto\\CreateCoursePackageDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CreateCoursePackageDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CreateCoursePackageDto.cs",
               "RelativeToolTip": "Dto\\CreateCoursePackageDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1179,11 +1179,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "CoursePackage.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\AdminModels\\CoursePackage.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\AdminModels\\CoursePackage.cs",
               "RelativeDocumentMoniker": "Models\\AdminModels\\CoursePackage.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\AdminModels\\CoursePackage.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\AdminModels\\CoursePackage.cs",
               "RelativeToolTip": "Models\\AdminModels\\CoursePackage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1191,7 +1191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 63,
               "Title": "20250626032732_fixCascade.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\Downloads\\CodeC (2) (1)\\CodeC\\Migrations\\20250626032732_fixCascade.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguye\\Downloads\\CodeC (2) (1)\\CodeC\\Migrations\\20250626032732_fixCascade.cs",
@@ -1203,7 +1203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "20250626032909_FixCascadeForVideoFeedback.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\Downloads\\CodeC (2) (1)\\CodeC\\Migrations\\20250626032909_FixCascadeForVideoFeedback.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguye\\Downloads\\CodeC (2) (1)\\CodeC\\Migrations\\20250626032909_FixCascadeForVideoFeedback.cs",
@@ -1215,11 +1215,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 95,
               "Title": "20250625151937_AddMQHCoachAnCourse.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250625151937_AddMQHCoachAnCourse.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250625151937_AddMQHCoachAnCourse.cs",
               "RelativeDocumentMoniker": "Migrations\\20250625151937_AddMQHCoachAnCourse.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250625151937_AddMQHCoachAnCourse.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250625151937_AddMQHCoachAnCourse.cs",
               "RelativeToolTip": "Migrations\\20250625151937_AddMQHCoachAnCourse.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1227,11 +1227,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 65,
               "Title": "PayMent.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\PayMent.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\PayMent.cs",
               "RelativeDocumentMoniker": "Models\\LearnerModels\\PayMent.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\LearnerModels\\PayMent.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\LearnerModels\\PayMent.cs",
               "RelativeToolTip": "Models\\LearnerModels\\PayMent.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1239,23 +1239,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 64,
               "Title": "20250625151610_AddMQHCoachAnCourse.cs",
               "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\merge\\Migrations\\20250625151610_AddMQHCoachAnCourse.cs",
-              "RelativeDocumentMoniker": "..\\..\\merge\\Migrations\\20250625151610_AddMQHCoachAnCourse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\merge\\Migrations\\20250625151610_AddMQHCoachAnCourse.cs",
               "ToolTip": "C:\\Users\\chinh\\Desktop\\merge\\Migrations\\20250625151610_AddMQHCoachAnCourse.cs",
-              "RelativeToolTip": "..\\..\\merge\\Migrations\\20250625151610_AddMQHCoachAnCourse.cs",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\merge\\Migrations\\20250625151610_AddMQHCoachAnCourse.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T15:16:11.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 66,
               "Title": "PaymentRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\PaymentRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\PaymentRequestDto.cs",
               "RelativeDocumentMoniker": "Dto\\PaymentRequestDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\PaymentRequestDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\PaymentRequestDto.cs",
               "RelativeToolTip": "Dto\\PaymentRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1263,11 +1263,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 67,
               "Title": "LearnerCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\LearnerCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\LearnerCreateDto.cs",
               "RelativeDocumentMoniker": "Dto\\LearnerCreateDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\LearnerCreateDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\LearnerCreateDto.cs",
               "RelativeToolTip": "Dto\\LearnerCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1275,11 +1275,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 69,
               "Title": "UpdateLearnerDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\UpdateLearnerDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\UpdateLearnerDto.cs",
               "RelativeDocumentMoniker": "Dto\\UpdateLearnerDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\UpdateLearnerDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\UpdateLearnerDto.cs",
               "RelativeToolTip": "Dto\\UpdateLearnerDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1287,11 +1287,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 70,
               "Title": "CoachProfileCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CoachProfileCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CoachProfileCreateDto.cs",
               "RelativeDocumentMoniker": "Dto\\CoachProfileCreateDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CoachProfileCreateDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CoachProfileCreateDto.cs",
               "RelativeToolTip": "Dto\\CoachProfileCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1299,11 +1299,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 68,
               "Title": "20250625041045_AddUserIdToLearnerAndCoach.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250625041045_AddUserIdToLearnerAndCoach.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250625041045_AddUserIdToLearnerAndCoach.cs",
               "RelativeDocumentMoniker": "Migrations\\20250625041045_AddUserIdToLearnerAndCoach.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250625041045_AddUserIdToLearnerAndCoach.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250625041045_AddUserIdToLearnerAndCoach.cs",
               "RelativeToolTip": "Migrations\\20250625041045_AddUserIdToLearnerAndCoach.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1311,11 +1311,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 74,
               "Title": "StudentProgress.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\StudentProgress.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\StudentProgress.cs",
               "RelativeDocumentMoniker": "Models\\CoachModels\\StudentProgress.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\StudentProgress.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\StudentProgress.cs",
               "RelativeToolTip": "Models\\CoachModels\\StudentProgress.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1323,11 +1323,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 71,
               "Title": "20250624161124_AddGuidDefaultsToPaymentAndFeedback.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250624161124_AddGuidDefaultsToPaymentAndFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250624161124_AddGuidDefaultsToPaymentAndFeedback.cs",
               "RelativeDocumentMoniker": "Migrations\\20250624161124_AddGuidDefaultsToPaymentAndFeedback.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250624161124_AddGuidDefaultsToPaymentAndFeedback.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250624161124_AddGuidDefaultsToPaymentAndFeedback.cs",
               "RelativeToolTip": "Migrations\\20250624161124_AddGuidDefaultsToPaymentAndFeedback.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1335,11 +1335,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 73,
               "Title": "Material.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\Material.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\Material.cs",
               "RelativeDocumentMoniker": "Models\\CoachModels\\Material.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\Material.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\Material.cs",
               "RelativeToolTip": "Models\\CoachModels\\Material.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1347,11 +1347,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 72,
               "Title": "LearnerInfo.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\LearnerInfo.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\LearnerInfo.cs",
               "RelativeDocumentMoniker": "Models\\CoachModels\\LearnerInfo.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\LearnerInfo.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\LearnerInfo.cs",
               "RelativeToolTip": "Models\\CoachModels\\LearnerInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1359,11 +1359,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 75,
               "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\Payment.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\Payment.cs",
               "RelativeDocumentMoniker": "Models\\CoachModels\\Payment.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\Payment.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\Payment.cs",
               "RelativeToolTip": "Models\\CoachModels\\Payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1371,11 +1371,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 94,
               "Title": "20250624155425_AddCoachPayoutFieldsToBooking.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250624155425_AddCoachPayoutFieldsToBooking.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250624155425_AddCoachPayoutFieldsToBooking.cs",
               "RelativeDocumentMoniker": "Migrations\\20250624155425_AddCoachPayoutFieldsToBooking.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250624155425_AddCoachPayoutFieldsToBooking.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250624155425_AddCoachPayoutFieldsToBooking.cs",
               "RelativeToolTip": "Migrations\\20250624155425_AddCoachPayoutFieldsToBooking.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1383,11 +1383,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 76,
               "Title": "ManagePayments.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\use_case\\Payments\\ManagePayments.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\use_case\\Payments\\ManagePayments.cs",
               "RelativeDocumentMoniker": "use_case\\Payments\\ManagePayments.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\use_case\\Payments\\ManagePayments.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\use_case\\Payments\\ManagePayments.cs",
               "RelativeToolTip": "use_case\\Payments\\ManagePayments.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1395,11 +1395,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 77,
               "Title": "CoachReceivePaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachReceivePaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachReceivePaymentController.cs",
               "RelativeDocumentMoniker": "Controllers\\CoachControllers\\CoachReceivePaymentController.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Controllers\\CoachControllers\\CoachReceivePaymentController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Controllers\\CoachControllers\\CoachReceivePaymentController.cs",
               "RelativeToolTip": "Controllers\\CoachControllers\\CoachReceivePaymentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1407,11 +1407,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 78,
               "Title": "NotificationDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\NotificationDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\NotificationDto.cs",
               "RelativeDocumentMoniker": "Dto\\NotificationDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\NotificationDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\NotificationDto.cs",
               "RelativeToolTip": "Dto\\NotificationDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1419,11 +1419,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 93,
               "Title": "20250624100142_AddNotification.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250624100142_AddNotification.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250624100142_AddNotification.cs",
               "RelativeDocumentMoniker": "Migrations\\20250624100142_AddNotification.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250624100142_AddNotification.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250624100142_AddNotification.cs",
               "RelativeToolTip": "Migrations\\20250624100142_AddNotification.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1431,11 +1431,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 79,
               "Title": "CoachProfileUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CoachProfileUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CoachProfileUpdateDto.cs",
               "RelativeDocumentMoniker": "Dto\\CoachProfileUpdateDto.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Dto\\CoachProfileUpdateDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Dto\\CoachProfileUpdateDto.cs",
               "RelativeToolTip": "Dto\\CoachProfileUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1443,11 +1443,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 80,
               "Title": "TrackProgress.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\use_case\\StudentProgress\\TrackProgress.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\use_case\\StudentProgress\\TrackProgress.cs",
               "RelativeDocumentMoniker": "use_case\\StudentProgress\\TrackProgress.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\use_case\\StudentProgress\\TrackProgress.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\use_case\\StudentProgress\\TrackProgress.cs",
               "RelativeToolTip": "use_case\\StudentProgress\\TrackProgress.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1455,11 +1455,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 90,
               "Title": "20250623155130_UpdateStudentProgressIdToString.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250623155130_UpdateStudentProgressIdToString.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250623155130_UpdateStudentProgressIdToString.cs",
               "RelativeDocumentMoniker": "Migrations\\20250623155130_UpdateStudentProgressIdToString.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250623155130_UpdateStudentProgressIdToString.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250623155130_UpdateStudentProgressIdToString.cs",
               "RelativeToolTip": "Migrations\\20250623155130_UpdateStudentProgressIdToString.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1467,11 +1467,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 91,
               "Title": "20250623170154_AddCoachFeedback.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250623170154_AddCoachFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250623170154_AddCoachFeedback.cs",
               "RelativeDocumentMoniker": "Migrations\\20250623170154_AddCoachFeedback.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250623170154_AddCoachFeedback.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250623170154_AddCoachFeedback.cs",
               "RelativeToolTip": "Migrations\\20250623170154_AddCoachFeedback.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1479,11 +1479,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 92,
               "Title": "20250623144417_UpdateCoachAndBookingModels.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250623144417_UpdateCoachAndBookingModels.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250623144417_UpdateCoachAndBookingModels.cs",
               "RelativeDocumentMoniker": "Migrations\\20250623144417_UpdateCoachAndBookingModels.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250623144417_UpdateCoachAndBookingModels.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250623144417_UpdateCoachAndBookingModels.cs",
               "RelativeToolTip": "Migrations\\20250623144417_UpdateCoachAndBookingModels.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1491,11 +1491,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 83,
               "Title": "20250623073549_FixCoachIdType.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250623073549_FixCoachIdType.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250623073549_FixCoachIdType.cs",
               "RelativeDocumentMoniker": "Migrations\\20250623073549_FixCoachIdType.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250623073549_FixCoachIdType.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250623073549_FixCoachIdType.cs",
               "RelativeToolTip": "Migrations\\20250623073549_FixCoachIdType.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAE0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1503,11 +1503,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 81,
               "Title": "GetMaterials.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\use_case\\TeachingMaterial\\GetMaterials.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\use_case\\TeachingMaterial\\GetMaterials.cs",
               "RelativeDocumentMoniker": "use_case\\TeachingMaterial\\GetMaterials.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\use_case\\TeachingMaterial\\GetMaterials.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\use_case\\TeachingMaterial\\GetMaterials.cs",
               "RelativeToolTip": "use_case\\TeachingMaterial\\GetMaterials.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1515,11 +1515,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 82,
               "Title": "TeachingMaterial.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\TeachingMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\TeachingMaterial.cs",
               "RelativeDocumentMoniker": "Models\\CoachModels\\TeachingMaterial.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\CoachModels\\TeachingMaterial.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\CoachModels\\TeachingMaterial.cs",
               "RelativeToolTip": "Models\\CoachModels\\TeachingMaterial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1527,23 +1527,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 84,
               "Title": "20250623064217_AddCoursePackage.cs",
               "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\merge\\Migrations\\20250623064217_AddCoursePackage.cs",
-              "RelativeDocumentMoniker": "..\\..\\merge\\Migrations\\20250623064217_AddCoursePackage.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\merge\\Migrations\\20250623064217_AddCoursePackage.cs",
               "ToolTip": "C:\\Users\\chinh\\Desktop\\merge\\Migrations\\20250623064217_AddCoursePackage.cs",
-              "RelativeToolTip": "..\\..\\merge\\Migrations\\20250623064217_AddCoursePackage.cs",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\merge\\Migrations\\20250623064217_AddCoursePackage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T06:42:18.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 89,
               "Title": "20250623064538_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250623064538_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250623064538_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250623064538_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250623064538_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250623064538_InitialCreate.cs",
               "RelativeToolTip": "Migrations\\20250623064538_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1551,11 +1551,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 85,
               "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\AdminModels\\Admin.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\AdminModels\\Admin.cs",
               "RelativeDocumentMoniker": "Models\\AdminModels\\Admin.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Models\\AdminModels\\Admin.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Models\\AdminModels\\Admin.cs",
               "RelativeToolTip": "Models\\AdminModels\\Admin.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1563,7 +1563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 86,
               "Title": "20250622193401_InitAfterDrop.cs",
               "DocumentMoniker": "C:\\Users\\MANH\\OneDrive\\Desktop\\clone\\Migrations\\20250622193401_InitAfterDrop.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\MANH\\OneDrive\\Desktop\\clone\\Migrations\\20250622193401_InitAfterDrop.cs",
@@ -1575,7 +1575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 87,
               "Title": "20250622192909_UpdateLearnerAndCoachIdToString.cs",
               "DocumentMoniker": "C:\\Users\\MANH\\OneDrive\\Desktop\\clone\\Migrations\\20250622192909_UpdateLearnerAndCoachIdToString.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\MANH\\OneDrive\\Desktop\\clone\\Migrations\\20250622192909_UpdateLearnerAndCoachIdToString.cs",
@@ -1587,11 +1587,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 88,
               "Title": "20250622193639_InitFresh.cs",
-              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250622193639_InitFresh.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250622193639_InitFresh.cs",
               "RelativeDocumentMoniker": "Migrations\\20250622193639_InitFresh.cs",
-              "ToolTip": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\Migrations\\20250622193639_InitFresh.cs",
+              "ToolTip": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\Migrations\\20250622193639_InitFresh.cs",
               "RelativeToolTip": "Migrations\\20250622193639_InitFresh.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

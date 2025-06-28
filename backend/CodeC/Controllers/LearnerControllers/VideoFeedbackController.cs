@@ -5,6 +5,9 @@ using MyApp.Services;
 
 namespace MyApp.Controllers.LearnerControllers
 {
+    /// <summary>
+    /// API xử lý phản hồi (feedback) của huấn luyện viên đối với video học viên tải lên.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class VideoFeedbackController : ControllerBase
@@ -16,6 +19,11 @@ namespace MyApp.Controllers.LearnerControllers
             _feedbackService = feedbackService;
         }
 
+        /// <summary>
+        /// Huấn luyện viên gửi nhận xét (feedback) cho video của học viên.
+        /// </summary>
+        /// <param name="dto">Dữ liệu phản hồi bao gồm VideoId, CoachId, nội dung...</param>
+        /// <returns>Thông báo và dữ liệu phản hồi vừa tạo</returns>
         // Coach gửi feedback
         [HttpPost("add")]
         public async Task<IActionResult> AddFeedback([FromBody] VideoFeedbackDto dto)
@@ -35,6 +43,11 @@ namespace MyApp.Controllers.LearnerControllers
             }
         }
 
+        /// <summary>
+        /// Lấy danh sách tất cả phản hồi của một video cụ thể.
+        /// </summary>
+        /// <param name="videoId">ID của video</param>
+        /// <returns>Danh sách phản hồi</returns>
         // Lấy tất cả feedback của video
         [HttpGet("video/{videoId}")]
         public async Task<IActionResult> GetFeedbacks(string videoId)

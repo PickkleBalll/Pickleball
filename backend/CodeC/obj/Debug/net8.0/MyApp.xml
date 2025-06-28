@@ -1,0 +1,830 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyApp</name>
+    </assembly>
+    <members>
+        <member name="T:MyApp.Controllers.AdminControllers.AdminDashboardController">
+            <summary>
+            API Dashboard dành cho quản trị viên để thống kê hệ thống và theo dõi các lượt đăng ký.
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.AdminControllers.AdminDashboardController.GetDashboardSummary">
+            <summary>
+            Lấy tổng quan số lượng người dùng, gói học và tổng tiền thanh toán.
+            </summary>
+            <remarks>
+            Trả về số lượng quản trị viên, số gói học hiện có và tổng số tiền đã thanh toán từ tất cả các lượt đăng ký.
+            </remarks>
+            <returns>
+            Một object chứa:
+            - totalUsers: Tổng số người dùng (Admin),
+            - totalCoursePackages: Tổng số gói học,
+            - totalPaymentAmount: Tổng số tiền đã thanh toán.
+            </returns>
+        </member>
+        <member name="M:MyApp.Controllers.AdminControllers.AdminDashboardController.GetPaidBookings">
+            <summary>
+            Lấy danh sách các lượt đăng ký đã thanh toán.
+            </summary>
+            <remarks>
+            Bao gồm thông tin người học, khóa học, huấn luyện viên, số tiền đã thanh toán và tình trạng thanh toán cho HLV.
+            </remarks>
+            <returns>
+            Danh sách các đăng ký đã thanh toán với thông tin chi tiết:
+            - BookingId, LearnerName, CourseName, CoachName, TotalAmountPaid,
+            - CoachPaid, CoachAmountPaid, CoachPaidAt, RegisteredAt.
+            </returns>
+        </member>
+        <member name="T:MyApp.Controllers.admin_login.AdminUserController">
+            <summary>
+            API dành cho quản trị viên để quản lý người dùng (Admin).
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.admin_login.AdminUserController.GetAllUsers">
+            <summary>
+            Lấy danh sách toàn bộ người dùng (admin).
+            </summary>
+            <returns>
+            Danh sách gồm: Id, Email, Role, IsVerified.
+            </returns>
+        </member>
+        <member name="M:MyApp.Controllers.admin_login.AdminUserController.DeleteUser(System.String)">
+            <summary>
+            Xóa một người dùng theo ID.
+            </summary>
+            <param name="id">ID của người dùng cần xóa</param>
+            <returns>
+            Trả về thông báo nếu xóa thành công hoặc lỗi nếu không tìm thấy người dùng.
+            </returns>
+        </member>
+        <member name="M:MyApp.Controllers.admin_login.AdminUserController.CreateUser(MyApp.Models.admin_login.Admin)">
+            <summary>
+            Tạo mới một người dùng (admin).
+            </summary>
+            <param name="newUser">Thông tin người dùng mới</param>
+            <returns>
+            Trả về thông báo nếu tạo thành công hoặc lỗi nếu email đã tồn tại hoặc dữ liệu không hợp lệ.
+            </returns>
+        </member>
+        <member name="M:MyApp.Controllers.admin_login.AdminUserController.UpdateUser(System.String,MyApp.Models.admin_login.Admin)">
+            <summary>
+            Cập nhật thông tin người dùng theo ID.
+            </summary>
+            <param name="id">ID của người dùng cần cập nhật</param>
+            <param name="updatedUser">Dữ liệu người dùng mới</param>
+            <returns>
+            Trả về thông báo nếu cập nhật thành công hoặc lỗi nếu không tìm thấy người dùng.
+            </returns>
+        </member>
+        <member name="M:MyApp.Controllers.admin_login.ReviewController.GetReviewsByCoach(System.String)">
+            <summary>
+            Lấy danh sách đánh giá (review) theo huấn luyện viên.
+            </summary>
+            <param name="coachId">ID của huấn luyện viên</param>
+            <returns>Danh sách đánh giá với tên người đánh giá</returns>
+        </member>
+        <member name="M:MyApp.Controllers.admin_login.ReviewController.CreateReview(MyApp.Controllers.admin_login.ReviewRequest)">
+            <summary>
+            Gửi đánh giá cho huấn luyện viên.
+            </summary>
+            <remarks>
+            Người dùng phải đăng nhập (vai trò "User") và truyền coachId, rating (1-5), comment.
+            </remarks>
+            <param name="request">Thông tin đánh giá</param>
+            <returns>Thông báo thành công</returns>
+        </member>
+        <member name="T:MyApp.Controllers.admin_login.ReviewRequest">
+            <summary>
+            Yêu cầu gửi đánh giá huấn luyện viên.
+            </summary>
+        </member>
+        <member name="T:MyApp.Controllers.AuthController">
+            <summary>
+            Xác thực người dùng: Đăng ký và đăng nhập hệ thống.
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.AuthController.Register(MyApp.Controllers.RegisterRequest)">
+            <summary>
+            Đăng ký tài khoản mới cho người dùng.
+            </summary>
+            <param name="request">Thông tin đăng ký bao gồm: tên, email, mật khẩu, vai trò,...</param>
+            <returns>Trả về thông báo nếu đăng ký thành công.</returns>
+            <remarks>
+            Nếu role là "Learner", sẽ tạo thêm hồ sơ học viên.<br/>
+            Nếu role là "Coach", sẽ tạo thêm hồ sơ huấn luyện viên.
+            </remarks>
+        </member>
+        <member name="M:MyApp.Controllers.AuthController.Login(MyApp.Controllers.LoginRequest)">
+            <summary>
+            Đăng nhập hệ thống và nhận JWT token.
+            </summary>
+            <param name="request">Thông tin đăng nhập: email và mật khẩu.</param>
+            <returns>Trả về token và thông tin người dùng nếu đăng nhập thành công.</returns>
+        </member>
+        <member name="M:MyApp.Controllers.UserController.Me">
+            <summary>
+            API tra ve thong tin cua user dang dang nhap
+            Yeu cau phai co token hop le
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.UserController.AdminData">
+            <summary>
+            API chi cho phep user co role Admin truy cap
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.UserController.UserData">
+            <summary>
+            API cho phép user có role User hoặc Admin truy cập
+            </summary>
+        </member>
+        <member name="T:MyApp.Controllers.CoachControllers.CoachFeedbackController">
+            <summary>
+            API cho phép học viên gửi feedback cho huấn luyện viên và cho phép huấn luyện viên xem các feedback đã nhận.
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.CoachControllers.CoachFeedbackController.SubmitFeedback(MyApp.Dto.CreateCoachFeedbackDto)">
+            <summary>
+            Học viên gửi đánh giá cho huấn luyện viên.
+            </summary>
+            <param name="dto">Dữ liệu đánh giá bao gồm: CoachId, điểm đánh giá, bình luận,...</param>
+            <returns>
+            Trả về thông báo nếu gửi thành công hoặc lỗi nếu có vấn đề.
+            </returns>
+            <remarks>
+            Endpoint này yêu cầu role là "Learner".
+            </remarks>
+        </member>
+        <member name="M:MyApp.Controllers.CoachControllers.CoachFeedbackController.GetFeedbacksByCoach(System.String)">
+            <summary>
+            Lấy danh sách đánh giá dành cho một huấn luyện viên cụ thể.
+            </summary>
+            <param name="coachId">ID của huấn luyện viên</param>
+            <returns>
+            Trả về danh sách các feedback của học viên cho huấn luyện viên đó.
+            </returns>
+            <remarks>
+            Endpoint này cho phép truy cập bởi huấn luyện viên hoặc quản trị viên.
+            </remarks>
+        </member>
+        <member name="T:MyApp.Controllers.CoachControllers.CoachRequestsController">
+            <summary>
+            API xử lý yêu cầu của học viên gửi đến huấn luyện viên và duyệt yêu cầu bởi Admin.
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.CoachControllers.CoachRequestsController.SubmitRequest(MyApp.Dto.CreateCoachRequestDto)">
+            <summary>
+            Học viên gửi yêu cầu học với huấn luyện viên.
+            </summary>
+            <param name="dto">Thông tin yêu cầu gồm: LearnerId, CoachId, nội dung yêu cầu,...</param>
+            <returns>Thông báo thành công và dữ liệu yêu cầu đã gửi</returns>
+            <remarks>Chỉ role "Learner" mới được phép gọi API này.</remarks>
+        </member>
+        <member name="M:MyApp.Controllers.CoachControllers.CoachRequestsController.GetPendingRequests">
+            <summary>
+            Lấy danh sách các yêu cầu chờ duyệt (pending).
+            </summary>
+            <returns>Danh sách các yêu cầu đang chờ duyệt bởi Admin</returns>
+            <remarks>Chỉ role "Admin" có quyền xem danh sách này.</remarks>
+        </member>
+        <member name="M:MyApp.Controllers.CoachControllers.CoachRequestsController.ApproveRequest(System.String)">
+            <summary>
+            Duyệt một yêu cầu học viên gửi đến huấn luyện viên.
+            </summary>
+            <param name="requestId">ID của yêu cầu cần được duyệt</param>
+            <returns>Thông báo duyệt thành công</returns>
+            <remarks>Chỉ Admin có quyền duyệt yêu cầu.</remarks>
+        </member>
+        <member name="T:MyApp.Controllers.coach.CoachFeedbackLearnerController">
+            <summary>
+            API cho phép huấn luyện viên gửi và xem đánh giá dành cho học viên.
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.coach.CoachFeedbackLearnerController.GiveFeedback(System.String,CoachFeedbackDto)">
+            <summary>
+            Huấn luyện viên gửi đánh giá cho một học viên.
+            </summary>
+            <param name="coachId">ID của huấn luyện viên gửi đánh giá</param>
+            <param name="dto">Dữ liệu đánh giá bao gồm: LearnerId, Rating, Comment</param>
+            <returns>
+            Trả về thông tin đánh giá vừa được tạo.
+            </returns>
+        </member>
+        <member name="M:MyApp.Controllers.coach.CoachFeedbackLearnerController.GetFeedbacksForLearner(System.String)">
+            <summary>
+            Lấy danh sách feedback từ các huấn luyện viên dành cho một học viên.
+            </summary>
+            <param name="learnerId">ID của học viên cần xem feedback</param>
+            <returns>
+            Trả về danh sách feedback của học viên.
+            </returns>
+        </member>
+        <member name="T:MyApp.Controllers.coach.CoachFollowStudentProgressController">
+            <summary>
+            API cho phép huấn luyện viên theo dõi tiến trình học tập của học viên.
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.coach.CoachFollowStudentProgressController.GetProgress(System.String)">
+            <summary>
+            Lấy danh sách tiến trình học tập của học viên theo ID.
+            </summary>
+            <param name="studentId">ID của học viên</param>
+            <returns>
+            Danh sách các bản ghi tiến trình học tập của học viên.
+            </returns>
+        </member>
+        <member name="T:MyApp.Controllers.coach.CoachProfilesController">
+            <summary>
+            API quản lý hồ sơ huấn luyện viên (Coach Profile).
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.coach.CoachProfilesController.GetAll">
+            <summary>
+            Lấy danh sách toàn bộ huấn luyện viên.
+            </summary>
+            <returns>Danh sách CoachProfile</returns>
+        </member>
+        <member name="M:MyApp.Controllers.coach.CoachProfilesController.RegisterAsCoach(CoachProfileCreateDto)">
+            <summary>
+            Đăng ký trở thành huấn luyện viên mới.
+            </summary>
+            <param name="dto">Thông tin đăng ký của huấn luyện viên</param>
+            <returns>Trả về hồ sơ huấn luyện viên vừa tạo</returns>
+            <remarks>
+            Endpoint này dành cho người dùng đăng ký vai trò Coach.
+            </remarks>
+        </member>
+        <member name="M:MyApp.Controllers.coach.CoachProfilesController.Update(System.String,MyApp.Dto.CoachProfileUpdateDto)">
+            <summary>
+            Cập nhật thông tin hồ sơ huấn luyện viên theo ID.
+            </summary>
+            <param name="id">ID của huấn luyện viên cần cập nhật</param>
+            <param name="dto">Thông tin mới cần cập nhật</param>
+            <returns>Không trả về nội dung nếu cập nhật thành công</returns>
+        </member>
+        <member name="T:MyApp.Controllers.coach.TeachingMaterialController">
+            <summary>
+            API dành cho huấn luyện viên để quản lý tài liệu giảng dạy (Teaching Materials).
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.coach.TeachingMaterialController.GetByCoach(System.String)">
+            <summary>
+            Lấy danh sách tài liệu giảng dạy theo CoachId.
+            </summary>
+            <param name="coachId">ID của huấn luyện viên</param>
+            <returns>Danh sách TeachingMaterials kèm các file đính kèm</returns>
+        </member>
+        <member name="M:MyApp.Controllers.coach.TeachingMaterialController.CreateTeachingMaterial(System.String,System.String,System.String,System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            Tạo mới một tài liệu giảng dạy và upload nhiều file đi kèm (tối đa 100MB).
+            </summary>
+            <param name="title">Tiêu đề của tài liệu</param>
+            <param name="description">Mô tả nội dung tài liệu</param>
+            <param name="coachProfileId">ID của huấn luyện viên tạo tài liệu</param>
+            <param name="files">Danh sách các file tải lên</param>
+            <returns>Thông báo tạo thành công và ID của tài liệu</returns>
+        </member>
+        <member name="M:MyApp.Controllers.coach.TeachingMaterialController.DeleteTeachingMaterial(System.String)">
+            <summary>
+            Xóa tài liệu giảng dạy cùng toàn bộ file đính kèm.
+            </summary>
+            <param name="id">ID của tài liệu cần xóa</param>
+            <returns>Thông báo xóa thành công</returns>
+        </member>
+        <member name="T:MyApp.Controllers.LearnerInfoController">
+            <summary>
+            API cho phép quản trị viên và huấn luyện viên xem danh sách học viên.
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerInfoController.GetLearners">
+            <summary>
+            Lấy toàn bộ danh sách học viên trong hệ thống.
+            </summary>
+            <returns>Danh sách học viên (LearnerInfo)</returns>
+            <remarks>Chỉ Admin và Coach được phép truy cập.</remarks>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerInfoController.GetLearnersByCoach(System.String)">
+            <summary>
+            Lấy danh sách học viên theo CoachId – những học viên đang học với huấn luyện viên đó.
+            </summary>
+            <param name="coachId">ID của huấn luyện viên</param>
+            <returns>Danh sách học viên tương ứng</returns>
+            <remarks>Chỉ Admin và Coach được phép truy cập.</remarks>
+        </member>
+        <member name="T:MyApp.Controllers.LearnerFeedbackController">
+            <summary>
+            API để học viên gửi phản hồi và xem lại phản hồi của chính mình.
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerFeedbackController.SubmitFeedback(MyApp.Models.learneR.Feedbacks)">
+            <summary>
+            Học viên gửi phản hồi về hệ thống hoặc trải nghiệm học tập.
+            </summary>
+            <param name="feedback">Thông tin phản hồi: nội dung, ngày gửi, người gửi...</param>
+            <returns>Trả về phản hồi vừa được lưu</returns>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerFeedbackController.GetUserFeedback(System.String)">
+            <summary>
+            Lấy tất cả phản hồi của một người dùng theo UserId.
+            </summary>
+            <param name="userId">ID của người dùng (Admin, Coach hoặc Learner)</param>
+            <returns>Danh sách các phản hồi đã gửi</returns>
+            <remarks>
+            So sánh chính xác `UserId` từ bảng Feedbacks với tham số truyền vào, không phải `FeedbackId`.
+            </remarks>
+        </member>
+        <member name="T:MyApp.Controllers.LearnerProfilesController">
+            <summary>
+            API quản lý hồ sơ học viên (Learner Profile).
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerProfilesController.UpdateMyProfile(MyApp.Dto.UpdateLearnerDto)">
+            <summary>
+            Học viên cập nhật hồ sơ cá nhân của chính mình.
+            </summary>
+            <param name="dto">Thông tin cập nhật hồ sơ</param>
+            <returns>Trả về hồ sơ sau khi cập nhật</returns>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerProfilesController.Get(System.String)">
+            <summary>
+            Lấy hồ sơ học viên theo LearnerId (ID gốc của bảng Learners).
+            </summary>
+            <param name="id">ID của học viên</param>
+            <returns>Hồ sơ học viên nếu tìm thấy</returns>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerProfilesController.Create(MyApp.Dto.LearnerCreateDto)">
+            <summary>
+            Tạo mới một hồ sơ học viên.
+            </summary>
+            <param name="dto">Dữ liệu tạo hồ sơ</param>
+            <returns>Hồ sơ học viên vừa tạo</returns>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerProfilesController.GetLearnerByUserId(System.String)">
+            <summary>
+            Lấy hồ sơ học viên theo UserId (liên kết với bảng Admin).
+            </summary>
+            <param name="userId">ID người dùng trong bảng Admin</param>
+            <returns>Hồ sơ học viên tương ứng</returns>
+        </member>
+        <member name="T:MyApp.Controllers.LearnerControllers.LearnerVideoController">
+            <summary>
+            API dành cho học viên để tải lên video và xem danh sách video đã tải.
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerControllers.LearnerVideoController.UploadVideo(MyApp.Dto.UploadVideoDto)">
+            <summary>
+            Học viên tải lên một video để lưu trữ hoặc phân tích.
+            </summary>
+            <param name="dto">Dữ liệu bao gồm file video (.mp4) và thông tin liên quan</param>
+            <returns>Thông báo và thông tin video sau khi tải thành công</returns>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerControllers.LearnerVideoController.GetVideos(System.String)">
+            <summary>
+            Lấy danh sách các video đã tải của một học viên.
+            </summary>
+            <param name="learnerId">ID của học viên</param>
+            <returns>Danh sách các video tương ứng</returns>
+        </member>
+        <member name="T:MyApp.Controllers.LearnerControllers.VideoFeedbackController">
+            <summary>
+            API xử lý phản hồi (feedback) của huấn luyện viên đối với video học viên tải lên.
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerControllers.VideoFeedbackController.AddFeedback(MyApp.Dto.VideoFeedbackDto)">
+            <summary>
+            Huấn luyện viên gửi nhận xét (feedback) cho video của học viên.
+            </summary>
+            <param name="dto">Dữ liệu phản hồi bao gồm VideoId, CoachId, nội dung...</param>
+            <returns>Thông báo và dữ liệu phản hồi vừa tạo</returns>
+        </member>
+        <member name="M:MyApp.Controllers.LearnerControllers.VideoFeedbackController.GetFeedbacks(System.String)">
+            <summary>
+            Lấy danh sách tất cả phản hồi của một video cụ thể.
+            </summary>
+            <param name="videoId">ID của video</param>
+            <returns>Danh sách phản hồi</returns>
+        </member>
+        <member name="T:MyApp.Controllers.NotificationController">
+            <summary>
+            API xử lý thông báo của người dùng: xem danh sách và đánh dấu đã đọc.
+            </summary>
+        </member>
+        <member name="M:MyApp.Controllers.NotificationController.GetUserNotifications(System.String)">
+            <summary>
+            Lấy tất cả thông báo của một người dùng cụ thể.
+            </summary>
+            <param name="userId">ID người dùng cần lấy thông báo</param>
+            <returns>Danh sách thông báo theo thứ tự mới nhất</returns>
+        </member>
+        <member name="M:MyApp.Controllers.NotificationController.MarkAsRead(System.String)">
+            <summary>
+            Đánh dấu một thông báo là đã đọc.
+            </summary>
+            <param name="id">ID của thông báo cần đánh dấu</param>
+            <returns>Trạng thái NoContent nếu thành công</returns>
+        </member>
+        <member name="T:MyApp.AdminControllers.BookingAdminController">
+            <summary>
+            API dành cho quản trị viên để theo dõi và xử lý thanh toán cho huấn luyện viên.
+            </summary>
+        </member>
+        <member name="M:MyApp.AdminControllers.BookingAdminController.GetUnpaidCoachBookings">
+            <summary>
+            Lấy danh sách các lượt đăng ký (booking) đã được học viên thanh toán nhưng chưa thanh toán cho huấn luyện viên.
+            </summary>
+            <returns>
+            Danh sách các booking chưa trả tiền cho coach, bao gồm thông tin học viên, khóa học và huấn luyện viên.
+            </returns>
+        </member>
+        <member name="M:MyApp.AdminControllers.BookingAdminController.PayCoach(System.String,System.Decimal)">
+            <summary>
+            Admin xác nhận đã thanh toán cho huấn luyện viên.
+            </summary>
+            <param name="bookingId">ID của lượt booking đã được học viên thanh toán</param>
+            <param name="amount">Số tiền mà hệ thống trả cho huấn luyện viên</param>
+            <returns>
+            Trả về thông báo đã thanh toán cùng với thông tin cập nhật của booking.
+            </returns>
+            <remarks>
+            Endpoint này đánh dấu trạng thái `CoachPaid = true`, ghi lại ngày thanh toán và số tiền được trả cho huấn luyện viên.
+            </remarks>
+        </member>
+        <member name="T:MyApp.Migrations.InitFresh">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.InitFresh.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.InitFresh.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.InitFresh.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.FixCoachIdType">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.FixCoachIdType.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.FixCoachIdType.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.FixCoachIdType.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.UpdateCoachAndBookingModels">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.UpdateCoachAndBookingModels.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.UpdateCoachAndBookingModels.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.UpdateCoachAndBookingModels.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.UpdateStudentProgressIdToString">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.UpdateStudentProgressIdToString.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.UpdateStudentProgressIdToString.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.UpdateStudentProgressIdToString.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddCoachFeedback">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddCoachFeedback.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddCoachFeedback.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddCoachFeedback.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddNotification">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddNotification.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddNotification.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddNotification.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddCoachPayoutFieldsToBooking">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddCoachPayoutFieldsToBooking.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddCoachPayoutFieldsToBooking.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddCoachPayoutFieldsToBooking.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddGuidDefaultsToPaymentAndFeedback">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddGuidDefaultsToPaymentAndFeedback.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddGuidDefaultsToPaymentAndFeedback.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddGuidDefaultsToPaymentAndFeedback.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddUserIdToLearnerAndCoach">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearnerAndCoach.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearnerAndCoach.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearnerAndCoach.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddUserIdToLearners">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearners.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearners.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearners.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddUserIdToLearners_Fixed">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearners_Fixed.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearners_Fixed.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearners_Fixed.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddUserIdToLearnersV2">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearnersV2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearnersV2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddUserIdToLearnersV2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddMQHCoachAnCourse">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddMQHCoachAnCourse.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddMQHCoachAnCourse.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddMQHCoachAnCourse.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.FixUpdate">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.FixUpdate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.FixUpdate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddTableTutorial">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddTableTutorial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddTableTutorial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddTableTutorial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.ADdTableFeedBackVideo">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.ADdTableFeedBackVideo.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.ADdTableFeedBackVideo.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.ADdTableFeedBackVideo.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddTableCreateCoachFeedback">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddTableCreateCoachFeedback.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddTableCreateCoachFeedback.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddTableCreateCoachFeedback.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyApp.Migrations.AddCoachRequestTable">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddCoachRequestTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddCoachRequestTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyApp.Migrations.AddCoachRequestTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CoursePackageController">
+            <summary>
+            admin tạo gói học
+            </summary>
+        </member>
+        <member name="M:CoursePackageController.GetAll">
+            <summary>
+            Lấy danh sách tất cả các gói học, bao gồm thông tin huấn luyện viên liên quan.
+            </summary>
+            <returns>Danh sách các khóa học có huấn luyện viên</returns>
+        </member>
+        <member name="M:CoursePackageController.GetById(System.String)">
+            <summary>
+            Lấy thông tin một gói học cụ thể theo ID.
+            </summary>
+            <param name="id">ID của gói học</param>
+            <returns>Chi tiết gói học nếu tìm thấy</returns>
+        </member>
+        <member name="M:CoursePackageController.Create(MyApp.Dto.CreateCoursePackageDto)">
+            <summary>
+            Tạo một gói học mới, có liên kết với huấn luyện viên.
+            </summary>
+            <param name="dto">Thông tin gói học cần tạo</param>
+            <returns>Thông báo thành công và thông tin gói học vừa tạo</returns>
+        </member>
+        <member name="M:CoursePackageController.Update(System.String,CoursePackage)">
+            <summary>
+            Cập nhật thông tin một gói học theo ID.
+            </summary>
+            <param name="id">ID của gói học cần cập nhật</param>
+            <param name="updated">Dữ liệu mới của gói học</param>
+            <returns>Thông báo nếu cập nhật thành công</returns>
+        </member>
+        <member name="M:CoursePackageController.Delete(System.String)">
+            <summary>
+            Xóa một gói học khỏi hệ thống.
+            </summary>
+            <param name="id">ID của gói học cần xóa</param>
+            <returns>Thông báo nếu xóa thành công</returns>
+        </member>
+        <member name="M:PickleballVideoAPI.Controllers.AnalyzeController.Analyze(MyApp.Dto.AnalyzeVideoRequest)">
+            <summary>
+            Upload a pickleball video and receive AI analysis.
+            </summary>
+            <param name="video">Video file (.mp4)</param>
+            <returns>AI analysis result</returns>
+        </member>
+        <member name="T:TutorialController">
+            <summary>
+            API dành cho huấn luyện viên để quản lý video hướng dẫn (tutorial).
+            </summary>
+        </member>
+        <member name="M:TutorialController.Create(MyApp.Dto.CreateTutorialDto)">
+            <summary>
+            Tạo mới một video hướng dẫn.
+            </summary>
+            <param name="dto">Thông tin video hướng dẫn cần tạo</param>
+            <returns>Thông báo và dữ liệu tutorial vừa tạo</returns>
+        </member>
+        <member name="M:TutorialController.GetOwn">
+            <summary>
+            Lấy danh sách tất cả video hướng dẫn do huấn luyện viên hiện tại đăng tải.
+            </summary>
+            <returns>Danh sách tutorial của chính huấn luyện viên đó</returns>
+        </member>
+        <member name="M:TutorialController.Update(System.String,MyApp.Dto.UpdateTutorialDto)">
+            <summary>
+            Cập nhật thông tin video hướng dẫn.
+            </summary>
+            <param name="id">ID của tutorial cần cập nhật</param>
+            <param name="dto">Thông tin mới: tiêu đề, mô tả, video URL</param>
+            <returns>Thông tin tutorial sau khi cập nhật</returns>
+        </member>
+        <member name="M:TutorialController.Delete(System.String)">
+            <summary>
+            Xóa một video hướng dẫn.
+            </summary>
+            <param name="id">ID của tutorial cần xóa</param>
+            <returns>Thông báo xóa thành công</returns>
+        </member>
+        <member name="T:LearnerBookingController">
+            <summary>
+            API dành cho học viên để đăng ký và thanh toán các gói học.
+            </summary>
+        </member>
+        <member name="M:LearnerBookingController.RegisterToCourse(MyApp.Dto.RegisterCourseDto)">
+            <summary>
+            Học viên đăng ký một khóa học cụ thể (theo CourseId).
+            </summary>
+            <param name="dto">Dữ liệu gồm LearnerId và CourseId</param>
+            <returns>Thông báo đăng ký thành công và thông tin khóa học</returns>
+        </member>
+        <member name="M:LearnerBookingController.RegisterDefaultCourse(System.String)">
+            <summary>
+            Học viên đăng ký một khóa học mặc định nếu chưa chọn khóa học cụ thể.
+            </summary>
+            <param name="learnerId">ID của học viên</param>
+            <returns>Thông báo và thông tin khóa học mặc định</returns>
+        </member>
+        <member name="M:LearnerBookingController.Pay(System.String,MyApp.Dto.PaymentRequestDto)">
+            <summary>
+            Học viên thanh toán cho một booking đã đăng ký.
+            </summary>
+            <param name="bookingId">ID của booking</param>
+            <param name="request">Thông tin thanh toán: số tiền, phương thức, mã giao dịch</param>
+            <returns>Thông báo thanh toán thành công và chi tiết giao dịch</returns>
+        </member>
+        <member name="M:LearnerBookingController.GetUserBookings(System.String)">
+            <summary>
+            Lấy danh sách tất cả các booking của một học viên.
+            </summary>
+            <param name="learnerId">ID học viên</param>
+            <returns>Danh sách booking</returns>
+        </member>
+        <member name="M:LearnerBookingController.GetUserTransactionHistory(System.String)">
+            <summary>
+            Lấy danh sách tất cả các giao dịch thanh toán của học viên.
+            </summary>
+            <param name="learnerId">ID học viên</param>
+            <returns>Danh sách giao dịch thanh toán</returns>
+        </member>
+        <member name="M:LearnerBookingController.GetBookingsWithDetails(System.String)">
+            <summary>
+            Lấy danh sách booking cùng thông tin chi tiết khóa học và huấn luyện viên.
+            </summary>
+            <param name="learnerId">ID học viên</param>
+            <returns>Danh sách booking có thông tin chi tiết</returns>
+        </member>
+        <member name="T:PublicCourseController">
+            <summary>
+            API công khai cung cấp danh sách huấn luyện viên và các khóa học (public access).
+            </summary>
+        </member>
+        <member name="M:PublicCourseController.GetAllCoaches">
+            <summary>
+            Lấy danh sách tất cả huấn luyện viên trong hệ thống.
+            </summary>
+            <returns>Danh sách các huấn luyện viên với thông tin cơ bản</returns>
+        </member>
+        <member name="M:PublicCourseController.GetAllCoursesWithCoach">
+            <summary>
+            Lấy danh sách tất cả các khóa học, kèm thông tin huấn luyện viên giảng dạy.
+            </summary>
+            <returns>Danh sách các khóa học với thông tin huấn luyện viên</returns>
+        </member>
+        <member name="M:PublicCourseController.GetCoursesByCoach(System.String)">
+            <summary>
+            Lấy danh sách các khóa học do một huấn luyện viên cụ thể giảng dạy.
+            </summary>
+            <param name="coachId">ID của huấn luyện viên</param>
+            <returns>Danh sách các khóa học của huấn luyện viên đó</returns>
+        </member>
+    </members>
+</doc>

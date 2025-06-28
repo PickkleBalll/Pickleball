@@ -5,6 +5,9 @@ using MyApp.Services;
 
 namespace MyApp.Controllers.LearnerControllers
 {
+    /// <summary>
+    /// API dành cho học viên để tải lên video và xem danh sách video đã tải.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class LearnerVideoController : ControllerBase
@@ -16,6 +19,11 @@ namespace MyApp.Controllers.LearnerControllers
             _videoService = videoService;
         }
 
+        /// <summary>
+        /// Học viên tải lên một video để lưu trữ hoặc phân tích.
+        /// </summary>
+        /// <param name="dto">Dữ liệu bao gồm file video (.mp4) và thông tin liên quan</param>
+        /// <returns>Thông báo và thông tin video sau khi tải thành công</returns>
         [HttpPost("upload")]
         public async Task<IActionResult> UploadVideo([FromForm] UploadVideoDto dto)
         {
@@ -34,6 +42,11 @@ namespace MyApp.Controllers.LearnerControllers
             }
         }
 
+        /// <summary>
+        /// Lấy danh sách các video đã tải của một học viên.
+        /// </summary>
+        /// <param name="learnerId">ID của học viên</param>
+        /// <returns>Danh sách các video tương ứng</returns>
         // Lấy video của learner
         [HttpGet("learner/{learnerId}")]
         public async Task<IActionResult> GetVideos(string learnerId)

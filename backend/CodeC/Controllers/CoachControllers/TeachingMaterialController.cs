@@ -6,6 +6,9 @@ using MyApp.Models.coachH;
 
 namespace MyApp.Controllers.coach
 {
+    /// <summary>
+    /// API dành cho huấn luyện viên để quản lý tài liệu giảng dạy (Teaching Materials).
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class TeachingMaterialController : ControllerBase
@@ -17,6 +20,11 @@ namespace MyApp.Controllers.coach
             _context = context;
         }
 
+        /// <summary>
+        /// Lấy danh sách tài liệu giảng dạy theo CoachId.
+        /// </summary>
+        /// <param name="coachId">ID của huấn luyện viên</param>
+        /// <returns>Danh sách TeachingMaterials kèm các file đính kèm</returns>
         [HttpGet("coach/{coachId}")]
         public async Task<ActionResult<List<TeachingMaterial>>> GetByCoach(string coachId)
         {
@@ -28,6 +36,14 @@ namespace MyApp.Controllers.coach
             return Ok(materials);
         }
 
+        /// <summary>
+        /// Tạo mới một tài liệu giảng dạy và upload nhiều file đi kèm (tối đa 100MB).
+        /// </summary>
+        /// <param name="title">Tiêu đề của tài liệu</param>
+        /// <param name="description">Mô tả nội dung tài liệu</param>
+        /// <param name="coachProfileId">ID của huấn luyện viên tạo tài liệu</param>
+        /// <param name="files">Danh sách các file tải lên</param>
+        /// <returns>Thông báo tạo thành công và ID của tài liệu</returns>
         [RequestSizeLimit(104857600)] // 100 MB
         [HttpPost("create")]
         public async Task<IActionResult> CreateTeachingMaterial(
@@ -125,6 +141,11 @@ namespace MyApp.Controllers.coach
         //    return Ok(new { message = "Material deleted successfully." });
         //}
 
+        /// <summary>
+        /// Xóa tài liệu giảng dạy cùng toàn bộ file đính kèm.
+        /// </summary>
+        /// <param name="id">ID của tài liệu cần xóa</param>
+        /// <returns>Thông báo xóa thành công</returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTeachingMaterial(string id)
         {

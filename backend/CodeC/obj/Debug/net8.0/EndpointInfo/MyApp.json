@@ -10,6 +10,8 @@
         "tags": [
           "AdminDashboard"
         ],
+        "summary": "Lấy tổng quan số lượng người dùng, gói học và tổng tiền thanh toán.",
+        "description": "Trả về số lượng quản trị viên, số gói học hiện có và tổng số tiền đã thanh toán từ tất cả các lượt đăng ký.",
         "responses": {
           "200": {
             "description": "OK"
@@ -22,6 +24,8 @@
         "tags": [
           "AdminDashboard"
         ],
+        "summary": "Lấy danh sách các lượt đăng ký đã thanh toán.",
+        "description": "Bao gồm thông tin người học, khóa học, huấn luyện viên, số tiền đã thanh toán và tình trạng thanh toán cho HLV.",
         "responses": {
           "200": {
             "description": "OK"
@@ -34,6 +38,7 @@
         "tags": [
           "AdminUser"
         ],
+        "summary": "Lấy danh sách toàn bộ người dùng (admin).",
         "responses": {
           "200": {
             "description": "OK"
@@ -44,7 +49,9 @@
         "tags": [
           "AdminUser"
         ],
+        "summary": "Tạo mới một người dùng (admin).",
         "requestBody": {
+          "description": "Thông tin người dùng mới",
           "content": {
             "application/json": {
               "schema": {
@@ -75,10 +82,12 @@
         "tags": [
           "AdminUser"
         ],
+        "summary": "Xóa một người dùng theo ID.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "ID của người dùng cần xóa",
             "required": true,
             "schema": {
               "type": "string"
@@ -95,10 +104,12 @@
         "tags": [
           "AdminUser"
         ],
+        "summary": "Cập nhật thông tin người dùng theo ID.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "ID của người dùng cần cập nhật",
             "required": true,
             "schema": {
               "type": "string"
@@ -106,6 +117,7 @@
           }
         ],
         "requestBody": {
+          "description": "Dữ liệu người dùng mới",
           "content": {
             "application/json": {
               "schema": {
@@ -136,6 +148,7 @@
         "tags": [
           "Analyze"
         ],
+        "summary": "Upload a pickleball video and receive AI analysis.",
         "operationId": "AnalyzeVideo",
         "requestBody": {
           "content": {
@@ -203,7 +216,10 @@
         "tags": [
           "Auth"
         ],
+        "summary": "Đăng ký tài khoản mới cho người dùng.",
+        "description": "Nếu role là \"Learner\", sẽ tạo thêm hồ sơ học viên.\r\n\r\nNếu role là \"Coach\", sẽ tạo thêm hồ sơ huấn luyện viên.",
         "requestBody": {
+          "description": "Thông tin đăng ký bao gồm: tên, email, mật khẩu, vai trò,...",
           "content": {
             "application/json": {
               "schema": {
@@ -234,7 +250,9 @@
         "tags": [
           "Auth"
         ],
+        "summary": "Đăng nhập hệ thống và nhận JWT token.",
         "requestBody": {
+          "description": "Thông tin đăng nhập: email và mật khẩu.",
           "content": {
             "application/json": {
               "schema": {
@@ -265,6 +283,7 @@
         "tags": [
           "BookingAdmin"
         ],
+        "summary": "Lấy danh sách các lượt đăng ký (booking) đã được học viên thanh toán nhưng chưa thanh toán cho huấn luyện viên.",
         "responses": {
           "200": {
             "description": "OK"
@@ -277,10 +296,13 @@
         "tags": [
           "BookingAdmin"
         ],
+        "summary": "Admin xác nhận đã thanh toán cho huấn luyện viên.",
+        "description": "Endpoint này đánh dấu trạng thái `CoachPaid = true`, ghi lại ngày thanh toán và số tiền được trả cho huấn luyện viên.",
         "parameters": [
           {
             "name": "bookingId",
             "in": "path",
+            "description": "ID của lượt booking đã được học viên thanh toán",
             "required": true,
             "schema": {
               "type": "string"
@@ -288,6 +310,7 @@
           }
         ],
         "requestBody": {
+          "description": "Số tiền mà hệ thống trả cho huấn luyện viên",
           "content": {
             "application/json": {
               "schema": {
@@ -321,7 +344,10 @@
         "tags": [
           "CoachFeedback"
         ],
+        "summary": "Học viên gửi đánh giá cho huấn luyện viên.",
+        "description": "Endpoint này yêu cầu role là \"Learner\".",
         "requestBody": {
+          "description": "Dữ liệu đánh giá bao gồm: CoachId, điểm đánh giá, bình luận,...",
           "content": {
             "application/json": {
               "schema": {
@@ -352,10 +378,13 @@
         "tags": [
           "CoachFeedback"
         ],
+        "summary": "Lấy danh sách đánh giá dành cho một huấn luyện viên cụ thể.",
+        "description": "Endpoint này cho phép truy cập bởi huấn luyện viên hoặc quản trị viên.",
         "parameters": [
           {
             "name": "coachId",
             "in": "path",
+            "description": "ID của huấn luyện viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -374,10 +403,12 @@
         "tags": [
           "CoachFeedbackLearner"
         ],
+        "summary": "Huấn luyện viên gửi đánh giá cho một học viên.",
         "parameters": [
           {
             "name": "coachId",
             "in": "path",
+            "description": "ID của huấn luyện viên gửi đánh giá",
             "required": true,
             "schema": {
               "type": "string"
@@ -385,6 +416,7 @@
           }
         ],
         "requestBody": {
+          "description": "Dữ liệu đánh giá bao gồm: LearnerId, Rating, Comment",
           "content": {
             "application/json": {
               "schema": {
@@ -415,10 +447,12 @@
         "tags": [
           "CoachFeedbackLearner"
         ],
+        "summary": "Lấy danh sách feedback từ các huấn luyện viên dành cho một học viên.",
         "parameters": [
           {
             "name": "learnerId",
             "in": "path",
+            "description": "ID của học viên cần xem feedback",
             "required": true,
             "schema": {
               "type": "string"
@@ -437,10 +471,12 @@
         "tags": [
           "CoachFollowStudentProgress"
         ],
+        "summary": "Lấy danh sách tiến trình học tập của học viên theo ID.",
         "parameters": [
           {
             "name": "studentId",
             "in": "path",
+            "description": "ID của học viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -485,6 +521,7 @@
         "tags": [
           "CoachProfiles"
         ],
+        "summary": "Lấy danh sách toàn bộ huấn luyện viên.",
         "responses": {
           "200": {
             "description": "OK",
@@ -523,7 +560,10 @@
         "tags": [
           "CoachProfiles"
         ],
+        "summary": "Đăng ký trở thành huấn luyện viên mới.",
+        "description": "Endpoint này dành cho người dùng đăng ký vai trò Coach.",
         "requestBody": {
+          "description": "Thông tin đăng ký của huấn luyện viên",
           "content": {
             "application/json": {
               "schema": {
@@ -571,10 +611,12 @@
         "tags": [
           "CoachProfiles"
         ],
+        "summary": "Cập nhật thông tin hồ sơ huấn luyện viên theo ID.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "ID của huấn luyện viên cần cập nhật",
             "required": true,
             "schema": {
               "type": "string"
@@ -582,6 +624,7 @@
           }
         ],
         "requestBody": {
+          "description": "Thông tin mới cần cập nhật",
           "content": {
             "application/json": {
               "schema": {
@@ -612,7 +655,10 @@
         "tags": [
           "CoachRequests"
         ],
+        "summary": "Học viên gửi yêu cầu học với huấn luyện viên.",
+        "description": "Chỉ role \"Learner\" mới được phép gọi API này.",
         "requestBody": {
+          "description": "Thông tin yêu cầu gồm: LearnerId, CoachId, nội dung yêu cầu,...",
           "content": {
             "application/json": {
               "schema": {
@@ -643,6 +689,8 @@
         "tags": [
           "CoachRequests"
         ],
+        "summary": "Lấy danh sách các yêu cầu chờ duyệt (pending).",
+        "description": "Chỉ role \"Admin\" có quyền xem danh sách này.",
         "responses": {
           "200": {
             "description": "OK"
@@ -655,10 +703,13 @@
         "tags": [
           "CoachRequests"
         ],
+        "summary": "Duyệt một yêu cầu học viên gửi đến huấn luyện viên.",
+        "description": "Chỉ Admin có quyền duyệt yêu cầu.",
         "parameters": [
           {
             "name": "requestId",
             "in": "path",
+            "description": "ID của yêu cầu cần được duyệt",
             "required": true,
             "schema": {
               "type": "string"
@@ -677,6 +728,7 @@
         "tags": [
           "CoursePackage"
         ],
+        "summary": "Lấy danh sách tất cả các gói học, bao gồm thông tin huấn luyện viên liên quan.",
         "responses": {
           "200": {
             "description": "OK",
@@ -713,7 +765,9 @@
         "tags": [
           "CoursePackage"
         ],
+        "summary": "Tạo một gói học mới, có liên kết với huấn luyện viên.",
         "requestBody": {
+          "description": "Thông tin gói học cần tạo",
           "content": {
             "application/json": {
               "schema": {
@@ -744,10 +798,12 @@
         "tags": [
           "CoursePackage"
         ],
+        "summary": "Lấy thông tin một gói học cụ thể theo ID.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "ID của gói học",
             "required": true,
             "schema": {
               "type": "string"
@@ -764,10 +820,12 @@
         "tags": [
           "CoursePackage"
         ],
+        "summary": "Cập nhật thông tin một gói học theo ID.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "ID của gói học cần cập nhật",
             "required": true,
             "schema": {
               "type": "string"
@@ -775,6 +833,7 @@
           }
         ],
         "requestBody": {
+          "description": "Dữ liệu mới của gói học",
           "content": {
             "application/json": {
               "schema": {
@@ -803,10 +862,12 @@
         "tags": [
           "CoursePackage"
         ],
+        "summary": "Xóa một gói học khỏi hệ thống.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "ID của gói học cần xóa",
             "required": true,
             "schema": {
               "type": "string"
@@ -825,7 +886,9 @@
         "tags": [
           "LearnerBooking"
         ],
+        "summary": "Học viên đăng ký một khóa học cụ thể (theo CourseId).",
         "requestBody": {
+          "description": "Dữ liệu gồm LearnerId và CourseId",
           "content": {
             "application/json": {
               "schema": {
@@ -856,10 +919,12 @@
         "tags": [
           "LearnerBooking"
         ],
+        "summary": "Học viên đăng ký một khóa học mặc định nếu chưa chọn khóa học cụ thể.",
         "parameters": [
           {
             "name": "learnerId",
             "in": "path",
+            "description": "ID của học viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -878,10 +943,12 @@
         "tags": [
           "LearnerBooking"
         ],
+        "summary": "Học viên thanh toán cho một booking đã đăng ký.",
         "parameters": [
           {
             "name": "bookingId",
             "in": "path",
+            "description": "ID của booking",
             "required": true,
             "schema": {
               "type": "string"
@@ -889,6 +956,7 @@
           }
         ],
         "requestBody": {
+          "description": "Thông tin thanh toán: số tiền, phương thức, mã giao dịch",
           "content": {
             "application/json": {
               "schema": {
@@ -919,10 +987,12 @@
         "tags": [
           "LearnerBooking"
         ],
+        "summary": "Lấy danh sách tất cả các booking của một học viên.",
         "parameters": [
           {
             "name": "learnerId",
             "in": "path",
+            "description": "ID học viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -941,10 +1011,12 @@
         "tags": [
           "LearnerBooking"
         ],
+        "summary": "Lấy danh sách tất cả các giao dịch thanh toán của học viên.",
         "parameters": [
           {
             "name": "learnerId",
             "in": "path",
+            "description": "ID học viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -963,10 +1035,12 @@
         "tags": [
           "LearnerBooking"
         ],
+        "summary": "Lấy danh sách booking cùng thông tin chi tiết khóa học và huấn luyện viên.",
         "parameters": [
           {
             "name": "learnerId",
             "in": "path",
+            "description": "ID học viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -985,7 +1059,9 @@
         "tags": [
           "LearnerFeedback"
         ],
+        "summary": "Học viên gửi phản hồi về hệ thống hoặc trải nghiệm học tập.",
         "requestBody": {
+          "description": "Thông tin phản hồi: nội dung, ngày gửi, người gửi...",
           "content": {
             "application/json": {
               "schema": {
@@ -1016,10 +1092,13 @@
         "tags": [
           "LearnerFeedback"
         ],
+        "summary": "Lấy tất cả phản hồi của một người dùng theo UserId.",
+        "description": "So sánh chính xác `UserId` từ bảng Feedbacks với tham số truyền vào, không phải `FeedbackId`.",
         "parameters": [
           {
             "name": "userId",
             "in": "path",
+            "description": "ID của người dùng (Admin, Coach hoặc Learner)",
             "required": true,
             "schema": {
               "type": "string"
@@ -1038,6 +1117,8 @@
         "tags": [
           "LearnerInfo"
         ],
+        "summary": "Lấy toàn bộ danh sách học viên trong hệ thống.",
+        "description": "Chỉ Admin và Coach được phép truy cập.",
         "responses": {
           "200": {
             "description": "OK",
@@ -1076,10 +1157,13 @@
         "tags": [
           "LearnerInfo"
         ],
+        "summary": "Lấy danh sách học viên theo CoachId – những học viên đang học với huấn luyện viên đó.",
+        "description": "Chỉ Admin và Coach được phép truy cập.",
         "parameters": [
           {
             "name": "coachId",
             "in": "path",
+            "description": "ID của huấn luyện viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -1124,7 +1208,9 @@
         "tags": [
           "LearnerProfiles"
         ],
+        "summary": "Học viên cập nhật hồ sơ cá nhân của chính mình.",
         "requestBody": {
+          "description": "Thông tin cập nhật hồ sơ",
           "content": {
             "application/json": {
               "schema": {
@@ -1155,10 +1241,12 @@
         "tags": [
           "LearnerProfiles"
         ],
+        "summary": "Lấy hồ sơ học viên theo LearnerId (ID gốc của bảng Learners).",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "ID của học viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -1177,7 +1265,9 @@
         "tags": [
           "LearnerProfiles"
         ],
+        "summary": "Tạo mới một hồ sơ học viên.",
         "requestBody": {
+          "description": "Dữ liệu tạo hồ sơ",
           "content": {
             "application/json": {
               "schema": {
@@ -1208,10 +1298,12 @@
         "tags": [
           "LearnerProfiles"
         ],
+        "summary": "Lấy hồ sơ học viên theo UserId (liên kết với bảng Admin).",
         "parameters": [
           {
             "name": "userId",
             "in": "path",
+            "description": "ID người dùng trong bảng Admin",
             "required": true,
             "schema": {
               "type": "string"
@@ -1230,6 +1322,7 @@
         "tags": [
           "LearnerVideo"
         ],
+        "summary": "Học viên tải lên một video để lưu trữ hoặc phân tích.",
         "requestBody": {
           "content": {
             "multipart/form-data": {
@@ -1274,10 +1367,12 @@
         "tags": [
           "LearnerVideo"
         ],
+        "summary": "Lấy danh sách các video đã tải của một học viên.",
         "parameters": [
           {
             "name": "learnerId",
             "in": "path",
+            "description": "ID của học viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -1296,10 +1391,12 @@
         "tags": [
           "Notification"
         ],
+        "summary": "Lấy tất cả thông báo của một người dùng cụ thể.",
         "parameters": [
           {
             "name": "userId",
             "in": "path",
+            "description": "ID người dùng cần lấy thông báo",
             "required": true,
             "schema": {
               "type": "string"
@@ -1318,10 +1415,12 @@
         "tags": [
           "Notification"
         ],
+        "summary": "Đánh dấu một thông báo là đã đọc.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "ID của thông báo cần đánh dấu",
             "required": true,
             "schema": {
               "type": "string"
@@ -1340,6 +1439,7 @@
         "tags": [
           "PublicCourse"
         ],
+        "summary": "Lấy danh sách tất cả huấn luyện viên trong hệ thống.",
         "responses": {
           "200": {
             "description": "OK"
@@ -1352,6 +1452,7 @@
         "tags": [
           "PublicCourse"
         ],
+        "summary": "Lấy danh sách tất cả các khóa học, kèm thông tin huấn luyện viên giảng dạy.",
         "responses": {
           "200": {
             "description": "OK"
@@ -1364,10 +1465,12 @@
         "tags": [
           "PublicCourse"
         ],
+        "summary": "Lấy danh sách các khóa học do một huấn luyện viên cụ thể giảng dạy.",
         "parameters": [
           {
             "name": "coachId",
             "in": "path",
+            "description": "ID của huấn luyện viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -1386,10 +1489,12 @@
         "tags": [
           "Review"
         ],
+        "summary": "Lấy danh sách đánh giá (review) theo huấn luyện viên.",
         "parameters": [
           {
             "name": "coachId",
             "in": "path",
+            "description": "ID của huấn luyện viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -1448,7 +1553,10 @@
         "tags": [
           "Review"
         ],
+        "summary": "Gửi đánh giá cho huấn luyện viên.",
+        "description": "Người dùng phải đăng nhập (vai trò \"User\") và truyền coachId, rating (1-5), comment.",
         "requestBody": {
+          "description": "Thông tin đánh giá",
           "content": {
             "application/json": {
               "schema": {
@@ -1530,10 +1638,12 @@
         "tags": [
           "TeachingMaterial"
         ],
+        "summary": "Lấy danh sách tài liệu giảng dạy theo CoachId.",
         "parameters": [
           {
             "name": "coachId",
             "in": "path",
+            "description": "ID của huấn luyện viên",
             "required": true,
             "schema": {
               "type": "string"
@@ -1578,6 +1688,7 @@
         "tags": [
           "TeachingMaterial"
         ],
+        "summary": "Tạo mới một tài liệu giảng dạy và upload nhiều file đi kèm (tối đa 100MB).",
         "requestBody": {
           "content": {
             "multipart/form-data": {
@@ -1585,20 +1696,24 @@
                 "type": "object",
                 "properties": {
                   "title": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Tiêu đề của tài liệu"
                   },
                   "description": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Mô tả nội dung tài liệu"
                   },
                   "coachProfileId": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "ID của huấn luyện viên tạo tài liệu"
                   },
                   "files": {
                     "type": "array",
                     "items": {
                       "type": "string",
                       "format": "binary"
-                    }
+                    },
+                    "description": "Danh sách các file tải lên"
                   }
                 }
               },
@@ -1631,10 +1746,12 @@
         "tags": [
           "TeachingMaterial"
         ],
+        "summary": "Xóa tài liệu giảng dạy cùng toàn bộ file đính kèm.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "ID của tài liệu cần xóa",
             "required": true,
             "schema": {
               "type": "string"
@@ -1653,7 +1770,9 @@
         "tags": [
           "Tutorial"
         ],
+        "summary": "Tạo mới một video hướng dẫn.",
         "requestBody": {
+          "description": "Thông tin video hướng dẫn cần tạo",
           "content": {
             "application/json": {
               "schema": {
@@ -1682,6 +1801,7 @@
         "tags": [
           "Tutorial"
         ],
+        "summary": "Lấy danh sách tất cả video hướng dẫn do huấn luyện viên hiện tại đăng tải.",
         "responses": {
           "200": {
             "description": "OK"
@@ -1694,10 +1814,12 @@
         "tags": [
           "Tutorial"
         ],
+        "summary": "Cập nhật thông tin video hướng dẫn.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "ID của tutorial cần cập nhật",
             "required": true,
             "schema": {
               "type": "string"
@@ -1705,6 +1827,7 @@
           }
         ],
         "requestBody": {
+          "description": "Thông tin mới: tiêu đề, mô tả, video URL",
           "content": {
             "application/json": {
               "schema": {
@@ -1733,10 +1856,12 @@
         "tags": [
           "Tutorial"
         ],
+        "summary": "Xóa một video hướng dẫn.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "ID của tutorial cần xóa",
             "required": true,
             "schema": {
               "type": "string"
@@ -1755,6 +1880,7 @@
         "tags": [
           "User"
         ],
+        "summary": "API tra ve thong tin cua user dang dang nhap\r\nYeu cau phai co token hop le",
         "responses": {
           "200": {
             "description": "OK"
@@ -1767,6 +1893,7 @@
         "tags": [
           "User"
         ],
+        "summary": "API chi cho phep user co role Admin truy cap",
         "responses": {
           "200": {
             "description": "OK"
@@ -1779,6 +1906,7 @@
         "tags": [
           "User"
         ],
+        "summary": "API cho phép user có role User hoặc Admin truy cập",
         "responses": {
           "200": {
             "description": "OK"
@@ -1791,7 +1919,9 @@
         "tags": [
           "VideoFeedback"
         ],
+        "summary": "Huấn luyện viên gửi nhận xét (feedback) cho video của học viên.",
         "requestBody": {
+          "description": "Dữ liệu phản hồi bao gồm VideoId, CoachId, nội dung...",
           "content": {
             "application/json": {
               "schema": {
@@ -1822,10 +1952,12 @@
         "tags": [
           "VideoFeedback"
         ],
+        "summary": "Lấy danh sách tất cả phản hồi của một video cụ thể.",
         "parameters": [
           {
             "name": "videoId",
             "in": "path",
+            "description": "ID của video",
             "required": true,
             "schema": {
               "type": "string"
@@ -2454,7 +2586,8 @@
             "type": "string"
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Yêu cầu gửi đánh giá huấn luyện viên."
       },
       "StudentProgress": {
         "type": "object",

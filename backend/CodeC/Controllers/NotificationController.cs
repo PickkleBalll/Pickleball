@@ -5,6 +5,9 @@ using MyApp.Dto;
 
 namespace MyApp.Controllers
 {
+    /// <summary>
+    /// API xử lý thông báo của người dùng: xem danh sách và đánh dấu đã đọc.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class NotificationController : ControllerBase
@@ -16,6 +19,11 @@ namespace MyApp.Controllers
             _context = context;
         }
 
+        /// <summary>
+        /// Lấy tất cả thông báo của một người dùng cụ thể.
+        /// </summary>
+        /// <param name="userId">ID người dùng cần lấy thông báo</param>
+        /// <returns>Danh sách thông báo theo thứ tự mới nhất</returns>
         // Lấy tất cả thông báo của user
         [HttpGet("{userId}")]
         public async Task<IActionResult> GetUserNotifications(string userId)
@@ -36,6 +44,11 @@ namespace MyApp.Controllers
             return Ok(notifications);
         }
 
+        /// <summary>
+        /// Đánh dấu một thông báo là đã đọc.
+        /// </summary>
+        /// <param name="id">ID của thông báo cần đánh dấu</param>
+        /// <returns>Trạng thái NoContent nếu thành công</returns>
         // Đánh dấu đã đọc
         [HttpPut("markread/{id}")]
         public async Task<IActionResult> MarkAsRead(string id)

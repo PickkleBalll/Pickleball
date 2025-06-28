@@ -5,7 +5,9 @@ using MyApp.Dto;
 using MyApp.Services;
 
 namespace MyApp.Controllers.CoachControllers
-{
+{   /// <summary>
+    /// API cho phép học viên gửi feedback cho huấn luyện viên và cho phép huấn luyện viên xem các feedback đã nhận.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class CoachFeedbackController : ControllerBase
@@ -16,7 +18,16 @@ namespace MyApp.Controllers.CoachControllers
         {
             _service = service;
         }
-
+        /// <summary>
+        /// Học viên gửi đánh giá cho huấn luyện viên.
+        /// </summary>
+        /// <param name="dto">Dữ liệu đánh giá bao gồm: CoachId, điểm đánh giá, bình luận,...</param>
+        /// <returns>
+        /// Trả về thông báo nếu gửi thành công hoặc lỗi nếu có vấn đề.
+        /// </returns>
+        /// <remarks>
+        /// Endpoint này yêu cầu role là "Learner".
+        /// </remarks>
         [HttpPost]
         [Authorize(Roles = "Learner")]
         public async Task<IActionResult> SubmitFeedback([FromBody] CreateCoachFeedbackDto dto)
@@ -31,7 +42,16 @@ namespace MyApp.Controllers.CoachControllers
                 return BadRequest(new { message = ex.Message });
             }
         }
-
+        /// <summary>
+        /// Lấy danh sách đánh giá dành cho một huấn luyện viên cụ thể.
+        /// </summary>
+        /// <param name="coachId">ID của huấn luyện viên</param>
+        /// <returns>
+        /// Trả về danh sách các feedback của học viên cho huấn luyện viên đó.
+        /// </returns>
+        /// <remarks>
+        /// Endpoint này cho phép truy cập bởi huấn luyện viên hoặc quản trị viên.
+        /// </remarks>
         [HttpGet("by-coach/{coachId}")]
         [Authorize(Roles = "Coach,Admin")]
         public async Task<IActionResult> GetFeedbacksByCoach(string coachId)

@@ -6,6 +6,9 @@ using MyApp.Dto;
 using MyApp.Models.coach;
 using System.Security.Claims;
 
+/// <summary>
+/// API dành cho huấn luyện viên để quản lý video hướng dẫn (tutorial).
+/// </summary>
 [Authorize(Roles = "Coach")]
 [ApiController]
 [Route("api/[controller]")]
@@ -18,6 +21,11 @@ public class TutorialController : ControllerBase
         _context = context;
     }
 
+    /// <summary>
+    /// Tạo mới một video hướng dẫn.
+    /// </summary>
+    /// <param name="dto">Thông tin video hướng dẫn cần tạo</param>
+    /// <returns>Thông báo và dữ liệu tutorial vừa tạo</returns>
     //  Create tutorial
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreateTutorialDto dto)
@@ -62,8 +70,12 @@ public class TutorialController : ControllerBase
         }
     }
 
-        //  Get all tutorials by coach
-        [HttpGet]
+    /// <summary>
+    /// Lấy danh sách tất cả video hướng dẫn do huấn luyện viên hiện tại đăng tải.
+    /// </summary>
+    /// <returns>Danh sách tutorial của chính huấn luyện viên đó</returns>
+    //  Get all tutorials by coach
+    [HttpGet]
     public async Task<IActionResult> GetOwn()
     {
         var coachId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -75,6 +87,12 @@ public class TutorialController : ControllerBase
         return Ok(tutorials);
     }
 
+    /// <summary>
+    /// Cập nhật thông tin video hướng dẫn.
+    /// </summary>
+    /// <param name="id">ID của tutorial cần cập nhật</param>
+    /// <param name="dto">Thông tin mới: tiêu đề, mô tả, video URL</param>
+    /// <returns>Thông tin tutorial sau khi cập nhật</returns>
     //  Update tutorial
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(string id, [FromBody] UpdateTutorialDto dto)
@@ -93,6 +111,11 @@ public class TutorialController : ControllerBase
         return Ok(tutorial);
     }
 
+    /// <summary>
+    /// Xóa một video hướng dẫn.
+    /// </summary>
+    /// <param name="id">ID của tutorial cần xóa</param>
+    /// <returns>Thông báo xóa thành công</returns>
     //  Delete tutorial
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(string id)

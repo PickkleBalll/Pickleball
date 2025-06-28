@@ -2,6 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
 
+/// <summary>
+/// API công khai cung cấp danh sách huấn luyện viên và các khóa học (public access).
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class PublicCourseController : ControllerBase
@@ -13,6 +16,10 @@ public class PublicCourseController : ControllerBase
         _context = context;
     }
 
+    /// <summary>
+    /// Lấy danh sách tất cả huấn luyện viên trong hệ thống.
+    /// </summary>
+    /// <returns>Danh sách các huấn luyện viên với thông tin cơ bản</returns>
     [HttpGet("coaches")]
     public async Task<IActionResult> GetAllCoaches()
     {
@@ -32,6 +39,10 @@ public class PublicCourseController : ControllerBase
         return Ok(coaches);
     }
 
+    /// <summary>
+    /// Lấy danh sách tất cả các khóa học, kèm thông tin huấn luyện viên giảng dạy.
+    /// </summary>
+    /// <returns>Danh sách các khóa học với thông tin huấn luyện viên</returns>
     [HttpGet("courses")]
     public async Task<IActionResult> GetAllCoursesWithCoach()
     {
@@ -55,6 +66,11 @@ public class PublicCourseController : ControllerBase
         return Ok(courses);
     }
 
+    /// <summary>
+    /// Lấy danh sách các khóa học do một huấn luyện viên cụ thể giảng dạy.
+    /// </summary>
+    /// <param name="coachId">ID của huấn luyện viên</param>
+    /// <returns>Danh sách các khóa học của huấn luyện viên đó</returns>
     [HttpGet("coach/{coachId}/courses")]
     public async Task<IActionResult> GetCoursesByCoach(string coachId)
     {

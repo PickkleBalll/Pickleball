@@ -4983,11 +4983,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\MyApp.csproj",
+      "projectUniqueName": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\MyApp.csproj",
       "projectName": "MyApp",
-      "projectPath": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\MyApp.csproj",
+      "projectPath": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\MyApp.csproj",
       "packagesPath": "C:\\Users\\chinh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chinh\\Desktop\\CodeC (2)\\CodeC\\obj\\",
+      "outputPath": "C:\\Users\\chinh\\Pickleball\\backend\\CodeC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

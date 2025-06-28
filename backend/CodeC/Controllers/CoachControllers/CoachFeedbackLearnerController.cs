@@ -5,6 +5,9 @@ using MyApp.Dto;
 
 namespace MyApp.Controllers.coach
 {
+    /// <summary>
+    /// API cho phép huấn luyện viên gửi và xem đánh giá dành cho học viên.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class CoachFeedbackLearnerController : ControllerBase
@@ -15,7 +18,14 @@ namespace MyApp.Controllers.coach
         {
             _context = context;
         }
-
+        /// <summary>
+        /// Huấn luyện viên gửi đánh giá cho một học viên.
+        /// </summary>
+        /// <param name="coachId">ID của huấn luyện viên gửi đánh giá</param>
+        /// <param name="dto">Dữ liệu đánh giá bao gồm: LearnerId, Rating, Comment</param>
+        /// <returns>
+        /// Trả về thông tin đánh giá vừa được tạo.
+        /// </returns>
         // Coach gửi feedback cho learner
         [HttpPost("{coachId}/feedback")]
         public async Task<IActionResult> GiveFeedback(string coachId, [FromBody] CoachFeedbackDto dto)
@@ -35,7 +45,13 @@ namespace MyApp.Controllers.coach
 
             return Ok(feedback);
         }
-
+        /// <summary>
+        /// Lấy danh sách feedback từ các huấn luyện viên dành cho một học viên.
+        /// </summary>
+        /// <param name="learnerId">ID của học viên cần xem feedback</param>
+        /// <returns>
+        /// Trả về danh sách feedback của học viên.
+        /// </returns>
         // Lấy feedback theo learner
         [HttpGet("learner/{learnerId}")]
         public async Task<IActionResult> GetFeedbacksForLearner(string learnerId)

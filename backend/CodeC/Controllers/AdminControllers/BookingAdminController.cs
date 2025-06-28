@@ -5,6 +5,9 @@ using MyApp.Data;
 
 namespace MyApp.AdminControllers
 {
+    /// <summary>
+    /// API dành cho quản trị viên để theo dõi và xử lý thanh toán cho huấn luyện viên.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     [Authorize(Roles = "Admin")]
@@ -16,7 +19,12 @@ namespace MyApp.AdminControllers
         {
             _context = context;
         }
-
+        /// <summary>
+        /// Lấy danh sách các lượt đăng ký (booking) đã được học viên thanh toán nhưng chưa thanh toán cho huấn luyện viên.
+        /// </summary>
+        /// <returns>
+        /// Danh sách các booking chưa trả tiền cho coach, bao gồm thông tin học viên, khóa học và huấn luyện viên.
+        /// </returns>
         //  Lấy danh sách booking đã thanh toán nhưng chưa trả cho coach
         [HttpGet("unpaid-to-coach")]
         public async Task<IActionResult> GetUnpaidCoachBookings()
@@ -30,7 +38,17 @@ namespace MyApp.AdminControllers
 
             return Ok(bookings);
         }
-
+        /// <summary>
+        /// Admin xác nhận đã thanh toán cho huấn luyện viên.
+        /// </summary>
+        /// <param name="bookingId">ID của lượt booking đã được học viên thanh toán</param>
+        /// <param name="amount">Số tiền mà hệ thống trả cho huấn luyện viên</param>
+        /// <returns>
+        /// Trả về thông báo đã thanh toán cùng với thông tin cập nhật của booking.
+        /// </returns>
+        /// <remarks>
+        /// Endpoint này đánh dấu trạng thái `CoachPaid = true`, ghi lại ngày thanh toán và số tiền được trả cho huấn luyện viên.
+        /// </remarks>
         //  Admin xác nhận đã trả tiền cho coach
         [HttpPut("pay-coach/{bookingId}")]
         public async Task<IActionResult> PayCoach(string bookingId, [FromBody] decimal amount)

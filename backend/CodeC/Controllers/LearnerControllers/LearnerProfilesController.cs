@@ -11,6 +11,9 @@ using static MyApp.Services.LearnerServices;
 
 namespace MyApp.Controllers
 {
+    /// <summary>
+    /// API quản lý hồ sơ học viên (Learner Profile).
+    /// </summary>
     [ApiController]
     [Route("api/[Controller]")]
 
@@ -49,7 +52,12 @@ namespace MyApp.Controllers
         //	var createdUser = await _userService.RegisterUser(user); // không đổi
         //	return Ok(createdUser);
         //}
-
+        
+        /// <summary>
+        /// Học viên cập nhật hồ sơ cá nhân của chính mình.
+        /// </summary>
+        /// <param name="dto">Thông tin cập nhật hồ sơ</param>
+        /// <returns>Trả về hồ sơ sau khi cập nhật</returns>
         [Authorize(Roles = "Learner")] // Nếu có phân quyền, còn không thì chỉ [Authorize]
         [HttpPut("update")]
         public async Task<IActionResult> UpdateMyProfile([FromBody] UpdateLearnerDto dto)
@@ -74,7 +82,11 @@ namespace MyApp.Controllers
             return Ok(learner);
         }
 
-
+        /// <summary>
+        /// Lấy hồ sơ học viên theo LearnerId (ID gốc của bảng Learners).
+        /// </summary>
+        /// <param name="id">ID của học viên</param>
+        /// <returns>Hồ sơ học viên nếu tìm thấy</returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(string id)
         {
@@ -99,6 +111,11 @@ namespace MyApp.Controllers
             return nextNumber.ToString("D3"); // "001", "002", ...
         }
 
+        /// <summary>
+        /// Tạo mới một hồ sơ học viên.
+        /// </summary>
+        /// <param name="dto">Dữ liệu tạo hồ sơ</param>
+        /// <returns>Hồ sơ học viên vừa tạo</returns>
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] LearnerCreateDto dto)
         {
@@ -122,6 +139,11 @@ namespace MyApp.Controllers
             return Ok(learner); // hoặc return CreatedAtAction(...) nếu muốn chuẩn REST
         }
 
+        /// <summary>
+        /// Lấy hồ sơ học viên theo UserId (liên kết với bảng Admin).
+        /// </summary>
+        /// <param name="userId">ID người dùng trong bảng Admin</param>
+        /// <returns>Hồ sơ học viên tương ứng</returns>
         [HttpGet("by-user/{userId}")]
         public async Task<IActionResult> GetLearnerByUserId(string userId)
         {
