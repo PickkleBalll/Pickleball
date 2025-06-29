@@ -1,0 +1,28 @@
+.auth-page {
+  height: 100vh;
+}
+
+/* dùng chung cho input ở cả SignIn & SignUp */
+.auth-input {
+  height: 55px;
+  border-radius: 20px;
+  border: 1px solid;
+  color: black;
+}
+
+/* nút submit chung */
+.auth-button {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+/* background bên phải */
+.auth-background {
+  background-image: url('../assets/Image/Signin.png');
+  background-size: cover;
+  background-position: right;
+  height: 100vh;
+  width: 60%;
+  border-top-left-radius: 350px;
+  border-bottom-left-radius: 350px;
+}

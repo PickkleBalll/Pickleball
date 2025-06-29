@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@import './css/auth.css';
+@import './css/style.css';
+body {
+  @apply bg-[#f0f0f0] font-sans;
+}
+
+html {
+  scroll-behavior: smooth;
+}
