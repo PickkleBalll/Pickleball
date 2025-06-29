@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/ntlong3125/Desktop/c#/WebApplication1/WebApplication1.csproj": {}
+    "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "/home/ntlong3125/Desktop/c#/WebApplication1/WebApplication1.csproj": {
+    "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ntlong3125/Desktop/c#/WebApplication1/WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "/home/ntlong3125/Desktop/c#/WebApplication1/WebApplication1.csproj",
-        "packagesPath": "/home/ntlong3125/.nuget/packages/",
-        "outputPath": "/home/ntlong3125/Desktop/c#/WebApplication1/obj/",
+        "projectPath": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\chinh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/ntlong3125/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\chinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -64,7 +77,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.12.1, )"
             }
           },
           "imports": [
@@ -86,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

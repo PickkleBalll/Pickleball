@@ -1,0 +1,573 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chinh\\Desktop\\c#\\c#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\models\\upload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\upload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\uploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\uploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\iupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\iupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\dtos\\feedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dtos\\feedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\ifeeadback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\ifeeadback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\dtos\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dtos\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\ibillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\ibillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\service\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|c:\\users\\chinh\\desktop\\c#\\c#\\webapplication1\\models\\analysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A561-43A1-4BAB-8737-00D5F246E04B}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\analysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\AuthService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\AuthService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAqwJIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T11:49:42.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\IAuthService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\IAuthService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T15:15:27.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApplication1.csproj",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-28T12:29:36.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T11:49:52.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\User.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\models\\User.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\User.cs",
+              "RelativeToolTip": "WebApplication1\\models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:59:26.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\CourseService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\CourseService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\CourseService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\CourseService.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAADwv+EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T15:25:57.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:31:32.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\DTOs\\AuthDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTOs\\AuthDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\DTOs\\AuthDto.cs",
+              "RelativeToolTip": "WebApplication1\\DTOs\\AuthDto.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T11:53:24.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv1UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:33:45.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\IUserService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\IUserService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:19:49.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\UserService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T15:54:55.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:33:23.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Upload.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\Upload.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\models\\Upload.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\Upload.cs",
+              "RelativeToolTip": "WebApplication1\\models\\Upload.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T18:47:48.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UploadService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\UploadService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\UploadService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\UploadService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\UploadService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T18:49:25.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUpload.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\IUpload.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\IUpload.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\IUpload.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\IUpload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:16:10.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\FeedbackController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\FeedbackController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:32:50.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FeedbackDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\DTOs\\FeedbackDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTOs\\FeedbackDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\DTOs\\FeedbackDto.cs",
+              "RelativeToolTip": "WebApplication1\\DTOs\\FeedbackDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T18:42:58.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\Feedback.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\models\\Feedback.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\Feedback.cs",
+              "RelativeToolTip": "WebApplication1\\models\\Feedback.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T18:42:20.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IFeeadback.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\IFeeadback.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\IFeeadback.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\IFeeadback.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\IFeeadback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:14:16.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FeedbackService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\FeedbackService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\FeedbackService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\FeedbackService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\FeedbackService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T18:47:02.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:32:27.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\DTOs\\CourseDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTOs\\CourseDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\DTOs\\CourseDto.cs",
+              "RelativeToolTip": "WebApplication1\\DTOs\\CourseDto.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T11:54:03.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\Course.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\models\\Course.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\Course.cs",
+              "RelativeToolTip": "WebApplication1\\models\\Course.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA+wDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T15:38:13.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\ICourseService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\ICourseService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\ICourseService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:12:37.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BillController.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\BillController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\BillController.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Controllers\\BillController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\BillController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:32:01.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\Bill.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\models\\Bill.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\Bill.cs",
+              "RelativeToolTip": "WebApplication1\\models\\Bill.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T15:19:32.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BillDto.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\DTOs\\BillDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTOs\\BillDto.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\DTOs\\BillDto.cs",
+              "RelativeToolTip": "WebApplication1\\DTOs\\BillDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T11:53:55.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IBillService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\IBillService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\IBillService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\IBillService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\IBillService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:07:04.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BillService.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\BillService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\BillService.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Service\\BillService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\BillService.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAswJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T15:22:25.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Data\\DbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\DbContext.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Data\\DbContext.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\DbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T11:53:33.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApplication1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T12:49:13.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T11:50:02.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Analysis.cs",
+              "DocumentMoniker": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\Analysis.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\models\\Analysis.cs",
+              "ToolTip": "C:\\Users\\chinh\\Desktop\\c#\\c#\\WebApplication1\\models\\Analysis.cs",
+              "RelativeToolTip": "WebApplication1\\models\\Analysis.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T11:50:14.926Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

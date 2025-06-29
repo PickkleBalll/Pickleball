@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:PickleballCourseAPI.Controllers.AuthController.Register(PickleballCourseAPI.DTOs.RegisterDto)">
+            <summary>
+            Đăng ký tài khoản
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.AuthController.Login(PickleballCourseAPI.DTOs.LoginDto)">
+            <summary>
+            Đăng nhập
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.AuthController.CheckUserExists(System.String)">
+            <summary>
+            Kiểm tra user đã tồn tại theo email (Admin mới được dùng)
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.BillController.GetAllBills">
+            <summary>
+            Admin xem tất cả hóa đơn
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.BillController.GetBillById(System.String)">
+            <summary>
+            Xem chi tiết hóa đơn theo ID (cá nhân hoặc admin)
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.BillController.CreateBill(PickleballCourseAPI.DTOs.CreatePaymentDto)">
+            <summary>
+            Học viên tạo hóa đơn cho khóa học
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.BillController.ProcessPayment(PickleballCourseAPI.DTOs.ProcessPaymentDto)">
+            <summary>
+            Học viên thanh toán hóa đơn
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.BillController.GetMyBills">
+            <summary>
+            Học viên xem tất cả hóa đơn của mình
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.CourseController.GetAllCourses">
+            <summary>
+            Lấy tất cả khóa học (mọi vai trò đều có thể xem)
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.CourseController.GetCourseById(System.String)">
+            <summary>
+            Lấy chi tiết khóa học theo ID
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.CourseController.CreateCourse(PickleballCourseAPI.DTOs.CreateCourseDto)">
+            <summary>
+            Tạo khóa học mới (chỉ Admin mới được phép tạo)
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.CourseController.UpdateCourse(System.String,PickleballCourseAPI.DTOs.UpdateCourseDto)">
+            <summary>
+            Cập nhật khóa học (chỉ Admin mới được sửa)
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.CourseController.EnrollInCourse(PickleballCourseAPI.DTOs.EnrollCourseDto)">
+            <summary>
+            Học viên đăng ký khóa học (chỉ student mới đăng ký được)
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.CourseController.GetCoursesByCoach">
+            <summary>
+            Coach xem tất cả khóa học của mình
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.CourseController.GetEnrolledCourses">
+            <summary>
+            Học viên xem danh sách khóa học đã đăng ký
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.FeedbackController.GetAllFeedbacks">
+            <summary>
+            Admin xem tất cả feedback từ tất cả người dùng
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.FeedbackController.CreateFeedback(PickleballCourseAPI.DTOs.CreateFeedbackDto)">
+            <summary>
+            Học viên gửi feedback cho coach
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.FeedbackController.GetFeedbacksForCoach">
+            <summary>
+            Coach xem feedback mà học viên đã gửi cho mình
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.FeedbackController.GetFeedbacksByUser">
+            <summary>
+            Học viên xem các feedback mình đã gửi
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.UploadController.UploadVideo(Microsoft.AspNetCore.Http.IFormFile,System.String)">
+            <summary>
+            Học viên hoặc huấn luyện viên upload video
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.UploadController.GetMyUploads">
+            <summary>
+            Học viên hoặc huấn luyện viên xem các video mình đã upload
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.UploadController.GetById(System.String)">
+            <summary>
+            Xem thông tin chi tiết một video cụ thể theo Id
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.UserController.GetAllUsers">
+            <summary>
+            Admin lấy tất cả user
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.UserController.GetUserById(System.String)">
+            <summary>
+            Lấy thông tin user theo ID (chính chủ hoặc admin)
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.UserController.UpdateUser(System.String,PickleballCourseAPI.DTOs.UpdateUserDto)">
+            <summary>
+            Cập nhật thông tin user (chính chủ hoặc admin)
+            </summary>
+        </member>
+        <member name="M:PickleballCourseAPI.Controllers.UserController.GetCoaches">
+            <summary>
+            Lấy danh sách các huấn luyện viên
+            </summary>
+        </member>
+    </members>
+</doc>
