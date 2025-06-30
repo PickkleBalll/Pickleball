@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import image16 from "../assets/Image/16.jpg";
+import image16 from "../../assets/Image/16.jpg";
 
 const EditProfile: React.FC = () => {
     const [avatar, setAvatar] = useState<string>(image16);

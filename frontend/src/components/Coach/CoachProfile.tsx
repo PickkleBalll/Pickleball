@@ -1,10 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { EditIcon } from "lucide-react";
-import image16 from "../assets/Image/16.jpg";
-import image6 from "../assets/Image/6.jpg";
-import image7 from "../assets/Image/7.jpg";
-import image3 from "../assets/Image/3.jpg";
+import image16 from "../../assets/Image/16.jpg";
+import image6 from "../../assets/Image/6.jpg";
+import image7 from "../../assets/Image/7.jpg";
+import image3 from "../../assets/Image/3.jpg";
 
 // Profile data
 const profileData = [

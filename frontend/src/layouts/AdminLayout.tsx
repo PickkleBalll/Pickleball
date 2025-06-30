@@ -1,4 +1,4 @@
-import Sidebar from '../components/Dashboard/Admin/Side-bar-admin'; // Sidebar component you showed
+import Sidebar from '../components/Admin/Side-bar-admin'; // Sidebar component you showed
 import { Outlet } from 'react-router-dom';
 
 export default function AdminLayout() {

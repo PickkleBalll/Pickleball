@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import image17 from '../assets/Image/17.jpg';
+import image17 from '../../assets/Image/17.jpg';
 
 const learners = Array(9).fill({
   name: 'SELENA ARVEN',

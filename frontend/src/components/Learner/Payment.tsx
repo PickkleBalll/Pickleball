@@ -1,16 +1,23 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Payment: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleConfirm = () => {
+    navigate('/learnerHomeVip');
+  };
+
   return (
     <section className="flex justify-center mb-10 bg-payment">
       <div className="flex flex-col w-[500px] bg-[#f5f5f5] rounded-4xl border shadow-lg">
         <div className="px-7 py-3 bg-black rounded-t-4xl text-3xl text-white font-light">
           <p>PICKLEBALL</p>
         </div>
-        <div className=" px-8 space-y-5">
+        <div className="px-8 space-y-5">
           <div className="w-full bg-black text-white"></div>
           <div>
-            <p className="text-2xl">Paymnent Summary</p>
+            <p className="text-2xl">Payment Summary</p>
             <p className="text-base font-light">
               Please review the following details for this transaction
             </p>
@@ -25,7 +32,7 @@ const Payment: React.FC = () => {
               </thead>
               <tbody>
                 <tr className="border-t border-gray-200">
-                  <td className="px-6 py-4 text-left">Advanced Course</td>
+                  <td className="px-6 py-4 text-left">Premium</td>
                   <td className="px-6 py-4 text-right">0.99$</td>
                 </tr>
                 <tr className="border-t border-gray-200">
@@ -46,7 +53,10 @@ const Payment: React.FC = () => {
             <p>Payment Method</p>
             <p className="text-red-600">*</p>
           </div>
-          <div className="flex items-center justify-center mb-4 mx-36 border bg-[#d5f25d] rounded-full h-10 text-xl font-semibold cursor-pointer">
+          <div
+            className="flex items-center justify-center mb-4 mx-36 border bg-[#d5f25d] rounded-full h-10 text-xl font-semibold cursor-pointer"
+            onClick={handleConfirm}
+          >
             CONFIRM
           </div>
         </div>
@@ -54,4 +64,5 @@ const Payment: React.FC = () => {
     </section>
   );
 };
+
 export default Payment;

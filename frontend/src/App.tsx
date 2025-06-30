@@ -1,32 +1,31 @@
 import { Routes, Route } from 'react-router-dom';
-import SignIn from '../pages/SignInPage';
-import SignUp from '../pages/SignUpPage';
-import Home from '../pages/Homepage';
-import CoursesPage from '../pages/CoursesPage';
-import PrivateRoute from '../layouts/PrivateRoute';
+import SignIn from '../src/pages/SignInPage';
+import SignUp from '../src/pages/SignUpPage';
+import Home from '../src/pages/Homepage';
+import CoursesPage from '../src/pages/CoursesPage';
+import PrivateRoute from '../src/layouts/PrivateRoute';
 import MainLayout from '@/layouts/MainLayout';
 import AuthLayout from '@/layouts/AuthLayout';
 import PublicLayout from '@/layouts/PublicLayout';
-import LearnerHome from '@/components/Dashboard/Learner/LearnerHome';
-import LearnerProfile from '@/components/Dashboard/Learner/LearnerProfile';
-import LearnerCoach from '@/components/Dashboard/Learner/LearnerCoach';
-import LearnerLearn from '@/components/Dashboard/Learner/LearnerLearn';
-import EditLearnerProfile from '@/components/Dashboard/EditProfile';
-import Payment from '@/components/Dashboard/Learner/Payment';
-import Package from '@/components/Dashboard/Learner/Package';
-import AdminLayout from '../pages/admin-pages/admin-layout';
-import DashboardAdmin from '../pages/admin-pages/dashboard-admin';
-import UserManagement from '../pages/admin-pages/user-management';
-import ContentManagement from '../pages/admin-pages/content-management';
-import Notifications from '../pages/admin-pages/notification';
-import CoachLayout from '../layouts/CoachLayout';
-import CoachFinance from '../pages/CoachFinance';
-import CoachLearner from '../pages/CoachLearner';
-import CoachProfile from '../pages/CoachProfile';
-import CoachTutorials from '../pages/CoachTutorials';
-import PopupCoach from '../pages/PopupCoach';
-import ContactLearner from '../components/Common/ContactLearner';
-import EditProfile from '../pages/EditProfile';
+import LearnerHome from '@/components/Learner/LearnerHome';
+import LearnerProfile from '@/components/Learner/LearnerProfile';
+import LearnerCoach from '@/components/Learner/LearnerCoach';
+import LearnerLearn from '@/components/Learner/LearnerLearn';
+import EditLearnerProfile from '@/components/EditProfile';
+import Payment from '@/components/Learner/Payment';
+import Package from '@/components/Learner/Package';
+import AdminLayout from '../src/layouts/AdminLayout';
+import DashboardAdmin from '../src/components/Admin/dashboard-admin';
+import UserManagement from '../src/components/Admin/user-management';
+import ContentManagement from '../src/components/Admin/content-management';
+import CoachLayout from '../src/layouts/CoachLayout';
+import CoachLearner from '../src/components/Coach/CoachLearner';
+import CoachProfile from '../src/components/Coach/CoachProfile';
+import CoachTutorials from '../src/components/Coach/CoachTutorials';
+import PopupCoach from '../src/components/Coach/PopupCoach';
+import ContactLearner from './components/Common/ContactLearner';
+import EditCoachProfile from './components/Coach/EditProfile';
+import LearnerHomeVip from './components/Learner/Premium/LearnerHomeVIP';
 
 function Unauthorized() {
   return <h2>Unauthorized: You don't have permission to access this page.</h2>;
@@ -59,12 +58,13 @@ function App() {
         }
       >
         <Route path="/dashboard" element={<LearnerHome />} />
-        <Route path="/coach" element={<LearnerCoach />} />
+        <Route path="/learnerCoach" element={<LearnerCoach />} />
         <Route path="/learn" element={<LearnerLearn />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/package" element={<Package />} />
         <Route path="/profile" element={<LearnerProfile />} />
         <Route path="/edit-learner-profile" element={<EditLearnerProfile />} />
+        <Route path="/learnerHomeVip" element={<LearnerHomeVip/>}/>
       </Route>
 
       {/* Admin routes */}
@@ -76,11 +76,10 @@ function App() {
         }
       >
         <Route path="/admin">
-          <Route index element={<DashboardAdmin />} /> {/* Trang mặc định khi vào /admin */}
+          <Route index element={<DashboardAdmin />} />
           <Route path="dashboard-admin" element={<DashboardAdmin />} />
           <Route path="user-management" element={<UserManagement />} />
           <Route path="content-management" element={<ContentManagement />} />
-          <Route path="notification" element={<Notifications />} />
         </Route>
       </Route>
 
@@ -94,13 +93,12 @@ function App() {
       >
         <Route path="/coach">
           <Route index element={<CoachLearner />} />
-          <Route path="finance" element={<CoachFinance />} />
           <Route path="learner" element={<CoachLearner />} />
           <Route path="profile" element={<CoachProfile />} />
           <Route path="tutorials" element={<CoachTutorials />} />
           <Route path="popup" element={<PopupCoach />} />
           <Route path="contactLearner" element={<ContactLearner />} />
-          <Route path="edit-profile" element={<EditProfile />} />
+          <Route path="edit-coach-profile" element={<EditCoachProfile />} />
         </Route>
       </Route>
     </Routes>

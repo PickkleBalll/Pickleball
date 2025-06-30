@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { register, RegisterData } from '../service/AuthService'; // Import từ file API
 
 const SignUp = () => {
   const [fullname, setFullname] = useState('');
@@ -8,31 +9,44 @@ const SignUp = () => {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [role, setRole] = useState<'learner' | 'admin' | 'coach'>('learner');
-  const [error, setError] = useState('');
+  const [bio, setBio] = useState(''); // Thêm state cho bio
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  const handleSignUp = (e: React.FormEvent) => {
+  const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
-    setError('');
+    setError(null);
+    setLoading(true);
 
     if (password !== confirmPassword) {
-      setError('Mật khẩu không khớp ❌');
+      setError('Passwords do not match');
+      setLoading(false);
       return;
     }
 
-    const users = JSON.parse(localStorage.getItem('users') || '[]');
+    const userData: RegisterData = {
+      FullName: fullname,
+      email,
+      password,
+      role,
+      phone: phonenumber,
+      bio, // Thêm bio
+    };
 
-    if (users.some((user: { email: string }) => user.email === email)) {
-      setError('Email đã được sử dụng. Vui lòng chọn email khác 🚫');
-      return;
+    try {
+      const response = await register(userData);
+      alert(response || 'Registration successful! Please log in');
+      navigate('/signin');
+    } catch (error: unknown) {
+      let message = 'Registration failed';
+      if (error instanceof Error) {
+        message = error.message;
+      }
+      setError(message);
+    } finally {
+      setLoading(false);
     }
-
-    const newUser = { fullname, email, phonenumber, password, role };
-    localStorage.setItem('users', JSON.stringify([...users, newUser]));
-    localStorage.setItem('isAuthenticated', 'false');
-
-    alert('Đăng ký thành công! 🎉 Vui lòng đăng nhập ✨');
-    navigate('/signin');
   };
 
   const handleGoToSignIn = () => {
@@ -92,14 +106,22 @@ const SignUp = () => {
             >
               <option value="learner">Learner</option>
               <option value="admin">Admin</option>
-              <option value="coach">Coach</option> {/* Thêm tùy chọn coach */}
+              <option value="coach">Coach</option>
             </select>
+            <textarea
+              placeholder="Bio"
+              value={bio}
+              onChange={(e) => setBio(e.target.value)}
+              required
+              className="w-full px-4 py-3 border border-gray-300 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-400 auth-input"
+            />
             {error && <p className="text-red-500 text-sm">{error}</p>}
             <button
               type="submit"
+              disabled={loading}
               className="w-full py-3 rounded-full text-black font-semibold transition bg-gradient-to-r from-green-300 to-blue-400 hover:opacity-90 auth-button"
             >
-              SIGN UP
+              {loading ? 'Signing up...' : 'SIGN UP'}
             </button>
           </form>
           <button
